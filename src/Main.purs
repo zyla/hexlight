@@ -28,8 +28,7 @@ type State =
   }
 
 matchInput :: String -> Maybe (Array (Maybe Color))
--- TODO: match only up to 6 hex values in regex
-matchInput input = case regex "#[0-9a-fA-F]+" global of
+matchInput input = case regex "#[0-9a-fA-F]{6}" global of
   Right rx -> match rx input
   Left _ -> Nothing
 

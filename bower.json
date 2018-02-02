@@ -11,7 +11,8 @@
     "purescript-console": "^3.0.0",
     "purescript-pux": "^12.0.0",
     "purescript-smolder": "^10.2.0",
-    "purescript-strings": "^3.4.0"
+    "purescript-strings": "^3.4.0",
+    "purescript-css": "^3.4.0"
   },
   "devDependencies": {
     "purescript-psci-support": "^3.0.0"

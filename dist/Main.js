@@ -872,7 +872,7 @@ function factory(ReactComponent, isValidElement, ReactNoopUpdateQueue) {
 module.exports = factory;
 
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/emptyObject":4,"fbjs/lib/invariant":5,"fbjs/lib/warning":6,"object-assign":7}],2:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/emptyObject":4,"fbjs/lib/invariant":5,"fbjs/lib/warning":6,"object-assign":7}],2:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -959,7 +959,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":376}],5:[function(require,module,exports){
+},{"_process":399}],5:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -1015,7 +1015,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":376}],6:[function(require,module,exports){
+},{"_process":399}],6:[function(require,module,exports){
 (function (process){
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
@@ -1080,7 +1080,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":3,"_process":376}],7:[function(require,module,exports){
+},{"./emptyFunction":3,"_process":399}],7:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -1943,7 +1943,7 @@ ReactPerf.measureMethods(CSSPropertyOperations, 'CSSPropertyOperations', {
 
 module.exports = CSSPropertyOperations;
 }).call(this,require('_process'))
-},{"./CSSProperty":12,"./ReactPerf":80,"./dangerousStyleValue":114,"_process":376,"fbjs/lib/ExecutionEnvironment":139,"fbjs/lib/camelizeStyleName":141,"fbjs/lib/hyphenateStyleName":152,"fbjs/lib/memoizeStringOnly":159,"fbjs/lib/warning":164}],14:[function(require,module,exports){
+},{"./CSSProperty":12,"./ReactPerf":80,"./dangerousStyleValue":114,"_process":399,"fbjs/lib/ExecutionEnvironment":139,"fbjs/lib/camelizeStyleName":141,"fbjs/lib/hyphenateStyleName":152,"fbjs/lib/memoizeStringOnly":159,"fbjs/lib/warning":164}],14:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2039,7 +2039,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 
 module.exports = CallbackQueue;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"./PooledClass":32,"_process":376,"fbjs/lib/invariant":153}],15:[function(require,module,exports){
+},{"./Object.assign":31,"./PooledClass":32,"_process":399,"fbjs/lib/invariant":153}],15:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2517,7 +2517,7 @@ ReactPerf.measureMethods(DOMChildrenOperations, 'DOMChildrenOperations', {
 
 module.exports = DOMChildrenOperations;
 }).call(this,require('_process'))
-},{"./Danger":20,"./ReactMultiChildUpdateTypes":76,"./ReactPerf":80,"./setInnerHTML":133,"./setTextContent":134,"_process":376,"fbjs/lib/invariant":153}],18:[function(require,module,exports){
+},{"./Danger":20,"./ReactMultiChildUpdateTypes":76,"./ReactPerf":80,"./setInnerHTML":133,"./setTextContent":134,"_process":399,"fbjs/lib/invariant":153}],18:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2754,7 +2754,7 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/invariant":153}],19:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/invariant":153}],19:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2982,7 +2982,7 @@ ReactPerf.measureMethods(DOMPropertyOperations, 'DOMPropertyOperations', {
 
 module.exports = DOMPropertyOperations;
 }).call(this,require('_process'))
-},{"./DOMProperty":18,"./ReactPerf":80,"./quoteAttributeValueForBrowser":131,"_process":376,"fbjs/lib/warning":164}],20:[function(require,module,exports){
+},{"./DOMProperty":18,"./ReactPerf":80,"./quoteAttributeValueForBrowser":131,"_process":399,"fbjs/lib/warning":164}],20:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3130,7 +3130,7 @@ var Danger = {
 
 module.exports = Danger;
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/ExecutionEnvironment":139,"fbjs/lib/createNodesFromMarkup":144,"fbjs/lib/emptyFunction":145,"fbjs/lib/getMarkupWrap":149,"fbjs/lib/invariant":153}],21:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/ExecutionEnvironment":139,"fbjs/lib/createNodesFromMarkup":144,"fbjs/lib/emptyFunction":145,"fbjs/lib/getMarkupWrap":149,"fbjs/lib/invariant":153}],21:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -3658,7 +3658,7 @@ var EventPluginHub = {
 
 module.exports = EventPluginHub;
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":25,"./EventPluginUtils":26,"./ReactErrorUtils":65,"./accumulateInto":111,"./forEachAccumulated":119,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],25:[function(require,module,exports){
+},{"./EventPluginRegistry":25,"./EventPluginUtils":26,"./ReactErrorUtils":65,"./accumulateInto":111,"./forEachAccumulated":119,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],25:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3881,7 +3881,7 @@ var EventPluginRegistry = {
 
 module.exports = EventPluginRegistry;
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/invariant":153}],26:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/invariant":153}],26:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -4086,7 +4086,7 @@ var EventPluginUtils = {
 
 module.exports = EventPluginUtils;
 }).call(this,require('_process'))
-},{"./EventConstants":23,"./ReactErrorUtils":65,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],27:[function(require,module,exports){
+},{"./EventConstants":23,"./ReactErrorUtils":65,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],27:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -4224,7 +4224,7 @@ var EventPropagators = {
 
 module.exports = EventPropagators;
 }).call(this,require('_process'))
-},{"./EventConstants":23,"./EventPluginHub":24,"./accumulateInto":111,"./forEachAccumulated":119,"_process":376,"fbjs/lib/warning":164}],28:[function(require,module,exports){
+},{"./EventConstants":23,"./EventPluginHub":24,"./accumulateInto":111,"./forEachAccumulated":119,"_process":399,"fbjs/lib/warning":164}],28:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -4688,7 +4688,7 @@ var LinkedValueUtils = {
 
 module.exports = LinkedValueUtils;
 }).call(this,require('_process'))
-},{"./ReactPropTypeLocations":82,"./ReactPropTypes":83,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],31:[function(require,module,exports){
+},{"./ReactPropTypeLocations":82,"./ReactPropTypes":83,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],31:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -4858,7 +4858,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/invariant":153}],33:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/invariant":153}],33:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -4938,7 +4938,7 @@ var ReactBrowserComponentMixin = {
 
 module.exports = ReactBrowserComponentMixin;
 }).call(this,require('_process'))
-},{"./ReactInstanceMap":71,"./findDOMNode":117,"_process":376,"fbjs/lib/warning":164}],35:[function(require,module,exports){
+},{"./ReactInstanceMap":71,"./findDOMNode":117,"_process":399,"fbjs/lib/warning":164}],35:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -5388,7 +5388,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 }).call(this,require('_process'))
-},{"./ReactReconciler":85,"./instantiateReactComponent":127,"./shouldUpdateReactComponent":135,"./traverseAllChildren":136,"_process":376,"fbjs/lib/warning":164}],37:[function(require,module,exports){
+},{"./ReactReconciler":85,"./instantiateReactComponent":127,"./shouldUpdateReactComponent":135,"./traverseAllChildren":136,"_process":399,"fbjs/lib/warning":164}],37:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -6345,7 +6345,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"./ReactComponent":39,"./ReactElement":61,"./ReactNoopUpdateQueue":78,"./ReactPropTypeLocationNames":81,"./ReactPropTypeLocations":82,"_process":376,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153,"fbjs/lib/keyMirror":156,"fbjs/lib/keyOf":157,"fbjs/lib/warning":164}],39:[function(require,module,exports){
+},{"./Object.assign":31,"./ReactComponent":39,"./ReactElement":61,"./ReactNoopUpdateQueue":78,"./ReactPropTypeLocationNames":81,"./ReactPropTypeLocations":82,"_process":399,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153,"fbjs/lib/keyMirror":156,"fbjs/lib/keyOf":157,"fbjs/lib/warning":164}],39:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -6470,7 +6470,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactComponent;
 }).call(this,require('_process'))
-},{"./ReactNoopUpdateQueue":78,"./canDefineProperty":113,"_process":376,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],40:[function(require,module,exports){
+},{"./ReactNoopUpdateQueue":78,"./canDefineProperty":113,"_process":399,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],40:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -6566,7 +6566,7 @@ var ReactComponentEnvironment = {
 
 module.exports = ReactComponentEnvironment;
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/invariant":153}],42:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/invariant":153}],42:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -7263,7 +7263,7 @@ var ReactCompositeComponent = {
 
 module.exports = ReactCompositeComponent;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"./ReactComponentEnvironment":41,"./ReactCurrentOwner":43,"./ReactElement":61,"./ReactInstanceMap":71,"./ReactPerf":80,"./ReactPropTypeLocationNames":81,"./ReactPropTypeLocations":82,"./ReactReconciler":85,"./ReactUpdateQueue":91,"./shouldUpdateReactComponent":135,"_process":376,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],43:[function(require,module,exports){
+},{"./Object.assign":31,"./ReactComponentEnvironment":41,"./ReactCurrentOwner":43,"./ReactElement":61,"./ReactInstanceMap":71,"./ReactPerf":80,"./ReactPropTypeLocationNames":81,"./ReactPropTypeLocations":82,"./ReactReconciler":85,"./ReactUpdateQueue":91,"./shouldUpdateReactComponent":135,"_process":399,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],43:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -7389,7 +7389,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":43,"./ReactDOMTextComponent":55,"./ReactDefaultInjection":58,"./ReactInstanceHandles":70,"./ReactMount":74,"./ReactPerf":80,"./ReactReconciler":85,"./ReactUpdates":92,"./ReactVersion":93,"./findDOMNode":117,"./renderSubtreeIntoContainer":132,"_process":376,"fbjs/lib/ExecutionEnvironment":139,"fbjs/lib/warning":164}],45:[function(require,module,exports){
+},{"./ReactCurrentOwner":43,"./ReactDOMTextComponent":55,"./ReactDefaultInjection":58,"./ReactInstanceHandles":70,"./ReactMount":74,"./ReactPerf":80,"./ReactReconciler":85,"./ReactUpdates":92,"./ReactVersion":93,"./findDOMNode":117,"./renderSubtreeIntoContainer":132,"_process":399,"fbjs/lib/ExecutionEnvironment":139,"fbjs/lib/warning":164}],45:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8405,7 +8405,7 @@ assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mix
 
 module.exports = ReactDOMComponent;
 }).call(this,require('_process'))
-},{"./AutoFocusUtils":10,"./CSSPropertyOperations":13,"./DOMProperty":18,"./DOMPropertyOperations":19,"./EventConstants":23,"./Object.assign":31,"./ReactBrowserEventEmitter":35,"./ReactComponentBrowserEnvironment":40,"./ReactDOMButton":45,"./ReactDOMInput":50,"./ReactDOMOption":51,"./ReactDOMSelect":52,"./ReactDOMTextarea":56,"./ReactMount":74,"./ReactMultiChild":75,"./ReactPerf":80,"./ReactUpdateQueue":91,"./canDefineProperty":113,"./escapeTextContentForBrowser":116,"./isEventSupported":128,"./setInnerHTML":133,"./setTextContent":134,"./validateDOMNesting":137,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/keyOf":157,"fbjs/lib/shallowEqual":162,"fbjs/lib/warning":164}],47:[function(require,module,exports){
+},{"./AutoFocusUtils":10,"./CSSPropertyOperations":13,"./DOMProperty":18,"./DOMPropertyOperations":19,"./EventConstants":23,"./Object.assign":31,"./ReactBrowserEventEmitter":35,"./ReactComponentBrowserEnvironment":40,"./ReactDOMButton":45,"./ReactDOMInput":50,"./ReactDOMOption":51,"./ReactDOMSelect":52,"./ReactDOMTextarea":56,"./ReactMount":74,"./ReactMultiChild":75,"./ReactPerf":80,"./ReactUpdateQueue":91,"./canDefineProperty":113,"./escapeTextContentForBrowser":116,"./isEventSupported":128,"./setInnerHTML":133,"./setTextContent":134,"./validateDOMNesting":137,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/keyOf":157,"fbjs/lib/shallowEqual":162,"fbjs/lib/warning":164}],47:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8585,7 +8585,7 @@ var ReactDOMFactories = mapObject({
 
 module.exports = ReactDOMFactories;
 }).call(this,require('_process'))
-},{"./ReactElement":61,"./ReactElementValidator":62,"_process":376,"fbjs/lib/mapObject":158}],48:[function(require,module,exports){
+},{"./ReactElement":61,"./ReactElementValidator":62,"_process":399,"fbjs/lib/mapObject":158}],48:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8701,7 +8701,7 @@ ReactPerf.measureMethods(ReactDOMIDOperations, 'ReactDOMIDOperations', {
 
 module.exports = ReactDOMIDOperations;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":17,"./DOMPropertyOperations":19,"./ReactMount":74,"./ReactPerf":80,"_process":376,"fbjs/lib/invariant":153}],50:[function(require,module,exports){
+},{"./DOMChildrenOperations":17,"./DOMPropertyOperations":19,"./ReactMount":74,"./ReactPerf":80,"_process":399,"fbjs/lib/invariant":153}],50:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8857,7 +8857,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMInput;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":30,"./Object.assign":31,"./ReactDOMIDOperations":49,"./ReactMount":74,"./ReactUpdates":92,"_process":376,"fbjs/lib/invariant":153}],51:[function(require,module,exports){
+},{"./LinkedValueUtils":30,"./Object.assign":31,"./ReactDOMIDOperations":49,"./ReactMount":74,"./ReactUpdates":92,"_process":399,"fbjs/lib/invariant":153}],51:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8949,7 +8949,7 @@ var ReactDOMOption = {
 
 module.exports = ReactDOMOption;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"./ReactChildren":37,"./ReactDOMSelect":52,"_process":376,"fbjs/lib/warning":164}],52:[function(require,module,exports){
+},{"./Object.assign":31,"./ReactChildren":37,"./ReactDOMSelect":52,"_process":399,"fbjs/lib/warning":164}],52:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9140,7 +9140,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMSelect;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":30,"./Object.assign":31,"./ReactMount":74,"./ReactUpdates":92,"_process":376,"fbjs/lib/warning":164}],53:[function(require,module,exports){
+},{"./LinkedValueUtils":30,"./Object.assign":31,"./ReactMount":74,"./ReactUpdates":92,"_process":399,"fbjs/lib/warning":164}],53:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9510,7 +9510,7 @@ assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":17,"./DOMPropertyOperations":19,"./Object.assign":31,"./ReactComponentBrowserEnvironment":40,"./ReactMount":74,"./escapeTextContentForBrowser":116,"./setTextContent":134,"./validateDOMNesting":137,"_process":376}],56:[function(require,module,exports){
+},{"./DOMChildrenOperations":17,"./DOMPropertyOperations":19,"./Object.assign":31,"./ReactComponentBrowserEnvironment":40,"./ReactMount":74,"./escapeTextContentForBrowser":116,"./setTextContent":134,"./validateDOMNesting":137,"_process":399}],56:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9626,7 +9626,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMTextarea;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":30,"./Object.assign":31,"./ReactDOMIDOperations":49,"./ReactUpdates":92,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],57:[function(require,module,exports){
+},{"./LinkedValueUtils":30,"./Object.assign":31,"./ReactDOMIDOperations":49,"./ReactUpdates":92,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],57:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9794,7 +9794,7 @@ module.exports = {
   inject: inject
 };
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":11,"./ChangeEventPlugin":15,"./ClientReactRootIndex":16,"./DefaultEventPluginOrder":21,"./EnterLeaveEventPlugin":22,"./HTMLDOMPropertyConfig":29,"./ReactBrowserComponentMixin":34,"./ReactComponentBrowserEnvironment":40,"./ReactDOMComponent":46,"./ReactDOMTextComponent":55,"./ReactDefaultBatchingStrategy":57,"./ReactDefaultPerf":59,"./ReactEventListener":67,"./ReactInjection":68,"./ReactInstanceHandles":70,"./ReactMount":74,"./ReactReconcileTransaction":84,"./SVGDOMPropertyConfig":94,"./SelectEventPlugin":95,"./ServerReactRootIndex":96,"./SimpleEventPlugin":97,"_process":376,"fbjs/lib/ExecutionEnvironment":139}],59:[function(require,module,exports){
+},{"./BeforeInputEventPlugin":11,"./ChangeEventPlugin":15,"./ClientReactRootIndex":16,"./DefaultEventPluginOrder":21,"./EnterLeaveEventPlugin":22,"./HTMLDOMPropertyConfig":29,"./ReactBrowserComponentMixin":34,"./ReactComponentBrowserEnvironment":40,"./ReactDOMComponent":46,"./ReactDOMTextComponent":55,"./ReactDefaultBatchingStrategy":57,"./ReactDefaultPerf":59,"./ReactEventListener":67,"./ReactInjection":68,"./ReactInstanceHandles":70,"./ReactMount":74,"./ReactReconcileTransaction":84,"./SVGDOMPropertyConfig":94,"./SelectEventPlugin":95,"./ServerReactRootIndex":96,"./SimpleEventPlugin":97,"_process":399,"fbjs/lib/ExecutionEnvironment":139}],59:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -10484,7 +10484,7 @@ ReactElement.isValidElement = function (object) {
 
 module.exports = ReactElement;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"./ReactCurrentOwner":43,"./canDefineProperty":113,"_process":376}],62:[function(require,module,exports){
+},{"./Object.assign":31,"./ReactCurrentOwner":43,"./canDefineProperty":113,"_process":399}],62:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -10768,7 +10768,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":43,"./ReactElement":61,"./ReactPropTypeLocationNames":81,"./ReactPropTypeLocations":82,"./canDefineProperty":113,"./getIteratorFn":124,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],63:[function(require,module,exports){
+},{"./ReactCurrentOwner":43,"./ReactElement":61,"./ReactPropTypeLocationNames":81,"./ReactPropTypeLocations":82,"./canDefineProperty":113,"./getIteratorFn":124,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],63:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -10953,7 +10953,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactErrorUtils;
 }).call(this,require('_process'))
-},{"_process":376}],66:[function(require,module,exports){
+},{"_process":399}],66:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11673,7 +11673,7 @@ var ReactInstanceHandles = {
 
 module.exports = ReactInstanceHandles;
 }).call(this,require('_process'))
-},{"./ReactRootIndex":87,"_process":376,"fbjs/lib/invariant":153}],71:[function(require,module,exports){
+},{"./ReactRootIndex":87,"_process":399,"fbjs/lib/invariant":153}],71:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11798,7 +11798,7 @@ var React = {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"./ReactChildren":37,"./ReactClass":38,"./ReactComponent":39,"./ReactDOMFactories":47,"./ReactElement":61,"./ReactElementValidator":62,"./ReactPropTypes":83,"./ReactVersion":93,"./onlyChild":130,"_process":376}],73:[function(require,module,exports){
+},{"./Object.assign":31,"./ReactChildren":37,"./ReactClass":38,"./ReactComponent":39,"./ReactDOMFactories":47,"./ReactElement":61,"./ReactElementValidator":62,"./ReactPropTypes":83,"./ReactVersion":93,"./onlyChild":130,"_process":399}],73:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -12697,7 +12697,7 @@ ReactPerf.measureMethods(ReactMount, 'ReactMount', {
 
 module.exports = ReactMount;
 }).call(this,require('_process'))
-},{"./DOMProperty":18,"./Object.assign":31,"./ReactBrowserEventEmitter":35,"./ReactCurrentOwner":43,"./ReactDOMFeatureFlags":48,"./ReactElement":61,"./ReactEmptyComponentRegistry":64,"./ReactInstanceHandles":70,"./ReactInstanceMap":71,"./ReactMarkupChecksum":73,"./ReactPerf":80,"./ReactReconciler":85,"./ReactUpdateQueue":91,"./ReactUpdates":92,"./instantiateReactComponent":127,"./setInnerHTML":133,"./shouldUpdateReactComponent":135,"./validateDOMNesting":137,"_process":376,"fbjs/lib/containsNode":142,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],75:[function(require,module,exports){
+},{"./DOMProperty":18,"./Object.assign":31,"./ReactBrowserEventEmitter":35,"./ReactCurrentOwner":43,"./ReactDOMFeatureFlags":48,"./ReactElement":61,"./ReactEmptyComponentRegistry":64,"./ReactInstanceHandles":70,"./ReactInstanceMap":71,"./ReactMarkupChecksum":73,"./ReactPerf":80,"./ReactReconciler":85,"./ReactUpdateQueue":91,"./ReactUpdates":92,"./instantiateReactComponent":127,"./setInnerHTML":133,"./shouldUpdateReactComponent":135,"./validateDOMNesting":137,"_process":399,"fbjs/lib/containsNode":142,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],75:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13196,7 +13196,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 }).call(this,require('_process'))
-},{"./ReactChildReconciler":36,"./ReactComponentEnvironment":41,"./ReactCurrentOwner":43,"./ReactMultiChildUpdateTypes":76,"./ReactReconciler":85,"./flattenChildren":118,"_process":376}],76:[function(require,module,exports){
+},{"./ReactChildReconciler":36,"./ReactComponentEnvironment":41,"./ReactCurrentOwner":43,"./ReactMultiChildUpdateTypes":76,"./ReactReconciler":85,"./flattenChildren":118,"_process":399}],76:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13326,7 +13326,7 @@ var ReactNativeComponent = {
 
 module.exports = ReactNativeComponent;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"_process":376,"fbjs/lib/invariant":153}],78:[function(require,module,exports){
+},{"./Object.assign":31,"_process":399,"fbjs/lib/invariant":153}],78:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -13447,7 +13447,7 @@ var ReactNoopUpdateQueue = {
 
 module.exports = ReactNoopUpdateQueue;
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/warning":164}],79:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/warning":164}],79:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13541,7 +13541,7 @@ var ReactOwner = {
 
 module.exports = ReactOwner;
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/invariant":153}],80:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/invariant":153}],80:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13640,7 +13640,7 @@ function _noMeasure(objName, fnName, func) {
 
 module.exports = ReactPerf;
 }).call(this,require('_process'))
-},{"_process":376}],81:[function(require,module,exports){
+},{"_process":399}],81:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13667,7 +13667,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactPropTypeLocationNames;
 }).call(this,require('_process'))
-},{"_process":376}],82:[function(require,module,exports){
+},{"_process":399}],82:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14526,7 +14526,7 @@ module.exports = {
   renderToStaticMarkup: renderToStaticMarkup
 };
 }).call(this,require('_process'))
-},{"./ReactDefaultBatchingStrategy":57,"./ReactElement":61,"./ReactInstanceHandles":70,"./ReactMarkupChecksum":73,"./ReactServerBatchingStrategy":88,"./ReactServerRenderingTransaction":90,"./ReactUpdates":92,"./instantiateReactComponent":127,"_process":376,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153}],90:[function(require,module,exports){
+},{"./ReactDefaultBatchingStrategy":57,"./ReactElement":61,"./ReactInstanceHandles":70,"./ReactMarkupChecksum":73,"./ReactServerBatchingStrategy":88,"./ReactServerRenderingTransaction":90,"./ReactUpdates":92,"./instantiateReactComponent":127,"_process":399,"fbjs/lib/emptyObject":146,"fbjs/lib/invariant":153}],90:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -14874,7 +14874,7 @@ var ReactUpdateQueue = {
 
 module.exports = ReactUpdateQueue;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"./ReactCurrentOwner":43,"./ReactElement":61,"./ReactInstanceMap":71,"./ReactUpdates":92,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],92:[function(require,module,exports){
+},{"./Object.assign":31,"./ReactCurrentOwner":43,"./ReactElement":61,"./ReactInstanceMap":71,"./ReactUpdates":92,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],92:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -15100,7 +15100,7 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 }).call(this,require('_process'))
-},{"./CallbackQueue":14,"./Object.assign":31,"./PooledClass":32,"./ReactPerf":80,"./ReactReconciler":85,"./Transaction":109,"_process":376,"fbjs/lib/invariant":153}],93:[function(require,module,exports){
+},{"./CallbackQueue":14,"./Object.assign":31,"./PooledClass":32,"./ReactPerf":80,"./ReactReconciler":85,"./Transaction":109,"_process":399,"fbjs/lib/invariant":153}],93:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16065,7 +16065,7 @@ var SimpleEventPlugin = {
 
 module.exports = SimpleEventPlugin;
 }).call(this,require('_process'))
-},{"./EventConstants":23,"./EventPropagators":27,"./ReactMount":74,"./SyntheticClipboardEvent":98,"./SyntheticDragEvent":100,"./SyntheticEvent":101,"./SyntheticFocusEvent":102,"./SyntheticKeyboardEvent":104,"./SyntheticMouseEvent":105,"./SyntheticTouchEvent":106,"./SyntheticUIEvent":107,"./SyntheticWheelEvent":108,"./getEventCharCode":120,"_process":376,"fbjs/lib/EventListener":138,"fbjs/lib/emptyFunction":145,"fbjs/lib/invariant":153,"fbjs/lib/keyOf":157}],98:[function(require,module,exports){
+},{"./EventConstants":23,"./EventPropagators":27,"./ReactMount":74,"./SyntheticClipboardEvent":98,"./SyntheticDragEvent":100,"./SyntheticEvent":101,"./SyntheticFocusEvent":102,"./SyntheticKeyboardEvent":104,"./SyntheticMouseEvent":105,"./SyntheticTouchEvent":106,"./SyntheticUIEvent":107,"./SyntheticWheelEvent":108,"./getEventCharCode":120,"_process":399,"fbjs/lib/EventListener":138,"fbjs/lib/emptyFunction":145,"fbjs/lib/invariant":153,"fbjs/lib/keyOf":157}],98:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16364,7 +16364,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.fourArgumentPooler);
 
 module.exports = SyntheticEvent;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"./PooledClass":32,"_process":376,"fbjs/lib/emptyFunction":145,"fbjs/lib/warning":164}],102:[function(require,module,exports){
+},{"./Object.assign":31,"./PooledClass":32,"_process":399,"fbjs/lib/emptyFunction":145,"fbjs/lib/warning":164}],102:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16999,7 +16999,7 @@ var Transaction = {
 
 module.exports = Transaction;
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/invariant":153}],110:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/invariant":153}],110:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17089,7 +17089,7 @@ function accumulateInto(current, next) {
 
 module.exports = accumulateInto;
 }).call(this,require('_process'))
-},{"_process":376,"fbjs/lib/invariant":153}],112:[function(require,module,exports){
+},{"_process":399,"fbjs/lib/invariant":153}],112:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17159,7 +17159,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = canDefineProperty;
 }).call(this,require('_process'))
-},{"_process":376}],114:[function(require,module,exports){
+},{"_process":399}],114:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17266,7 +17266,7 @@ function deprecated(fnName, newModule, newPackage, ctx, fn) {
 
 module.exports = deprecated;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"_process":376,"fbjs/lib/warning":164}],116:[function(require,module,exports){
+},{"./Object.assign":31,"_process":399,"fbjs/lib/warning":164}],116:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17357,7 +17357,7 @@ function findDOMNode(componentOrElement) {
 
 module.exports = findDOMNode;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":43,"./ReactInstanceMap":71,"./ReactMount":74,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],118:[function(require,module,exports){
+},{"./ReactCurrentOwner":43,"./ReactInstanceMap":71,"./ReactMount":74,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],118:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17408,7 +17408,7 @@ function flattenChildren(children) {
 
 module.exports = flattenChildren;
 }).call(this,require('_process'))
-},{"./traverseAllChildren":136,"_process":376,"fbjs/lib/warning":164}],119:[function(require,module,exports){
+},{"./traverseAllChildren":136,"_process":399,"fbjs/lib/warning":164}],119:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17932,7 +17932,7 @@ function instantiateReactComponent(node) {
 
 module.exports = instantiateReactComponent;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"./ReactCompositeComponent":42,"./ReactEmptyComponent":63,"./ReactNativeComponent":77,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],128:[function(require,module,exports){
+},{"./Object.assign":31,"./ReactCompositeComponent":42,"./ReactEmptyComponent":63,"./ReactNativeComponent":77,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],128:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18070,7 +18070,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 }).call(this,require('_process'))
-},{"./ReactElement":61,"_process":376,"fbjs/lib/invariant":153}],131:[function(require,module,exports){
+},{"./ReactElement":61,"_process":399,"fbjs/lib/invariant":153}],131:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18482,7 +18482,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":43,"./ReactElement":61,"./ReactInstanceHandles":70,"./getIteratorFn":124,"_process":376,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],137:[function(require,module,exports){
+},{"./ReactCurrentOwner":43,"./ReactElement":61,"./ReactInstanceHandles":70,"./getIteratorFn":124,"_process":399,"fbjs/lib/invariant":153,"fbjs/lib/warning":164}],137:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -18848,7 +18848,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = validateDOMNesting;
 }).call(this,require('_process'))
-},{"./Object.assign":31,"_process":376,"fbjs/lib/emptyFunction":145,"fbjs/lib/warning":164}],138:[function(require,module,exports){
+},{"./Object.assign":31,"_process":399,"fbjs/lib/emptyFunction":145,"fbjs/lib/warning":164}],138:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -18935,7 +18935,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":145,"_process":376}],139:[function(require,module,exports){
+},{"./emptyFunction":145,"_process":399}],139:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19275,7 +19275,7 @@ function createNodesFromMarkup(markup, handleScript) {
 
 module.exports = createNodesFromMarkup;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":139,"./createArrayFromMixed":143,"./getMarkupWrap":149,"./invariant":153,"_process":376}],145:[function(require,module,exports){
+},{"./ExecutionEnvironment":139,"./createArrayFromMixed":143,"./getMarkupWrap":149,"./invariant":153,"_process":399}],145:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19337,7 +19337,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":376}],147:[function(require,module,exports){
+},{"_process":399}],147:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19498,7 +19498,7 @@ function getMarkupWrap(nodeName) {
 
 module.exports = getMarkupWrap;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":139,"./invariant":153,"_process":376}],150:[function(require,module,exports){
+},{"./ExecutionEnvironment":139,"./invariant":153,"_process":399}],150:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19664,7 +19664,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":376}],154:[function(require,module,exports){
+},{"_process":399}],154:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19765,7 +19765,7 @@ var keyMirror = function (obj) {
 
 module.exports = keyMirror;
 }).call(this,require('_process'))
-},{"./invariant":153,"_process":376}],157:[function(require,module,exports){
+},{"./invariant":153,"_process":399}],157:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -20055,7 +20055,7 @@ function toArray(obj) {
 
 module.exports = toArray;
 }).call(this,require('_process'))
-},{"./invariant":153,"_process":376}],164:[function(require,module,exports){
+},{"./invariant":153,"_process":399}],164:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -20115,12 +20115,3224 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":145,"_process":376}],165:[function(require,module,exports){
+},{"./emptyFunction":145,"_process":399}],165:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/React');
 
 },{"./lib/React":33}],166:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Property = require("../CSS.Property");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var CSS_Time = require("../CSS.Time");
+var CSS_Transition = require("../CSS.Transition");
+var Control_Apply = require("../Control.Apply");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_Eq = require("../Data.Eq");
+var Data_Foldable = require("../Data.Foldable");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Tuple_Nested = require("../Data.Tuple.Nested");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var IterationCount = function (x) {
+    return x;
+};
+var FillMode = function (x) {
+    return x;
+};
+var AnimationName = function (x) {
+    return x;
+};
+var AnimationDirection = function (x) {
+    return x;
+};
+var valIterationCount = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valFillMode = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valAnimationName = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valAnimationDirection = new CSS_Property.Val(function (v) {
+    return v;
+});
+var reverse = AnimationDirection(CSS_String.fromString(CSS_Property.isStringValue)("reverse"));
+var normalAnimationDirection = AnimationDirection(CSS_String.fromString(CSS_Property.isStringValue)("normal"));
+var iterationCount = function ($92) {
+    return IterationCount(CSS_Property.value(CSS_Property.valNumber)($92));
+};
+var isStringAnimationName = new CSS_String.IsString(function ($93) {
+    return AnimationName(CSS_String.fromString(CSS_Property.isStringValue)($93));
+});
+var infinite = IterationCount(CSS_String.fromString(CSS_Property.isStringValue)("infinite"));
+var genericIterationCount = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Animation.IterationCount" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(IterationCount))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Animation.IterationCount", [ {
+        sigConstructor: "CSS.Animation.IterationCount",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Animation.IterationCount", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericFillMode = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Animation.FillMode" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(FillMode))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Animation.FillMode", [ {
+        sigConstructor: "CSS.Animation.FillMode",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Animation.FillMode", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericAnimationName = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Animation.AnimationName" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(AnimationName))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Animation.AnimationName", [ {
+        sigConstructor: "CSS.Animation.AnimationName",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Animation.AnimationName", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericAnimationDirection = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Animation.AnimationDirection" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(AnimationDirection))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Animation.AnimationDirection", [ {
+        sigConstructor: "CSS.Animation.AnimationDirection",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Animation.AnimationDirection", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var forwards = FillMode(CSS_String.fromString(CSS_Property.isStringValue)("forwards"));
+var eqIterationCount = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordIterationCount = new Data_Ord.Ord(function () {
+    return eqIterationCount;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqFillMode = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordFillMode = new Data_Ord.Ord(function () {
+    return eqFillMode;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqAnimationName = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordAnimationName = new Data_Ord.Ord(function () {
+    return eqAnimationName;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqAnimationDirection = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordAnimationDirection = new Data_Ord.Ord(function () {
+    return eqAnimationDirection;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var backwards = FillMode(CSS_String.fromString(CSS_Property.isStringValue)("backwards"));
+var animation = function (p) {
+    return function (de) {
+        return function (f) {
+            return function (du) {
+                return function (i) {
+                    return function (di) {
+                        return function (fm) {
+                            var animationKeys = [ "animation", "-webkit-animation", "-moz-animation", "-o-animation" ];
+                            return Data_Foldable.for_(CSS_Stylesheet.applicativeStyleM)(Data_Foldable.foldableArray)(animationKeys)(function (k) {
+                                return CSS_Stylesheet.key(CSS_Property.valTuple(valAnimationName)(CSS_Property.valTuple(CSS_Time.valTime)(CSS_Property.valTuple(CSS_Transition.valTimingFunction)(CSS_Property.valTuple(CSS_Time.valTime)(CSS_Property.valTuple(valIterationCount)(CSS_Property.valTuple(valAnimationDirection)(CSS_Property.valTuple(valFillMode)(CSS_Property.valUnit))))))))(CSS_String.fromString(CSS_Property.isStringKey)(k))(Data_Tuple_Nested.tuple7(p)(de)(f)(du)(i)(di)(fm));
+                            });
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var alternateReverse = AnimationDirection(CSS_String.fromString(CSS_Property.isStringValue)("alternate-reverse"));
+var alternate = AnimationDirection(CSS_String.fromString(CSS_Property.isStringValue)("alternate"));
+module.exports = {
+    AnimationDirection: AnimationDirection,
+    normalAnimationDirection: normalAnimationDirection,
+    alternate: alternate,
+    reverse: reverse,
+    alternateReverse: alternateReverse,
+    IterationCount: IterationCount,
+    infinite: infinite,
+    iterationCount: iterationCount,
+    FillMode: FillMode,
+    forwards: forwards,
+    backwards: backwards,
+    animation: animation,
+    AnimationName: AnimationName,
+    eqAnimationDirection: eqAnimationDirection,
+    ordAnimationDirection: ordAnimationDirection,
+    genericAnimationDirection: genericAnimationDirection,
+    valAnimationDirection: valAnimationDirection,
+    eqIterationCount: eqIterationCount,
+    ordIterationCount: ordIterationCount,
+    genericIterationCount: genericIterationCount,
+    valIterationCount: valIterationCount,
+    eqFillMode: eqFillMode,
+    ordFillMode: ordFillMode,
+    genericFillMode: genericFillMode,
+    valFillMode: valFillMode,
+    eqAnimationName: eqAnimationName,
+    ordAnimationName: ordAnimationName,
+    genericAnimationName: genericAnimationName,
+    valAnimationName: valAnimationName,
+    isStringAnimationName: isStringAnimationName
+};
+
+},{"../CSS.Property":179,"../CSS.String":184,"../CSS.Stylesheet":185,"../CSS.Time":188,"../CSS.Transition":190,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Tuple.Nested":358,"../Data.Unit":363,"../Prelude":375}],167:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Box = require("../CSS.Box");
+var CSS_Color = require("../CSS.Color");
+var CSS_Common = require("../CSS.Common");
+var CSS_Property = require("../CSS.Property");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Apply = require("../Control.Apply");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Tuple = require("../Data.Tuple");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var Side = function (x) {
+    return x;
+};
+var Location = function (x) {
+    return x;
+};
+var Direction = function (x) {
+    return x;
+};
+var BackgroundSize = function (x) {
+    return x;
+};
+var BackgroundRepeat = function (x) {
+    return x;
+};
+var BackgroundPosition = function (x) {
+    return x;
+};
+var BackgroundOrigin = function (x) {
+    return x;
+};
+var BackgroundImage = function (x) {
+    return x;
+};
+var BackgroundClip = function (x) {
+    return x;
+};
+var BackgroundAttachment = function (x) {
+    return x;
+};
+var Background = function (Val0, background) {
+    this.Val0 = Val0;
+    this.background = background;
+};
+var Loc = function (Val0, location) {
+    this.Val0 = Val0;
+    this.location = location;
+};
+var valSide = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valLocation = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valDirection = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valBackgroundSize = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valBackgroundRepeat = new CSS_Property.Val(function (v) {
+    return v;
+});
+var xyRepeat = function (a) {
+    return function (b) {
+        return CSS_Property.value(CSS_Property.valTuple(valBackgroundRepeat)(valBackgroundRepeat))(new Data_Tuple.Tuple(a, b));
+    };
+};
+var valBackgroundPosition = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valBackgroundOrigin = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valBackgroundImage = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valBackgroundClip = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valBackgroundAttachment = new CSS_Property.Val(function (v) {
+    return v;
+});
+var url = function (u) {
+    return CSS_Property.value(CSS_Property.valString)("url(\"" + (u + "\")"));
+};
+var straight = function (a) {
+    return CSS_Property.value(valSide)(a);
+};
+var space = BackgroundRepeat(CSS_String.fromString(CSS_Property.isStringValue)("space"));
+var sideTop = Side(CSS_String.fromString(CSS_Property.isStringValue)("top"));
+var sideRight = Side(CSS_String.fromString(CSS_Property.isStringValue)("right"));
+var sideMiddle = Side(CSS_String.fromString(CSS_Property.isStringValue)("middle"));
+var sideLeft = Side(CSS_String.fromString(CSS_Property.isStringValue)("left"));
+var sideCenter = Side(CSS_String.fromString(CSS_Property.isStringValue)("center"));
+var sideBottom = Side(CSS_String.fromString(CSS_Property.isStringValue)("bottom"));
+var round = BackgroundRepeat(CSS_String.fromString(CSS_Property.isStringValue)("round"));
+var repeat = BackgroundRepeat(CSS_String.fromString(CSS_Property.isStringValue)("repeat"));
+var positioned = function (a) {
+    return function (b) {
+        return CSS_Property.value(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Size.valSize))(new Data_Tuple.Tuple(a, b));
+    };
+};
+var placed = function (a) {
+    return function (b) {
+        return CSS_Property.value(CSS_Property.valTuple(valSide)(valSide))(new Data_Tuple.Tuple(a, b));
+    };
+};
+var otherSide = new CSS_Common.Other(Side);
+var otherLocation = new CSS_Common.Other(Location);
+var otherDirection = new CSS_Common.Other(Direction);
+var otherBackgroundSize = new CSS_Common.Other(BackgroundSize);
+var otherBackgroundRepeat = new CSS_Common.Other(BackgroundRepeat);
+var otherBackgroundPosition = new CSS_Common.Other(BackgroundPosition);
+var otherBackgroundOrigin = new CSS_Common.Other(BackgroundOrigin);
+var otherBackgroundImage = new CSS_Common.Other(BackgroundImage);
+var otherBackgroundClip = new CSS_Common.Other(BackgroundClip);
+var otherBackgroundAttachment = new CSS_Common.Other(BackgroundAttachment);
+var origin = function (b) {
+    return CSS_Property.value(CSS_Box.valBoxType)(b);
+};
+var noRepeat = BackgroundRepeat(CSS_String.fromString(CSS_Property.isStringValue)("no-repeat"));
+var repeatX = xyRepeat(repeat)(noRepeat);
+var repeatY = xyRepeat(noRepeat)(repeat);
+var location = function (dict) {
+    return dict.location;
+};
+var locTuple = function (dictLoc) {
+    return function (dictLoc1) {
+        return new Loc(function () {
+            return CSS_Property.valTuple(dictLoc.Val0())(dictLoc1.Val0());
+        }, function ($235) {
+            return Location(CSS_Property.value(CSS_Property.valTuple(dictLoc.Val0())(dictLoc1.Val0()))($235));
+        });
+    };
+};
+var locSize = new Loc(function () {
+    return CSS_Size.valSize;
+}, function ($236) {
+    return Location(CSS_Property.value(CSS_Size.valSize)($236));
+});
+var locSide = new Loc(function () {
+    return valSide;
+}, function ($237) {
+    return Location(CSS_Property.value(valSide)($237));
+});
+var isStringSide = new CSS_String.IsString(function ($238) {
+    return Side(CSS_String.fromString(CSS_Property.isStringValue)($238));
+});
+var isStringBackgroundSize = new CSS_String.IsString(function ($239) {
+    return BackgroundSize(CSS_String.fromString(CSS_Property.isStringValue)($239));
+});
+var isStringBackgroundRepeat = new CSS_String.IsString(function ($240) {
+    return BackgroundRepeat(CSS_String.fromString(CSS_Property.isStringValue)($240));
+});
+var noneBackgroundRepeat = new CSS_Common.None(CSS_String.fromString(isStringBackgroundRepeat)("none"));
+var isStringBackgroundPosition = new CSS_String.IsString(function ($241) {
+    return BackgroundPosition(CSS_String.fromString(CSS_Property.isStringValue)($241));
+});
+var isStringBackgroundOrigin = new CSS_String.IsString(function ($242) {
+    return BackgroundOrigin(CSS_String.fromString(CSS_Property.isStringValue)($242));
+});
+var isStringBackgroundImage = new CSS_String.IsString(function ($243) {
+    return BackgroundImage(CSS_String.fromString(CSS_Property.isStringValue)($243));
+});
+var noneBackgroundImage = new CSS_Common.None(CSS_String.fromString(isStringBackgroundImage)("none"));
+var isStringBackgroundClip = new CSS_String.IsString(function ($244) {
+    return BackgroundClip(CSS_String.fromString(CSS_Property.isStringValue)($244));
+});
+var isStringBackgroundAttachment = new CSS_String.IsString(function ($245) {
+    return BackgroundAttachment(CSS_String.fromString(CSS_Property.isStringValue)($245));
+});
+var inheritSide = new CSS_Common.Inherit(CSS_String.fromString(isStringSide)("inherit"));
+var inheritBackgroundSize = new CSS_Common.Inherit(CSS_String.fromString(isStringBackgroundSize)("inherit"));
+var inheritBackgroundRepeat = new CSS_Common.Inherit(CSS_String.fromString(isStringBackgroundRepeat)("inherit"));
+var inheritBackgroundPosition = new CSS_Common.Inherit(CSS_String.fromString(isStringBackgroundPosition)("inherit"));
+var inheritBackgroundOrigin = new CSS_Common.Inherit(CSS_String.fromString(isStringBackgroundOrigin)("inherit"));
+var inheritBackgroundImage = new CSS_Common.Inherit(CSS_String.fromString(isStringBackgroundImage)("inherit"));
+var inheritBackgroundClip = new CSS_Common.Inherit(CSS_String.fromString(isStringBackgroundClip)("inherit"));
+var inheritBackgroundAttachment = new CSS_Common.Inherit(CSS_String.fromString(isStringBackgroundAttachment)("inherit"));
+var genericSide = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.Side" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Side))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.Side", [ {
+        sigConstructor: "CSS.Background.Side",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.Side", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericLocation = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.Location" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Location))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.Location", [ {
+        sigConstructor: "CSS.Background.Location",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.Location", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericDirection = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.Direction" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Direction))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.Direction", [ {
+        sigConstructor: "CSS.Background.Direction",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.Direction", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericBackgroundSize = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.BackgroundSize" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(BackgroundSize))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.BackgroundSize", [ {
+        sigConstructor: "CSS.Background.BackgroundSize",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.BackgroundSize", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericBackgroundRepeat = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.BackgroundRepeat" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(BackgroundRepeat))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.BackgroundRepeat", [ {
+        sigConstructor: "CSS.Background.BackgroundRepeat",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.BackgroundRepeat", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericBackgroundPosition = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.BackgroundPosition" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(BackgroundPosition))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.BackgroundPosition", [ {
+        sigConstructor: "CSS.Background.BackgroundPosition",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.BackgroundPosition", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericBackgroundOrigin = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.BackgroundOrigin" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(BackgroundOrigin))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.BackgroundOrigin", [ {
+        sigConstructor: "CSS.Background.BackgroundOrigin",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.BackgroundOrigin", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericBackgroundImage = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.BackgroundImage" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(BackgroundImage))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.BackgroundImage", [ {
+        sigConstructor: "CSS.Background.BackgroundImage",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.BackgroundImage", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericBackgroundClip = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.BackgroundClip" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(BackgroundClip))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.BackgroundClip", [ {
+        sigConstructor: "CSS.Background.BackgroundClip",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.BackgroundClip", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericBackgroundAttachment = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Background.BackgroundAttachment" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(BackgroundAttachment))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Background.BackgroundAttachment", [ {
+        sigConstructor: "CSS.Background.BackgroundAttachment",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Background.BackgroundAttachment", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var eqSide = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordSide = new Data_Ord.Ord(function () {
+    return eqSide;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqLocation = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordLocation = new Data_Ord.Ord(function () {
+    return eqLocation;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqDirection = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordDirection = new Data_Ord.Ord(function () {
+    return eqDirection;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqBackgroundSize = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordBackgroundSize = new Data_Ord.Ord(function () {
+    return eqBackgroundSize;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqBackgroundRepeat = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordBackgroundRepeat = new Data_Ord.Ord(function () {
+    return eqBackgroundRepeat;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqBackgroundPosition = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordBackgroundPosition = new Data_Ord.Ord(function () {
+    return eqBackgroundPosition;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqBackgroundOrigin = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordBackgroundOrigin = new Data_Ord.Ord(function () {
+    return eqBackgroundOrigin;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqBackgroundImage = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordBackgroundImage = new Data_Ord.Ord(function () {
+    return eqBackgroundImage;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqBackgroundClip = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordBackgroundClip = new Data_Ord.Ord(function () {
+    return eqBackgroundClip;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqBackgroundAttachment = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordBackgroundAttachment = new Data_Ord.Ord(function () {
+    return eqBackgroundAttachment;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var cover = BackgroundSize(CSS_String.fromString(CSS_Property.isStringValue)("cover"));
+var contain = BackgroundSize(CSS_String.fromString(CSS_Property.isStringValue)("contain"));
+var by = function (a) {
+    return function (b) {
+        return CSS_Property.value(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Size.valSize))(new Data_Tuple.Tuple(a, b));
+    };
+};
+var boxClip = function (b) {
+    return CSS_Property.value(CSS_Box.valBoxType)(b);
+};
+var backgroundTuple = function (dictBackground) {
+    return function (dictBackground1) {
+        return new Background(function () {
+            return CSS_Property.valTuple(dictBackground.Val0())(dictBackground1.Val0());
+        }, CSS_Stylesheet.key(CSS_Property.valTuple(dictBackground.Val0())(dictBackground1.Val0()))(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+    };
+};
+var backgroundSizes = CSS_Stylesheet.key(CSS_Property.valList(valBackgroundSize))(CSS_String.fromString(CSS_Property.isStringKey)("background-size"));
+var backgroundSize$prime = new Background(function () {
+    return valBackgroundSize;
+}, CSS_Stylesheet.key(valBackgroundSize)(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+var backgroundSize = CSS_Stylesheet.key(valBackgroundSize)(CSS_String.fromString(CSS_Property.isStringKey)("background-size"));
+var backgroundRepeats = CSS_Stylesheet.key(CSS_Property.valList(valBackgroundRepeat))(CSS_String.fromString(CSS_Property.isStringKey)("background-repeat"));
+var backgroundRepeat = CSS_Stylesheet.key(valBackgroundRepeat)(CSS_String.fromString(CSS_Property.isStringKey)("background-repeat"));
+var backgroundPositions = CSS_Stylesheet.key(CSS_Property.valList(valBackgroundPosition))(CSS_String.fromString(CSS_Property.isStringKey)("background-position"));
+var backgroundPosition$prime = new Background(function () {
+    return valBackgroundPosition;
+}, CSS_Stylesheet.key(valBackgroundPosition)(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+var backgroundPosition = CSS_Stylesheet.key(valBackgroundPosition)(CSS_String.fromString(CSS_Property.isStringKey)("background-position"));
+var backgroundOrigins = CSS_Stylesheet.key(CSS_Property.valList(valBackgroundOrigin))(CSS_String.fromString(CSS_Property.isStringKey)("background-origin"));
+var backgroundOrigin = CSS_Stylesheet.key(valBackgroundOrigin)(CSS_String.fromString(CSS_Property.isStringKey)("background-origin"));
+var backgroundImages = CSS_Stylesheet.key(CSS_Property.valList(valBackgroundImage))(CSS_String.fromString(CSS_Property.isStringKey)("background-image"));
+var backgroundImage = CSS_Stylesheet.key(valBackgroundImage)(CSS_String.fromString(CSS_Property.isStringKey)("background-image"));
+var backgroundColor$prime = new Background(function () {
+    return CSS_Property.valColor;
+}, CSS_Stylesheet.key(CSS_Property.valColor)(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+var backgroundColor = CSS_Stylesheet.key(CSS_Property.valColor)(CSS_String.fromString(CSS_Property.isStringKey)("background-color"));
+var backgroundClips = CSS_Stylesheet.key(CSS_Property.valList(valBackgroundClip))(CSS_String.fromString(CSS_Property.isStringKey)("background-clip"));
+var backgroundClip = CSS_Stylesheet.key(valBackgroundClip)(CSS_String.fromString(CSS_Property.isStringKey)("background-clip"));
+var backgroundBackgroundRepeat = new Background(function () {
+    return valBackgroundRepeat;
+}, CSS_Stylesheet.key(valBackgroundRepeat)(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+var backgroundBackgroundOrigin = new Background(function () {
+    return valBackgroundOrigin;
+}, CSS_Stylesheet.key(valBackgroundOrigin)(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+var backgroundBackgroundImage = new Background(function () {
+    return valBackgroundImage;
+}, CSS_Stylesheet.key(valBackgroundImage)(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+var backgroundBackgroundClip = new Background(function () {
+    return valBackgroundClip;
+}, CSS_Stylesheet.key(valBackgroundClip)(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+var backgroundBackgroundAttachment = new Background(function () {
+    return valBackgroundAttachment;
+}, CSS_Stylesheet.key(valBackgroundAttachment)(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+var backgroundAttachments = CSS_Stylesheet.key(CSS_Property.valList(valBackgroundAttachment))(CSS_String.fromString(CSS_Property.isStringKey)("background-attachment"));
+var backgroundAttachment = CSS_Stylesheet.key(valBackgroundAttachment)(CSS_String.fromString(CSS_Property.isStringKey)("background-attachment"));
+var backgroundArray = function (dictBackground) {
+    return new Background(function () {
+        return CSS_Property.valList(dictBackground.Val0());
+    }, CSS_Stylesheet.key(CSS_Property.valList(dictBackground.Val0()))(CSS_String.fromString(CSS_Property.isStringKey)("background")));
+};
+var background = function (dict) {
+    return dict.background;
+};
+var autoBackgroundSize = new CSS_Common.Auto(by(CSS_Common.auto(CSS_Size.autoSize))(CSS_Common.auto(CSS_Size.autoSize)));
+var attachScroll = BackgroundAttachment(CSS_String.fromString(CSS_Property.isStringValue)("scroll"));
+var attachFixed = BackgroundAttachment(CSS_String.fromString(CSS_Property.isStringValue)("fixed"));
+var angular = function (a) {
+    return CSS_Property.value(CSS_Size.valAngle)(a);
+};
+module.exports = {
+    Background: Background,
+    background: background,
+    backgroundColor: backgroundColor,
+    backgroundPosition: backgroundPosition,
+    backgroundPositions: backgroundPositions,
+    placed: placed,
+    positioned: positioned,
+    backgroundSize: backgroundSize,
+    backgroundSizes: backgroundSizes,
+    contain: contain,
+    cover: cover,
+    by: by,
+    backgroundRepeat: backgroundRepeat,
+    backgroundRepeats: backgroundRepeats,
+    repeat: repeat,
+    space: space,
+    round: round,
+    noRepeat: noRepeat,
+    xyRepeat: xyRepeat,
+    repeatX: repeatX,
+    repeatY: repeatY,
+    backgroundOrigin: backgroundOrigin,
+    backgroundOrigins: backgroundOrigins,
+    origin: origin,
+    backgroundClip: backgroundClip,
+    backgroundClips: backgroundClips,
+    boxClip: boxClip,
+    backgroundAttachment: backgroundAttachment,
+    backgroundAttachments: backgroundAttachments,
+    attachFixed: attachFixed,
+    attachScroll: attachScroll,
+    backgroundImage: backgroundImage,
+    backgroundImages: backgroundImages,
+    url: url,
+    sideTop: sideTop,
+    sideLeft: sideLeft,
+    sideRight: sideRight,
+    sideBottom: sideBottom,
+    sideCenter: sideCenter,
+    sideMiddle: sideMiddle,
+    straight: straight,
+    angular: angular,
+    Loc: Loc,
+    location: location,
+    backgroundArray: backgroundArray,
+    backgroundTuple: backgroundTuple,
+    "backgroundColor'": backgroundColor$prime,
+    "backgroundPosition'": backgroundPosition$prime,
+    "backgroundSize'": backgroundSize$prime,
+    backgroundBackgroundRepeat: backgroundBackgroundRepeat,
+    backgroundBackgroundOrigin: backgroundBackgroundOrigin,
+    backgroundBackgroundClip: backgroundBackgroundClip,
+    backgroundBackgroundAttachment: backgroundBackgroundAttachment,
+    backgroundBackgroundImage: backgroundBackgroundImage,
+    eqBackgroundPosition: eqBackgroundPosition,
+    ordBackgroundPosition: ordBackgroundPosition,
+    genericBackgroundPosition: genericBackgroundPosition,
+    isStringBackgroundPosition: isStringBackgroundPosition,
+    valBackgroundPosition: valBackgroundPosition,
+    otherBackgroundPosition: otherBackgroundPosition,
+    inheritBackgroundPosition: inheritBackgroundPosition,
+    eqBackgroundSize: eqBackgroundSize,
+    ordBackgroundSize: ordBackgroundSize,
+    genericBackgroundSize: genericBackgroundSize,
+    isStringBackgroundSize: isStringBackgroundSize,
+    valBackgroundSize: valBackgroundSize,
+    otherBackgroundSize: otherBackgroundSize,
+    inheritBackgroundSize: inheritBackgroundSize,
+    autoBackgroundSize: autoBackgroundSize,
+    eqBackgroundRepeat: eqBackgroundRepeat,
+    ordBackgroundRepeat: ordBackgroundRepeat,
+    genericBackgroundRepeat: genericBackgroundRepeat,
+    isStringBackgroundRepeat: isStringBackgroundRepeat,
+    valBackgroundRepeat: valBackgroundRepeat,
+    otherBackgroundRepeat: otherBackgroundRepeat,
+    inheritBackgroundRepeat: inheritBackgroundRepeat,
+    noneBackgroundRepeat: noneBackgroundRepeat,
+    eqBackgroundImage: eqBackgroundImage,
+    ordBackgroundImage: ordBackgroundImage,
+    genericBackgroundImage: genericBackgroundImage,
+    isStringBackgroundImage: isStringBackgroundImage,
+    valBackgroundImage: valBackgroundImage,
+    otherBackgroundImage: otherBackgroundImage,
+    inheritBackgroundImage: inheritBackgroundImage,
+    noneBackgroundImage: noneBackgroundImage,
+    eqBackgroundOrigin: eqBackgroundOrigin,
+    ordBackgroundOrigin: ordBackgroundOrigin,
+    genericBackgroundOrigin: genericBackgroundOrigin,
+    isStringBackgroundOrigin: isStringBackgroundOrigin,
+    valBackgroundOrigin: valBackgroundOrigin,
+    otherBackgroundOrigin: otherBackgroundOrigin,
+    inheritBackgroundOrigin: inheritBackgroundOrigin,
+    eqBackgroundClip: eqBackgroundClip,
+    ordBackgroundClip: ordBackgroundClip,
+    genericBackgroundClip: genericBackgroundClip,
+    isStringBackgroundClip: isStringBackgroundClip,
+    valBackgroundClip: valBackgroundClip,
+    otherBackgroundClip: otherBackgroundClip,
+    inheritBackgroundClip: inheritBackgroundClip,
+    eqBackgroundAttachment: eqBackgroundAttachment,
+    ordBackgroundAttachment: ordBackgroundAttachment,
+    genericBackgroundAttachment: genericBackgroundAttachment,
+    isStringBackgroundAttachment: isStringBackgroundAttachment,
+    valBackgroundAttachment: valBackgroundAttachment,
+    otherBackgroundAttachment: otherBackgroundAttachment,
+    inheritBackgroundAttachment: inheritBackgroundAttachment,
+    eqSide: eqSide,
+    ordSide: ordSide,
+    genericSide: genericSide,
+    isStringSide: isStringSide,
+    valSide: valSide,
+    otherSide: otherSide,
+    inheritSide: inheritSide,
+    eqDirection: eqDirection,
+    ordDirection: ordDirection,
+    genericDirection: genericDirection,
+    valDirection: valDirection,
+    otherDirection: otherDirection,
+    eqLocation: eqLocation,
+    ordLocation: ordLocation,
+    genericLocation: genericLocation,
+    valLocation: valLocation,
+    otherLocation: otherLocation,
+    locSide: locSide,
+    locSize: locSize,
+    locTuple: locTuple
+};
+
+},{"../CSS.Box":169,"../CSS.Color":170,"../CSS.Common":171,"../CSS.Property":179,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],168:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Color = require("../CSS.Color");
+var CSS_Property = require("../CSS.Property");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Apply = require("../Control.Apply");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Tuple_Nested = require("../Data.Tuple.Nested");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var Stroke = function (x) {
+    return x;
+};
+var wavy = Stroke(CSS_String.fromString(CSS_Property.isStringValue)("wavy"));
+var valStroke = new CSS_Property.Val(function (v) {
+    return v;
+});
+var solid = Stroke(CSS_String.fromString(CSS_Property.isStringValue)("solid"));
+var ridge = Stroke(CSS_String.fromString(CSS_Property.isStringValue)("ridge"));
+var outset = Stroke(CSS_String.fromString(CSS_Property.isStringValue)("outset"));
+var inset = Stroke(CSS_String.fromString(CSS_Property.isStringValue)("inset"));
+var groove = Stroke(CSS_String.fromString(CSS_Property.isStringValue)("groove"));
+var genericStroke = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Border.Stroke" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Stroke))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Border.Stroke", [ {
+        sigConstructor: "CSS.Border.Stroke",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Border.Stroke", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var eqStroke = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordStroke = new Data_Ord.Ord(function () {
+    return eqStroke;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var $$double = Stroke(CSS_String.fromString(CSS_Property.isStringValue)("double"));
+var dotted = Stroke(CSS_String.fromString(CSS_Property.isStringValue)("dotted"));
+var dashed = Stroke(CSS_String.fromString(CSS_Property.isStringValue)("dashed"));
+var borderTop = function (a) {
+    return function (b) {
+        return function (c) {
+            return CSS_Stylesheet.key(CSS_Property.valTuple(valStroke)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Property.valColor)(CSS_Property.valUnit))))(CSS_String.fromString(CSS_Property.isStringKey)("border-top"))(Data_Tuple_Nested.tuple3(a)(b)(c));
+        };
+    };
+};
+var borderRight = function (a) {
+    return function (b) {
+        return function (c) {
+            return CSS_Stylesheet.key(CSS_Property.valTuple(valStroke)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Property.valColor)(CSS_Property.valUnit))))(CSS_String.fromString(CSS_Property.isStringKey)("border-right"))(Data_Tuple_Nested.tuple3(a)(b)(c));
+        };
+    };
+};
+var borderRadius = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return CSS_Stylesheet.key(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valUnit)))))(CSS_String.fromString(CSS_Property.isStringKey)("border-radius"))(Data_Tuple_Nested.tuple4(a)(b)(c)(d));
+            };
+        };
+    };
+};
+var borderLeft = function (a) {
+    return function (b) {
+        return function (c) {
+            return CSS_Stylesheet.key(CSS_Property.valTuple(valStroke)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Property.valColor)(CSS_Property.valUnit))))(CSS_String.fromString(CSS_Property.isStringKey)("border-left"))(Data_Tuple_Nested.tuple3(a)(b)(c));
+        };
+    };
+};
+var borderColor = CSS_Stylesheet.key(CSS_Property.valColor)(CSS_String.fromString(CSS_Property.isStringKey)("border-color"));
+var borderBottom = function (a) {
+    return function (b) {
+        return function (c) {
+            return CSS_Stylesheet.key(CSS_Property.valTuple(valStroke)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Property.valColor)(CSS_Property.valUnit))))(CSS_String.fromString(CSS_Property.isStringKey)("border-bottom"))(Data_Tuple_Nested.tuple3(a)(b)(c));
+        };
+    };
+};
+var border = function (a) {
+    return function (b) {
+        return function (c) {
+            return CSS_Stylesheet.key(CSS_Property.valTuple(valStroke)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Property.valColor)(CSS_Property.valUnit))))(CSS_String.fromString(CSS_Property.isStringKey)("border"))(Data_Tuple_Nested.tuple3(a)(b)(c));
+        };
+    };
+};
+module.exports = {
+    Stroke: Stroke,
+    solid: solid,
+    dotted: dotted,
+    dashed: dashed,
+    "double": $$double,
+    wavy: wavy,
+    groove: groove,
+    ridge: ridge,
+    inset: inset,
+    outset: outset,
+    border: border,
+    borderTop: borderTop,
+    borderBottom: borderBottom,
+    borderLeft: borderLeft,
+    borderRight: borderRight,
+    borderColor: borderColor,
+    borderRadius: borderRadius,
+    eqStroke: eqStroke,
+    ordStroke: ordStroke,
+    genericStroke: genericStroke,
+    valStroke: valStroke
+};
+
+},{"../CSS.Color":170,"../CSS.Property":179,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Apply":198,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Tuple.Nested":358,"../Data.Unit":363,"../Prelude":375}],169:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Border = require("../CSS.Border");
+var CSS_Color = require("../CSS.Color");
+var CSS_Common = require("../CSS.Common");
+var CSS_Property = require("../CSS.Property");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Apply = require("../Control.Apply");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Tuple = require("../Data.Tuple");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var BoxType = function (x) {
+    return x;
+};
+var valBoxType = new CSS_Property.Val(function (v) {
+    return v;
+});
+var paddingBox = BoxType(CSS_String.fromString(CSS_Property.isStringValue)("padding-box"));
+var isStringBoxType = new CSS_String.IsString(function ($23) {
+    return BoxType(CSS_String.fromString(CSS_Property.isStringValue)($23));
+});
+var insetBoxShadow = function (x) {
+    return function (y) {
+        return function (w) {
+            return function (c) {
+                return function (z) {
+                    return CSS_Stylesheet.prefixed(CSS_Property.valTuple(CSS_Border.valStroke)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valColor)))))(Data_Semigroup.append(CSS_Property.semigroupPrefixed)(CSS_Common.browsers)(CSS_String.fromString(CSS_Property.isStringPrefixed)("box-shadow")))(new Data_Tuple.Tuple(x, new Data_Tuple.Tuple(y, new Data_Tuple.Tuple(w, new Data_Tuple.Tuple(c, z)))));
+                };
+            };
+        };
+    };
+};
+var inheritBoxType = new CSS_Common.Inherit(CSS_String.fromString(isStringBoxType)("inherit"));
+var genericBoxType = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Box.BoxType" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(BoxType))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Box.BoxType", [ {
+        sigConstructor: "CSS.Box.BoxType",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Box.BoxType", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var eqBoxType = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordBoxType = new Data_Ord.Ord(function () {
+    return eqBoxType;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var contentBox = BoxType(CSS_String.fromString(CSS_Property.isStringValue)("content-box"));
+var boxSizing = CSS_Stylesheet.key(valBoxType)(CSS_String.fromString(CSS_Property.isStringKey)("box-sizing"));
+var boxShadow = function (x) {
+    return function (y) {
+        return function (w) {
+            return function (c) {
+                return CSS_Stylesheet.prefixed(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valColor))))(Data_Semigroup.append(CSS_Property.semigroupPrefixed)(CSS_Common.browsers)(CSS_String.fromString(CSS_Property.isStringPrefixed)("box-shadow")))(new Data_Tuple.Tuple(x, new Data_Tuple.Tuple(y, new Data_Tuple.Tuple(w, c))));
+            };
+        };
+    };
+};
+var borderBox = BoxType(CSS_String.fromString(CSS_Property.isStringValue)("border-box"));
+module.exports = {
+    paddingBox: paddingBox,
+    borderBox: borderBox,
+    contentBox: contentBox,
+    boxSizing: boxSizing,
+    boxShadow: boxShadow,
+    insetBoxShadow: insetBoxShadow,
+    eqBoxType: eqBoxType,
+    ordBoxType: ordBoxType,
+    genericBoxType: genericBoxType,
+    isStringBoxType: isStringBoxType,
+    valBoxType: valBoxType,
+    inheritBoxType: inheritBoxType
+};
+
+},{"../CSS.Border":168,"../CSS.Color":170,"../CSS.Common":171,"../CSS.Property":179,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],170:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var Color = require("../Color");
+var Color_Scheme_X11 = require("../Color.Scheme.X11");
+module.exports = {};
+
+},{"../Color":193,"../Color.Scheme.X11":192}],171:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Property = require("../CSS.Property");
+var CSS_String = require("../CSS.String");
+var Control_Category = require("../Control.Category");
+var Data_Monoid = require("../Data.Monoid");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Tuple = require("../Data.Tuple");
+var Prelude = require("../Prelude");
+var All = function (all) {
+    this.all = all;
+};
+var Auto = function (auto) {
+    this.auto = auto;
+};
+var Baseline = function (baseline) {
+    this.baseline = baseline;
+};
+var Center = function (center) {
+    this.center = center;
+};
+var Inherit = function (inherit) {
+    this.inherit = inherit;
+};
+var None = function (none) {
+    this.none = none;
+};
+var Normal = function (normal) {
+    this.normal = normal;
+};
+var Visible = function (visible) {
+    this.visible = visible;
+};
+var Hidden = function (hidden) {
+    this.hidden = hidden;
+};
+var Initial = function (initial) {
+    this.initial = initial;
+};
+var Unset = function (unset) {
+    this.unset = unset;
+};
+var Top = function (top) {
+    this.top = top;
+};
+var Middle = function (middle) {
+    this.middle = middle;
+};
+var Bottom = function (bottom) {
+    this.bottom = bottom;
+};
+var URL = function (url) {
+    this.url = url;
+};
+var Other = function (other) {
+    this.other = other;
+};
+var visibleValue = new Visible(CSS_String.fromString(CSS_Property.isStringValue)("visible"));
+var visible = function (dict) {
+    return dict.visible;
+};
+var urlValue = new URL(function (s) {
+    return CSS_String.fromString(CSS_Property.isStringValue)("url(\"" + (s + "\")"));
+});
+var url = function (dict) {
+    return dict.url;
+};
+var unsetValue = new Unset(CSS_String.fromString(CSS_Property.isStringValue)("unset"));
+var unset = function (dict) {
+    return dict.unset;
+};
+var topValue = new Top(CSS_String.fromString(CSS_Property.isStringValue)("top"));
+var top = function (dict) {
+    return dict.top;
+};
+var otherValue = new Other(Control_Category.id(Control_Category.categoryFn));
+var other = function (dict) {
+    return dict.other;
+};
+var normalValue = new Normal(CSS_String.fromString(CSS_Property.isStringValue)("normal"));
+var normal = function (dict) {
+    return dict.normal;
+};
+var noneValue = new None(CSS_String.fromString(CSS_Property.isStringValue)("none"));
+var none = function (dict) {
+    return dict.none;
+};
+var middleValue = new Middle(CSS_String.fromString(CSS_Property.isStringValue)("middle"));
+var middle = function (dict) {
+    return dict.middle;
+};
+var initialValue = new Initial(CSS_String.fromString(CSS_Property.isStringValue)("initial"));
+var initial = function (dict) {
+    return dict.initial;
+};
+var inheritValue = new Inherit(CSS_String.fromString(CSS_Property.isStringValue)("inherit"));
+var inherit = function (dict) {
+    return dict.inherit;
+};
+var hiddenValue = new Hidden(CSS_String.fromString(CSS_Property.isStringValue)("hidden"));
+var hidden = function (dict) {
+    return dict.hidden;
+};
+var centerValue = new Center(CSS_String.fromString(CSS_Property.isStringValue)("center"));
+var center = function (dict) {
+    return dict.center;
+};
+var call = function (dictIsString) {
+    return function (dictMonoid) {
+        return function (fn) {
+            return function (arg) {
+                return Data_Semigroup.append(dictMonoid.Semigroup0())(fn)(Data_Semigroup.append(dictMonoid.Semigroup0())(CSS_String.fromString(dictIsString)("("))(Data_Semigroup.append(dictMonoid.Semigroup0())(arg)(CSS_String.fromString(dictIsString)(")"))));
+            };
+        };
+    };
+};
+var browsers = new CSS_Property.Prefixed([ new Data_Tuple.Tuple("-webkit-", ""), new Data_Tuple.Tuple("-moz-", ""), new Data_Tuple.Tuple("-ms-", ""), new Data_Tuple.Tuple("-o-", ""), new Data_Tuple.Tuple("", "") ]);
+var bottomValue = new Bottom(CSS_String.fromString(CSS_Property.isStringValue)("bottom"));
+var bottom = function (dict) {
+    return dict.bottom;
+};
+var baselineValue = new Baseline(CSS_String.fromString(CSS_Property.isStringValue)("baseline"));
+var baseline = function (dict) {
+    return dict.baseline;
+};
+var autoValue = new Auto(CSS_String.fromString(CSS_Property.isStringValue)("auto"));
+var auto = function (dict) {
+    return dict.auto;
+};
+var allValue = new All(CSS_String.fromString(CSS_Property.isStringValue)("all"));
+var all = function (dict) {
+    return dict.all;
+};
+module.exports = {
+    all: all,
+    auto: auto,
+    baseline: baseline,
+    bottom: bottom,
+    center: center,
+    hidden: hidden,
+    inherit: inherit,
+    initial: initial,
+    middle: middle,
+    none: none,
+    normal: normal,
+    other: other,
+    top: top,
+    unset: unset,
+    url: url,
+    visible: visible,
+    All: All,
+    Auto: Auto,
+    Baseline: Baseline,
+    Center: Center,
+    Inherit: Inherit,
+    None: None,
+    Normal: Normal,
+    Visible: Visible,
+    Hidden: Hidden,
+    Initial: Initial,
+    Unset: Unset,
+    Top: Top,
+    Middle: Middle,
+    Bottom: Bottom,
+    URL: URL,
+    Other: Other,
+    browsers: browsers,
+    call: call,
+    allValue: allValue,
+    autoValue: autoValue,
+    baselineValue: baselineValue,
+    centerValue: centerValue,
+    inheritValue: inheritValue,
+    normalValue: normalValue,
+    noneValue: noneValue,
+    visibleValue: visibleValue,
+    hiddenValue: hiddenValue,
+    otherValue: otherValue,
+    initialValue: initialValue,
+    unsetValue: unsetValue,
+    topValue: topValue,
+    middleValue: middleValue,
+    bottomValue: bottomValue,
+    urlValue: urlValue
+};
+
+},{"../CSS.Property":179,"../CSS.String":184,"../Control.Category":203,"../Data.Monoid":317,"../Data.Semigroup":335,"../Data.Tuple":359,"../Prelude":375}],172:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Common = require("../CSS.Common");
+var CSS_Property = require("../CSS.Property");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Apply = require("../Control.Apply");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Show = require("../Data.Show");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var Position = function (x) {
+    return x;
+};
+var FloatLeft = (function () {
+    function FloatLeft() {
+
+    };
+    FloatLeft.value = new FloatLeft();
+    return FloatLeft;
+})();
+var FloatRight = (function () {
+    function FloatRight() {
+
+    };
+    FloatRight.value = new FloatRight();
+    return FloatRight;
+})();
+var FloatNone = (function () {
+    function FloatNone() {
+
+    };
+    FloatNone.value = new FloatNone();
+    return FloatNone;
+})();
+var Display = function (x) {
+    return x;
+};
+var ClearFloatLeft = (function () {
+    function ClearFloatLeft() {
+
+    };
+    ClearFloatLeft.value = new ClearFloatLeft();
+    return ClearFloatLeft;
+})();
+var ClearFloatRight = (function () {
+    function ClearFloatRight() {
+
+    };
+    ClearFloatRight.value = new ClearFloatRight();
+    return ClearFloatRight;
+})();
+var ClearFloatBoth = (function () {
+    function ClearFloatBoth() {
+
+    };
+    ClearFloatBoth.value = new ClearFloatBoth();
+    return ClearFloatBoth;
+})();
+var ClearFloatNone = (function () {
+    function ClearFloatNone() {
+
+    };
+    ClearFloatNone.value = new ClearFloatNone();
+    return ClearFloatNone;
+})();
+var ClearFloatInherit = (function () {
+    function ClearFloatInherit() {
+
+    };
+    ClearFloatInherit.value = new ClearFloatInherit();
+    return ClearFloatInherit;
+})();
+var ClearFloatInlineStart = (function () {
+    function ClearFloatInlineStart() {
+
+    };
+    ClearFloatInlineStart.value = new ClearFloatInlineStart();
+    return ClearFloatInlineStart;
+})();
+var ClearFloatInlineEnd = (function () {
+    function ClearFloatInlineEnd() {
+
+    };
+    ClearFloatInlineEnd.value = new ClearFloatInlineEnd();
+    return ClearFloatInlineEnd;
+})();
+var zIndex = function ($86) {
+    return CSS_Stylesheet.key(CSS_Property.valString)(CSS_String.fromString(CSS_Property.isStringKey)("z-index"))(Data_Show.show(Data_Show.showInt)($86));
+};
+var valPosition = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valFloat = new CSS_Property.Val(function (v) {
+    if (v instanceof FloatLeft) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("left");
+    };
+    if (v instanceof FloatRight) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("right");
+    };
+    if (v instanceof FloatNone) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("none");
+    };
+    throw new Error("Failed pattern match at CSS.Display line 117, column 1 - line 117, column 33: " + [ v.constructor.name ]);
+});
+var valDisplay = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valClearFloat = new CSS_Property.Val(function (v) {
+    if (v instanceof ClearFloatLeft) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("left");
+    };
+    if (v instanceof ClearFloatRight) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("right");
+    };
+    if (v instanceof ClearFloatBoth) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("both");
+    };
+    if (v instanceof ClearFloatNone) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("none");
+    };
+    if (v instanceof ClearFloatInherit) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("inherit");
+    };
+    if (v instanceof ClearFloatInlineStart) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("inline-start");
+    };
+    if (v instanceof ClearFloatInlineEnd) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("inline-end");
+    };
+    throw new Error("Failed pattern match at CSS.Display line 149, column 1 - line 149, column 43: " + [ v.constructor.name ]);
+});
+var tableRowGroup = Display(CSS_String.fromString(CSS_Property.isStringValue)("table-row-Group"));
+var tableRow = Display(CSS_String.fromString(CSS_Property.isStringValue)("table-row"));
+var tableHeaderGroup = Display(CSS_String.fromString(CSS_Property.isStringValue)("table-header-group"));
+var tableFooterGroup = Display(CSS_String.fromString(CSS_Property.isStringValue)("table-footer-group"));
+var tableColumnGroup = Display(CSS_String.fromString(CSS_Property.isStringValue)("table-column-group"));
+var tableColumn = Display(CSS_String.fromString(CSS_Property.isStringValue)("table-column"));
+var tableCell = Display(CSS_String.fromString(CSS_Property.isStringValue)("table-cell"));
+var tableCaption = Display(CSS_String.fromString(CSS_Property.isStringValue)("table-caption"));
+var table = Display(CSS_String.fromString(CSS_Property.isStringValue)("table"));
+var $$static = Position(CSS_String.fromString(CSS_Property.isStringValue)("static"));
+var runIn = Display(CSS_String.fromString(CSS_Property.isStringValue)("runIn"));
+var relative = Position(CSS_String.fromString(CSS_Property.isStringValue)("relative"));
+var position = CSS_Stylesheet.key(valPosition)(CSS_String.fromString(CSS_Property.isStringKey)("position"));
+var noneFloat = new CSS_Common.None(FloatNone.value);
+var noneClearFloat = new CSS_Common.None(ClearFloatNone.value);
+var listItem = Display(CSS_String.fromString(CSS_Property.isStringValue)("list-item"));
+var inlineTable = Display(CSS_String.fromString(CSS_Property.isStringValue)("inline-table"));
+var inlineGrid = Display(CSS_String.fromString(CSS_Property.isStringValue)("inline-grid"));
+var inlineFlex = Display(CSS_String.fromString(CSS_Property.isStringValue)("inline-flex"));
+var inlineBlock = Display(CSS_String.fromString(CSS_Property.isStringValue)("inline-block"));
+var inline = Display(CSS_String.fromString(CSS_Property.isStringValue)("inline"));
+var inheritClearFloat = new CSS_Common.Inherit(ClearFloatInherit.value);
+var grid = Display(CSS_String.fromString(CSS_Property.isStringValue)("grid"));
+var genericPosition = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.Position" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Position))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Display.Position", [ {
+        sigConstructor: "CSS.Display.Position",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Display.Position", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericFloat = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.FloatLeft" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(FloatLeft.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.FloatRight" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(FloatRight.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.FloatNone" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(FloatNone.value);
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Display.Float", [ {
+        sigConstructor: "CSS.Display.FloatLeft",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.Display.FloatRight",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.Display.FloatNone",
+        sigValues: [  ]
+    } ]);
+}, function (v) {
+    if (v instanceof FloatLeft) {
+        return new Data_Generic.SProd("CSS.Display.FloatLeft", [  ]);
+    };
+    if (v instanceof FloatRight) {
+        return new Data_Generic.SProd("CSS.Display.FloatRight", [  ]);
+    };
+    if (v instanceof FloatNone) {
+        return new Data_Generic.SProd("CSS.Display.FloatNone", [  ]);
+    };
+    throw new Error("Failed pattern match at CSS.Display line 112, column 8 - line 112, column 46: " + [ v.constructor.name ]);
+});
+var showFloat = new Data_Show.Show(Data_Generic.gShow(genericFloat));
+var genericDisplay = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.Display" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Display))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Display.Display", [ {
+        sigConstructor: "CSS.Display.Display",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Display.Display", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericClearFloat = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.ClearFloatLeft" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(ClearFloatLeft.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.ClearFloatRight" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(ClearFloatRight.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.ClearFloatBoth" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(ClearFloatBoth.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.ClearFloatNone" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(ClearFloatNone.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.ClearFloatInherit" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(ClearFloatInherit.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.ClearFloatInlineStart" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(ClearFloatInlineStart.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Display.ClearFloatInlineEnd" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(ClearFloatInlineEnd.value);
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Display.ClearFloat", [ {
+        sigConstructor: "CSS.Display.ClearFloatLeft",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.Display.ClearFloatRight",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.Display.ClearFloatBoth",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.Display.ClearFloatNone",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.Display.ClearFloatInherit",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.Display.ClearFloatInlineStart",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.Display.ClearFloatInlineEnd",
+        sigValues: [  ]
+    } ]);
+}, function (v) {
+    if (v instanceof ClearFloatLeft) {
+        return new Data_Generic.SProd("CSS.Display.ClearFloatLeft", [  ]);
+    };
+    if (v instanceof ClearFloatRight) {
+        return new Data_Generic.SProd("CSS.Display.ClearFloatRight", [  ]);
+    };
+    if (v instanceof ClearFloatBoth) {
+        return new Data_Generic.SProd("CSS.Display.ClearFloatBoth", [  ]);
+    };
+    if (v instanceof ClearFloatNone) {
+        return new Data_Generic.SProd("CSS.Display.ClearFloatNone", [  ]);
+    };
+    if (v instanceof ClearFloatInherit) {
+        return new Data_Generic.SProd("CSS.Display.ClearFloatInherit", [  ]);
+    };
+    if (v instanceof ClearFloatInlineStart) {
+        return new Data_Generic.SProd("CSS.Display.ClearFloatInlineStart", [  ]);
+    };
+    if (v instanceof ClearFloatInlineEnd) {
+        return new Data_Generic.SProd("CSS.Display.ClearFloatInlineEnd", [  ]);
+    };
+    throw new Error("Failed pattern match at CSS.Display line 144, column 8 - line 144, column 56: " + [ v.constructor.name ]);
+});
+var showClearFloat = new Data_Show.Show(Data_Generic.gShow(genericClearFloat));
+var floatRight = FloatRight.value;
+var floatLeft = FloatLeft.value;
+var $$float = CSS_Stylesheet.key(valFloat)(CSS_String.fromString(CSS_Property.isStringKey)("float"));
+var flex = Display(CSS_String.fromString(CSS_Property.isStringValue)("flex"));
+var fixed = Position(CSS_String.fromString(CSS_Property.isStringValue)("fixed"));
+var eqPosition = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordPosition = new Data_Ord.Ord(function () {
+    return eqPosition;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqFloat = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        if (x instanceof FloatLeft && y instanceof FloatLeft) {
+            return true;
+        };
+        if (x instanceof FloatRight && y instanceof FloatRight) {
+            return true;
+        };
+        if (x instanceof FloatNone && y instanceof FloatNone) {
+            return true;
+        };
+        return false;
+    };
+});
+var eqDisplay = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordDisplay = new Data_Ord.Ord(function () {
+    return eqDisplay;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqClearFloat = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        if (x instanceof ClearFloatLeft && y instanceof ClearFloatLeft) {
+            return true;
+        };
+        if (x instanceof ClearFloatRight && y instanceof ClearFloatRight) {
+            return true;
+        };
+        if (x instanceof ClearFloatBoth && y instanceof ClearFloatBoth) {
+            return true;
+        };
+        if (x instanceof ClearFloatNone && y instanceof ClearFloatNone) {
+            return true;
+        };
+        if (x instanceof ClearFloatInherit && y instanceof ClearFloatInherit) {
+            return true;
+        };
+        if (x instanceof ClearFloatInlineStart && y instanceof ClearFloatInlineStart) {
+            return true;
+        };
+        if (x instanceof ClearFloatInlineEnd && y instanceof ClearFloatInlineEnd) {
+            return true;
+        };
+        return false;
+    };
+});
+var displayNone = Display(CSS_String.fromString(CSS_Property.isStringValue)("none"));
+var displayInherit = Display(CSS_String.fromString(CSS_Property.isStringValue)("inherit"));
+var display = CSS_Stylesheet.key(valDisplay)(CSS_String.fromString(CSS_Property.isStringKey)("display"));
+var clearRight = ClearFloatRight.value;
+var clearLeft = ClearFloatLeft.value;
+var clearInlineStart = ClearFloatInlineStart.value;
+var clearInlineEnd = ClearFloatInlineEnd.value;
+var clearBoth = ClearFloatBoth.value;
+var clear = CSS_Stylesheet.key(valClearFloat)(CSS_String.fromString(CSS_Property.isStringKey)("clear"));
+var block = Display(CSS_String.fromString(CSS_Property.isStringValue)("block"));
+var absolute = Position(CSS_String.fromString(CSS_Property.isStringValue)("absolute"));
+module.exports = {
+    Position: Position,
+    position: position,
+    "static": $$static,
+    absolute: absolute,
+    fixed: fixed,
+    relative: relative,
+    Display: Display,
+    inline: inline,
+    block: block,
+    listItem: listItem,
+    runIn: runIn,
+    inlineBlock: inlineBlock,
+    table: table,
+    inlineTable: inlineTable,
+    tableRowGroup: tableRowGroup,
+    tableHeaderGroup: tableHeaderGroup,
+    tableFooterGroup: tableFooterGroup,
+    tableRow: tableRow,
+    tableColumnGroup: tableColumnGroup,
+    tableColumn: tableColumn,
+    tableCell: tableCell,
+    tableCaption: tableCaption,
+    displayNone: displayNone,
+    displayInherit: displayInherit,
+    flex: flex,
+    inlineFlex: inlineFlex,
+    grid: grid,
+    inlineGrid: inlineGrid,
+    display: display,
+    FloatLeft: FloatLeft,
+    FloatRight: FloatRight,
+    FloatNone: FloatNone,
+    floatLeft: floatLeft,
+    floatRight: floatRight,
+    "float": $$float,
+    ClearFloatLeft: ClearFloatLeft,
+    ClearFloatRight: ClearFloatRight,
+    ClearFloatBoth: ClearFloatBoth,
+    ClearFloatNone: ClearFloatNone,
+    ClearFloatInherit: ClearFloatInherit,
+    ClearFloatInlineStart: ClearFloatInlineStart,
+    ClearFloatInlineEnd: ClearFloatInlineEnd,
+    clearLeft: clearLeft,
+    clearRight: clearRight,
+    clearBoth: clearBoth,
+    clearInlineStart: clearInlineStart,
+    clearInlineEnd: clearInlineEnd,
+    clear: clear,
+    zIndex: zIndex,
+    eqPosition: eqPosition,
+    ordPosition: ordPosition,
+    genericPosition: genericPosition,
+    valPosition: valPosition,
+    eqDisplay: eqDisplay,
+    ordDisplay: ordDisplay,
+    genericDisplay: genericDisplay,
+    valDisplay: valDisplay,
+    eqFloat: eqFloat,
+    genericFloat: genericFloat,
+    showFloat: showFloat,
+    valFloat: valFloat,
+    noneFloat: noneFloat,
+    eqClearFloat: eqClearFloat,
+    genericClearFloat: genericClearFloat,
+    showClearFloat: showClearFloat,
+    valClearFloat: valClearFloat,
+    noneClearFloat: noneClearFloat,
+    inheritClearFloat: inheritClearFloat
+};
+
+},{"../CSS.Common":171,"../CSS.Property":179,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Show":339,"../Data.Unit":363,"../Prelude":375}],173:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Selector = require("../CSS.Selector");
+var CSS_String = require("../CSS.String");
+var $$var = CSS_String.fromString(CSS_Selector.isStringSelector)("var");
+var ul = CSS_String.fromString(CSS_Selector.isStringSelector)("ul");
+var u = CSS_String.fromString(CSS_Selector.isStringSelector)("u");
+var tr = CSS_String.fromString(CSS_Selector.isStringSelector)("tr");
+var thead = CSS_String.fromString(CSS_Selector.isStringSelector)("thead");
+var th = CSS_String.fromString(CSS_Selector.isStringSelector)("th");
+var tfoot = CSS_String.fromString(CSS_Selector.isStringSelector)("tfoot");
+var textarea = CSS_String.fromString(CSS_Selector.isStringSelector)("textarea");
+var td = CSS_String.fromString(CSS_Selector.isStringSelector)("td");
+var tbody = CSS_String.fromString(CSS_Selector.isStringSelector)("tbody");
+var sup = CSS_String.fromString(CSS_Selector.isStringSelector)("sup");
+var summary = CSS_String.fromString(CSS_Selector.isStringSelector)("summary");
+var sub = CSS_String.fromString(CSS_Selector.isStringSelector)("sub");
+var strong = CSS_String.fromString(CSS_Selector.isStringSelector)("strong");
+var span = CSS_String.fromString(CSS_Selector.isStringSelector)("span");
+var small = CSS_String.fromString(CSS_Selector.isStringSelector)("small");
+var section = CSS_String.fromString(CSS_Selector.isStringSelector)("section");
+var samp = CSS_String.fromString(CSS_Selector.isStringSelector)("samp");
+var s = CSS_String.fromString(CSS_Selector.isStringSelector)("s");
+var q = CSS_String.fromString(CSS_Selector.isStringSelector)("q");
+var progress = CSS_String.fromString(CSS_Selector.isStringSelector)("progress");
+var pre = CSS_String.fromString(CSS_Selector.isStringSelector)("pre");
+var p = CSS_String.fromString(CSS_Selector.isStringSelector)("p");
+var output = CSS_String.fromString(CSS_Selector.isStringSelector)("output");
+var optgroup = CSS_String.fromString(CSS_Selector.isStringSelector)("optgroup");
+var ol = CSS_String.fromString(CSS_Selector.isStringSelector)("ol");
+var object = CSS_String.fromString(CSS_Selector.isStringSelector)("object");
+var nav = CSS_String.fromString(CSS_Selector.isStringSelector)("nav");
+var meter = CSS_String.fromString(CSS_Selector.isStringSelector)("meter");
+var mark = CSS_String.fromString(CSS_Selector.isStringSelector)("mark");
+var map = CSS_String.fromString(CSS_Selector.isStringSelector)("map");
+var main = CSS_String.fromString(CSS_Selector.isStringSelector)("main");
+var li = CSS_String.fromString(CSS_Selector.isStringSelector)("li");
+var legend = CSS_String.fromString(CSS_Selector.isStringSelector)("legend");
+var label = CSS_String.fromString(CSS_Selector.isStringSelector)("label");
+var kbd = CSS_String.fromString(CSS_Selector.isStringSelector)("kbd");
+var ins = CSS_String.fromString(CSS_Selector.isStringSelector)("ins");
+var input = CSS_String.fromString(CSS_Selector.isStringSelector)("input");
+var img = CSS_String.fromString(CSS_Selector.isStringSelector)("img");
+var iframe = CSS_String.fromString(CSS_Selector.isStringSelector)("iframe");
+var i = CSS_String.fromString(CSS_Selector.isStringSelector)("i");
+var html = CSS_String.fromString(CSS_Selector.isStringSelector)("html");
+var hr = CSS_String.fromString(CSS_Selector.isStringSelector)("hr");
+var header = CSS_String.fromString(CSS_Selector.isStringSelector)("header");
+var h6 = CSS_String.fromString(CSS_Selector.isStringSelector)("h6");
+var h5 = CSS_String.fromString(CSS_Selector.isStringSelector)("h5");
+var h4 = CSS_String.fromString(CSS_Selector.isStringSelector)("h4");
+var h3 = CSS_String.fromString(CSS_Selector.isStringSelector)("h3");
+var h2 = CSS_String.fromString(CSS_Selector.isStringSelector)("h2");
+var h1 = CSS_String.fromString(CSS_Selector.isStringSelector)("h1");
+var form = CSS_String.fromString(CSS_Selector.isStringSelector)("form");
+var footer = CSS_String.fromString(CSS_Selector.isStringSelector)("footer");
+var figure = CSS_String.fromString(CSS_Selector.isStringSelector)("figure");
+var figcaption = CSS_String.fromString(CSS_Selector.isStringSelector)("figcaption");
+var fieldset = CSS_String.fromString(CSS_Selector.isStringSelector)("fieldset");
+var embed = CSS_String.fromString(CSS_Selector.isStringSelector)("embed");
+var dt = CSS_String.fromString(CSS_Selector.isStringSelector)("dt");
+var dl = CSS_String.fromString(CSS_Selector.isStringSelector)("dl");
+var div = CSS_String.fromString(CSS_Selector.isStringSelector)("div");
+var dfn = CSS_String.fromString(CSS_Selector.isStringSelector)("dfn");
+var details = CSS_String.fromString(CSS_Selector.isStringSelector)("details");
+var del = CSS_String.fromString(CSS_Selector.isStringSelector)("del");
+var dd = CSS_String.fromString(CSS_Selector.isStringSelector)("dd");
+var datalist = CSS_String.fromString(CSS_Selector.isStringSelector)("datalist");
+var colgroup = CSS_String.fromString(CSS_Selector.isStringSelector)("colgroup");
+var col = CSS_String.fromString(CSS_Selector.isStringSelector)("col");
+var code = CSS_String.fromString(CSS_Selector.isStringSelector)("code");
+var cite = CSS_String.fromString(CSS_Selector.isStringSelector)("cite");
+var caption = CSS_String.fromString(CSS_Selector.isStringSelector)("caption");
+var canvas = CSS_String.fromString(CSS_Selector.isStringSelector)("canvas");
+var button = CSS_String.fromString(CSS_Selector.isStringSelector)("button");
+var br = CSS_String.fromString(CSS_Selector.isStringSelector)("br");
+var body = CSS_String.fromString(CSS_Selector.isStringSelector)("body");
+var blockquote = CSS_String.fromString(CSS_Selector.isStringSelector)("blockquote");
+var bdo = CSS_String.fromString(CSS_Selector.isStringSelector)("bdo");
+var bdi = CSS_String.fromString(CSS_Selector.isStringSelector)("bdi");
+var b = CSS_String.fromString(CSS_Selector.isStringSelector)("b");
+var audio = CSS_String.fromString(CSS_Selector.isStringSelector)("audio");
+var aside = CSS_String.fromString(CSS_Selector.isStringSelector)("aside");
+var article = CSS_String.fromString(CSS_Selector.isStringSelector)("article");
+var area = CSS_String.fromString(CSS_Selector.isStringSelector)("area");
+var address = CSS_String.fromString(CSS_Selector.isStringSelector)("address");
+var abbr = CSS_String.fromString(CSS_Selector.isStringSelector)("abbr");
+var a = CSS_String.fromString(CSS_Selector.isStringSelector)("a");
+module.exports = {
+    a: a,
+    abbr: abbr,
+    address: address,
+    area: area,
+    article: article,
+    aside: aside,
+    audio: audio,
+    b: b,
+    bdi: bdi,
+    bdo: bdo,
+    blockquote: blockquote,
+    body: body,
+    br: br,
+    button: button,
+    canvas: canvas,
+    caption: caption,
+    cite: cite,
+    code: code,
+    col: col,
+    colgroup: colgroup,
+    datalist: datalist,
+    dd: dd,
+    del: del,
+    details: details,
+    dfn: dfn,
+    div: div,
+    dl: dl,
+    dt: dt,
+    embed: embed,
+    fieldset: fieldset,
+    figcaption: figcaption,
+    figure: figure,
+    footer: footer,
+    form: form,
+    h1: h1,
+    h2: h2,
+    h3: h3,
+    h4: h4,
+    h5: h5,
+    h6: h6,
+    header: header,
+    hr: hr,
+    html: html,
+    i: i,
+    iframe: iframe,
+    img: img,
+    input: input,
+    ins: ins,
+    kbd: kbd,
+    label: label,
+    legend: legend,
+    li: li,
+    main: main,
+    map: map,
+    mark: mark,
+    meter: meter,
+    nav: nav,
+    object: object,
+    ol: ol,
+    optgroup: optgroup,
+    output: output,
+    p: p,
+    pre: pre,
+    progress: progress,
+    q: q,
+    s: s,
+    samp: samp,
+    section: section,
+    small: small,
+    span: span,
+    strong: strong,
+    sub: sub,
+    summary: summary,
+    sup: sup,
+    tbody: tbody,
+    td: td,
+    textarea: textarea,
+    tfoot: tfoot,
+    th: th,
+    thead: thead,
+    tr: tr,
+    u: u,
+    ul: ul,
+    "var": $$var
+};
+
+},{"../CSS.Selector":182,"../CSS.String":184}],174:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Common = require("../CSS.Common");
+var CSS_Property = require("../CSS.Property");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Apply = require("../Control.Apply");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Show = require("../Data.Show");
+var Data_Tuple = require("../Data.Tuple");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var JustifyContentValue = function (x) {
+    return x;
+};
+var FlexWrap = function (x) {
+    return x;
+};
+var FlexDirection = function (x) {
+    return x;
+};
+var AlignSelfValue = function (x) {
+    return x;
+};
+var AlignItemsValue = function (x) {
+    return x;
+};
+var AlignContentValue = function (x) {
+    return x;
+};
+var FlexEnd = function (flexEnd) {
+    this.flexEnd = flexEnd;
+};
+var FlexStart = function (flexStart) {
+    this.flexStart = flexStart;
+};
+var SpaceAround = function (spaceAround) {
+    this.spaceAround = spaceAround;
+};
+var SpaceBetween = function (spaceBetween) {
+    this.spaceBetween = spaceBetween;
+};
+var Stretch = function (stretch) {
+    this.stretch = stretch;
+};
+var wrapReverse = FlexWrap(CSS_String.fromString(CSS_Property.isStringValue)("wrap-reverse"));
+var wrap = FlexWrap(CSS_String.fromString(CSS_Property.isStringValue)("wrap"));
+var valJustifyContentValue = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valFlexWrap = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valFlexDirection = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valAlignSelfValue = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valAlignItemsValue = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valAlignContentValue = new CSS_Property.Val(function (v) {
+    return v;
+});
+var stretchValue = new Stretch(CSS_String.fromString(CSS_Property.isStringValue)("stretch"));
+var stretch = function (dict) {
+    return dict.stretch;
+};
+var spaceBetweenValue = new SpaceBetween(CSS_String.fromString(CSS_Property.isStringValue)("space-between"));
+var spaceBetween = function (dict) {
+    return dict.spaceBetween;
+};
+var spaceAroundValue = new SpaceAround(CSS_String.fromString(CSS_Property.isStringValue)("space-around"));
+var spaceAround = function (dict) {
+    return dict.spaceAround;
+};
+var rowReverse = FlexDirection(CSS_String.fromString(CSS_Property.isStringValue)("row-reverse"));
+var row = FlexDirection(CSS_String.fromString(CSS_Property.isStringValue)("row"));
+var otherJustifyContentValue = new CSS_Common.Other(JustifyContentValue);
+var otherFlexWrap = new CSS_Common.Other(FlexWrap);
+var otherFlexDirection = new CSS_Common.Other(FlexDirection);
+var otherAlignSelfValue = new CSS_Common.Other(AlignSelfValue);
+var otherAlignItemsValue = new CSS_Common.Other(AlignItemsValue);
+var otherAlignContentValue = new CSS_Common.Other(AlignContentValue);
+var order = function (i) {
+    return CSS_Stylesheet.key(CSS_Property.valValue)(CSS_String.fromString(CSS_Property.isStringKey)("order"))(CSS_String.fromString(CSS_Property.isStringValue)(Data_Show.show(Data_Show.showInt)(i)));
+};
+var nowrap = FlexWrap(CSS_String.fromString(CSS_Property.isStringValue)("nowrap"));
+var justifyContent = CSS_Stylesheet.key(valJustifyContentValue)(CSS_String.fromString(CSS_Property.isStringKey)("justify-content"));
+var isStringJustifyContentValue = new CSS_String.IsString(function ($138) {
+    return JustifyContentValue(CSS_String.fromString(CSS_Property.isStringValue)($138));
+});
+var spaceAroundJustifyContentValue = new SpaceAround(CSS_String.fromString(isStringJustifyContentValue)("space-around"));
+var spaceBetweenJustifyContentValue = new SpaceBetween(CSS_String.fromString(isStringJustifyContentValue)("space-between"));
+var isStringAlignSelfValue = new CSS_String.IsString(function ($139) {
+    return AlignSelfValue(CSS_String.fromString(CSS_Property.isStringValue)($139));
+});
+var stretchAlignSelfValue = new Stretch(CSS_String.fromString(isStringAlignSelfValue)("stretch"));
+var isStringAlignItemsValue = new CSS_String.IsString(function ($140) {
+    return AlignItemsValue(CSS_String.fromString(CSS_Property.isStringValue)($140));
+});
+var stretchAlignItemsValue = new Stretch(CSS_String.fromString(isStringAlignItemsValue)("stretch"));
+var isStringAlignContentValue = new CSS_String.IsString(function ($141) {
+    return AlignContentValue(CSS_String.fromString(CSS_Property.isStringValue)($141));
+});
+var spaceAroundAlignContentValue = new SpaceAround(CSS_String.fromString(isStringAlignContentValue)("space-around"));
+var spaceBetweenAlignContentValue = new SpaceBetween(CSS_String.fromString(isStringAlignContentValue)("space-between"));
+var stretchAlignContentValue = new Stretch(CSS_String.fromString(isStringAlignContentValue)("stretch"));
+var inheritJustifyContentValue = new CSS_Common.Inherit(CSS_String.fromString(isStringJustifyContentValue)("inherit"));
+var inheritAlignSelfValue = new CSS_Common.Inherit(CSS_String.fromString(isStringAlignSelfValue)("inherit"));
+var inheritAlignItemsValue = new CSS_Common.Inherit(CSS_String.fromString(isStringAlignItemsValue)("inherit"));
+var inheritAlignContentValue = new CSS_Common.Inherit(CSS_String.fromString(isStringAlignContentValue)("inherit"));
+var genericJustifyContentValue = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Flexbox.JustifyContentValue" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(JustifyContentValue))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Flexbox.JustifyContentValue", [ {
+        sigConstructor: "CSS.Flexbox.JustifyContentValue",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Flexbox.JustifyContentValue", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericFlexWrap = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Flexbox.FlexWrap" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(FlexWrap))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Flexbox.FlexWrap", [ {
+        sigConstructor: "CSS.Flexbox.FlexWrap",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Flexbox.FlexWrap", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericFlexDirection = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Flexbox.FlexDirection" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(FlexDirection))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Flexbox.FlexDirection", [ {
+        sigConstructor: "CSS.Flexbox.FlexDirection",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Flexbox.FlexDirection", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericAlignSelfValue = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Flexbox.AlignSelfValue" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(AlignSelfValue))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Flexbox.AlignSelfValue", [ {
+        sigConstructor: "CSS.Flexbox.AlignSelfValue",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Flexbox.AlignSelfValue", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericAlignItemsValue = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Flexbox.AlignItemsValue" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(AlignItemsValue))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Flexbox.AlignItemsValue", [ {
+        sigConstructor: "CSS.Flexbox.AlignItemsValue",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Flexbox.AlignItemsValue", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericAlignContentValue = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Flexbox.AlignContentValue" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(AlignContentValue))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Flexbox.AlignContentValue", [ {
+        sigConstructor: "CSS.Flexbox.AlignContentValue",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Flexbox.AlignContentValue", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var flexWrap = CSS_Stylesheet.key(valFlexWrap)(CSS_String.fromString(CSS_Property.isStringKey)("flex-wrap"));
+var flexStartValue = new FlexStart(CSS_String.fromString(CSS_Property.isStringValue)("flex-start"));
+var flexStartJustifyContentValue = new FlexStart(CSS_String.fromString(isStringJustifyContentValue)("flex-start"));
+var flexStartAlignSelfValue = new FlexStart(CSS_String.fromString(isStringAlignSelfValue)("flex-start"));
+var flexStartAlignItemsValue = new FlexStart(CSS_String.fromString(isStringAlignItemsValue)("flex-start"));
+var flexStartAlignContentValue = new FlexStart(CSS_String.fromString(isStringAlignContentValue)("flex-start"));
+var flexStart = function (dict) {
+    return dict.flexStart;
+};
+var flexShrink = function (i) {
+    return CSS_Stylesheet.key(CSS_Property.valValue)(CSS_String.fromString(CSS_Property.isStringKey)("flex-shrink"))(CSS_String.fromString(CSS_Property.isStringValue)(Data_Show.show(Data_Show.showInt)(i)));
+};
+var flexGrow = function (i) {
+    return CSS_Stylesheet.key(CSS_Property.valValue)(CSS_String.fromString(CSS_Property.isStringKey)("flex-grow"))(CSS_String.fromString(CSS_Property.isStringValue)(Data_Show.show(Data_Show.showInt)(i)));
+};
+var flexFlow = function (d) {
+    return function (w) {
+        return CSS_Stylesheet.key(CSS_Property.valTuple(valFlexDirection)(valFlexWrap))(CSS_String.fromString(CSS_Property.isStringKey)("flex-flow"))(new Data_Tuple.Tuple(d, w));
+    };
+};
+var flexEndValue = new FlexEnd(CSS_String.fromString(CSS_Property.isStringValue)("flex-end"));
+var flexEndJustifyContentValue = new FlexEnd(CSS_String.fromString(isStringJustifyContentValue)("flex-end"));
+var flexEndAlignSelfValue = new FlexEnd(CSS_String.fromString(isStringAlignSelfValue)("flex-end"));
+var flexEndAlignItemsValue = new FlexEnd(CSS_String.fromString(isStringAlignItemsValue)("flex-end"));
+var flexEndAlignContentValue = new FlexEnd(CSS_String.fromString(isStringAlignContentValue)("flex-end"));
+var flexEnd = function (dict) {
+    return dict.flexEnd;
+};
+var flexDirection = CSS_Stylesheet.key(valFlexDirection)(CSS_String.fromString(CSS_Property.isStringKey)("flex-direction"));
+var flexBasis = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("flex-basis"));
+var flex = function (g) {
+    return function (s) {
+        return function (b) {
+            var ss = CSS_String.fromString(CSS_Property.isStringValue)(Data_Show.show(Data_Show.showInt)(s));
+            var gs = CSS_String.fromString(CSS_Property.isStringValue)(Data_Show.show(Data_Show.showInt)(g));
+            return CSS_Stylesheet.key(CSS_Property.valTuple(CSS_Property.valValue)(CSS_Property.valTuple(CSS_Property.valValue)(CSS_Property.valValue)))(CSS_String.fromString(CSS_Property.isStringKey)("flex"))(new Data_Tuple.Tuple(gs, new Data_Tuple.Tuple(ss, CSS_Property.value(CSS_Size.valSize)(b))));
+        };
+    };
+};
+var eqJustifyContentValue = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordJustifyContentValue = new Data_Ord.Ord(function () {
+    return eqJustifyContentValue;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqFlexWrap = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordFlexWrap = new Data_Ord.Ord(function () {
+    return eqFlexWrap;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqFlexDirection = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordFlexDirection = new Data_Ord.Ord(function () {
+    return eqFlexDirection;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqAlignSelfValue = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordAlignSelfValue = new Data_Ord.Ord(function () {
+    return eqAlignSelfValue;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqAlignItemsValue = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordAlignItemsValue = new Data_Ord.Ord(function () {
+    return eqAlignItemsValue;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqAlignContentValue = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordAlignContentValue = new Data_Ord.Ord(function () {
+    return eqAlignContentValue;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var columnReverse = FlexDirection(CSS_String.fromString(CSS_Property.isStringValue)("column-reverse"));
+var column = FlexDirection(CSS_String.fromString(CSS_Property.isStringValue)("column"));
+var centerJustifyContentValue = new CSS_Common.Center(CSS_String.fromString(isStringJustifyContentValue)("center"));
+var centerAlignSelfValue = new CSS_Common.Center(CSS_String.fromString(isStringAlignSelfValue)("center"));
+var centerAlignItemsValue = new CSS_Common.Center(CSS_String.fromString(isStringAlignItemsValue)("center"));
+var centerAlignContentValue = new CSS_Common.Center(CSS_String.fromString(isStringAlignContentValue)("center"));
+var baselineAlignSelfValue = new CSS_Common.Baseline(CSS_String.fromString(isStringAlignSelfValue)("baseline"));
+var baselineAlignItemsValue = new CSS_Common.Baseline(CSS_String.fromString(isStringAlignItemsValue)("baseline"));
+var autoAlignSelfValue = new CSS_Common.Auto(CSS_String.fromString(isStringAlignSelfValue)("auto"));
+var alignSelf = CSS_Stylesheet.key(valAlignSelfValue)(CSS_String.fromString(CSS_Property.isStringKey)("align-self"));
+var alignItems = CSS_Stylesheet.key(valAlignItemsValue)(CSS_String.fromString(CSS_Property.isStringKey)("align-items"));
+var alignContent = CSS_Stylesheet.key(valAlignContentValue)(CSS_String.fromString(CSS_Property.isStringKey)("align-content"));
+module.exports = {
+    flexEnd: flexEnd,
+    flexStart: flexStart,
+    spaceAround: spaceAround,
+    spaceBetween: spaceBetween,
+    stretch: stretch,
+    FlexEnd: FlexEnd,
+    FlexStart: FlexStart,
+    SpaceAround: SpaceAround,
+    SpaceBetween: SpaceBetween,
+    Stretch: Stretch,
+    AlignContentValue: AlignContentValue,
+    alignContent: alignContent,
+    AlignItemsValue: AlignItemsValue,
+    alignItems: alignItems,
+    AlignSelfValue: AlignSelfValue,
+    alignSelf: alignSelf,
+    flex: flex,
+    flexBasis: flexBasis,
+    FlexDirection: FlexDirection,
+    row: row,
+    rowReverse: rowReverse,
+    column: column,
+    columnReverse: columnReverse,
+    flexDirection: flexDirection,
+    flexFlow: flexFlow,
+    flexGrow: flexGrow,
+    flexShrink: flexShrink,
+    FlexWrap: FlexWrap,
+    nowrap: nowrap,
+    wrap: wrap,
+    wrapReverse: wrapReverse,
+    flexWrap: flexWrap,
+    JustifyContentValue: JustifyContentValue,
+    justifyContent: justifyContent,
+    order: order,
+    flexEndValue: flexEndValue,
+    flexStartValue: flexStartValue,
+    spaceAroundValue: spaceAroundValue,
+    spaceBetweenValue: spaceBetweenValue,
+    stretchValue: stretchValue,
+    eqAlignContentValue: eqAlignContentValue,
+    ordAlignContentValue: ordAlignContentValue,
+    genericAlignContentValue: genericAlignContentValue,
+    isStringAlignContentValue: isStringAlignContentValue,
+    valAlignContentValue: valAlignContentValue,
+    otherAlignContentValue: otherAlignContentValue,
+    inheritAlignContentValue: inheritAlignContentValue,
+    flexStartAlignContentValue: flexStartAlignContentValue,
+    flexEndAlignContentValue: flexEndAlignContentValue,
+    centerAlignContentValue: centerAlignContentValue,
+    spaceBetweenAlignContentValue: spaceBetweenAlignContentValue,
+    spaceAroundAlignContentValue: spaceAroundAlignContentValue,
+    stretchAlignContentValue: stretchAlignContentValue,
+    eqAlignItemsValue: eqAlignItemsValue,
+    ordAlignItemsValue: ordAlignItemsValue,
+    genericAlignItemsValue: genericAlignItemsValue,
+    isStringAlignItemsValue: isStringAlignItemsValue,
+    valAlignItemsValue: valAlignItemsValue,
+    otherAlignItemsValue: otherAlignItemsValue,
+    inheritAlignItemsValue: inheritAlignItemsValue,
+    baselineAlignItemsValue: baselineAlignItemsValue,
+    centerAlignItemsValue: centerAlignItemsValue,
+    flexEndAlignItemsValue: flexEndAlignItemsValue,
+    flexStartAlignItemsValue: flexStartAlignItemsValue,
+    stretchAlignItemsValue: stretchAlignItemsValue,
+    eqAlignSelfValue: eqAlignSelfValue,
+    ordAlignSelfValue: ordAlignSelfValue,
+    genericAlignSelfValue: genericAlignSelfValue,
+    isStringAlignSelfValue: isStringAlignSelfValue,
+    valAlignSelfValue: valAlignSelfValue,
+    otherAlignSelfValue: otherAlignSelfValue,
+    inheritAlignSelfValue: inheritAlignSelfValue,
+    autoAlignSelfValue: autoAlignSelfValue,
+    baselineAlignSelfValue: baselineAlignSelfValue,
+    centerAlignSelfValue: centerAlignSelfValue,
+    flexEndAlignSelfValue: flexEndAlignSelfValue,
+    flexStartAlignSelfValue: flexStartAlignSelfValue,
+    stretchAlignSelfValue: stretchAlignSelfValue,
+    eqFlexDirection: eqFlexDirection,
+    ordFlexDirection: ordFlexDirection,
+    genericFlexDirection: genericFlexDirection,
+    valFlexDirection: valFlexDirection,
+    otherFlexDirection: otherFlexDirection,
+    eqFlexWrap: eqFlexWrap,
+    ordFlexWrap: ordFlexWrap,
+    genericFlexWrap: genericFlexWrap,
+    valFlexWrap: valFlexWrap,
+    otherFlexWrap: otherFlexWrap,
+    eqJustifyContentValue: eqJustifyContentValue,
+    ordJustifyContentValue: ordJustifyContentValue,
+    genericJustifyContentValue: genericJustifyContentValue,
+    isStringJustifyContentValue: isStringJustifyContentValue,
+    valJustifyContentValue: valJustifyContentValue,
+    otherJustifyContentValue: otherJustifyContentValue,
+    inheritJustifyContentValue: inheritJustifyContentValue,
+    centerJustifyContentValue: centerJustifyContentValue,
+    flexEndJustifyContentValue: flexEndJustifyContentValue,
+    flexStartJustifyContentValue: flexStartJustifyContentValue,
+    spaceAroundJustifyContentValue: spaceAroundJustifyContentValue,
+    spaceBetweenJustifyContentValue: spaceBetweenJustifyContentValue
+};
+
+},{"../CSS.Common":171,"../CSS.Property":179,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Show":339,"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],175:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Color = require("../CSS.Color");
+var CSS_Common = require("../CSS.Common");
+var CSS_Property = require("../CSS.Property");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Alternative = require("../Control.Alternative");
+var Control_Apply = require("../Control.Apply");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Functor = require("../Data.Functor");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_NonEmpty = require("../Data.NonEmpty");
+var Data_Ord = require("../Data.Ord");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var GenericFontFamily = function (x) {
+    return x;
+};
+var FontWeight = function (x) {
+    return x;
+};
+var FontStyle = function (x) {
+    return x;
+};
+var weight = function (i) {
+    return FontWeight(CSS_Property.value(CSS_Property.valNumber)(i));
+};
+var valGenericFontFamily = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valFontWeight = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valFontStyle = new CSS_Property.Val(function (v) {
+    return v;
+});
+var unsetFontWeight = new CSS_Common.Unset(CSS_String.fromString(CSS_Property.isStringValue)("unset"));
+var unsetFontStyle = new CSS_Common.Unset(CSS_String.fromString(CSS_Property.isStringValue)("unset"));
+var sansSerif = GenericFontFamily(CSS_String.fromString(CSS_Property.isStringValue)("sans-serif"));
+var oblique = FontStyle(CSS_String.fromString(CSS_Property.isStringValue)("oblique"));
+var normalFontWeight = new CSS_Common.Normal(CSS_String.fromString(CSS_Property.isStringValue)("normal"));
+var normalFontStyle = new CSS_Common.Normal(CSS_String.fromString(CSS_Property.isStringValue)("normal"));
+var lighter = FontWeight(CSS_String.fromString(CSS_Property.isStringValue)("lighter"));
+var italic = FontStyle(CSS_String.fromString(CSS_Property.isStringValue)("italic"));
+var initialFontWeight = new CSS_Common.Initial(CSS_String.fromString(CSS_Property.isStringValue)("initial"));
+var initialFontStyle = new CSS_Common.Initial(CSS_String.fromString(CSS_Property.isStringValue)("initial"));
+var inheritFontWeight = new CSS_Common.Inherit(CSS_String.fromString(CSS_Property.isStringValue)("inherit"));
+var inheritFontStyle = new CSS_Common.Inherit(CSS_String.fromString(CSS_Property.isStringValue)("inherit"));
+var genericGenericFontFamily = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Font.GenericFontFamily" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(GenericFontFamily))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Font.GenericFontFamily", [ {
+        sigConstructor: "CSS.Font.GenericFontFamily",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Font.GenericFontFamily", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericFontWeight = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Font.FontWeight" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(FontWeight))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Font.FontWeight", [ {
+        sigConstructor: "CSS.Font.FontWeight",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Font.FontWeight", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericFontStyle = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Font.FontStyle" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(FontStyle))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Font.FontStyle", [ {
+        sigConstructor: "CSS.Font.FontStyle",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Font.FontStyle", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var fontWeight = CSS_Stylesheet.key(valFontWeight)(CSS_String.fromString(CSS_Property.isStringKey)("font-weight"));
+var fontStyle = CSS_Stylesheet.key(valFontStyle)(CSS_String.fromString(CSS_Property.isStringKey)("font-style"));
+var fontSize = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("font-size"));
+var fontFamily = function (a) {
+    return function (b) {
+        return CSS_Stylesheet.key(CSS_Property.valValue)(CSS_String.fromString(CSS_Property.isStringKey)("font-family"))(CSS_Property.value(CSS_Property.valList(CSS_Property.valValue))(Data_Semigroup.append(Data_Semigroup.semigroupArray)(Data_Functor.map(Data_Functor.functorArray)(function ($69) {
+            return CSS_Property.value(CSS_Property.valString)(CSS_Property.quote($69));
+        })(a))(Data_NonEmpty.oneOf(Control_Alternative.alternativeArray)(Data_Functor.map(Data_NonEmpty.functorNonEmpty(Data_Functor.functorArray))(CSS_Property.value(valGenericFontFamily))(b)))));
+    };
+};
+var eqGenericFontFamily = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordGenericFontFamily = new Data_Ord.Ord(function () {
+    return eqGenericFontFamily;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqFontWeight = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordFontWeight = new Data_Ord.Ord(function () {
+    return eqFontWeight;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqFontStyle = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordFontStyle = new Data_Ord.Ord(function () {
+    return eqFontStyle;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var color = CSS_Stylesheet.key(CSS_Property.valColor)(CSS_String.fromString(CSS_Property.isStringKey)("color"));
+var bolder = FontWeight(CSS_String.fromString(CSS_Property.isStringValue)("bolder"));
+var bold = FontWeight(CSS_String.fromString(CSS_Property.isStringValue)("bold"));
+module.exports = {
+    color: color,
+    GenericFontFamily: GenericFontFamily,
+    sansSerif: sansSerif,
+    fontFamily: fontFamily,
+    fontSize: fontSize,
+    FontWeight: FontWeight,
+    bold: bold,
+    bolder: bolder,
+    lighter: lighter,
+    weight: weight,
+    fontWeight: fontWeight,
+    FontStyle: FontStyle,
+    italic: italic,
+    oblique: oblique,
+    fontStyle: fontStyle,
+    eqGenericFontFamily: eqGenericFontFamily,
+    ordGenericFontFamily: ordGenericFontFamily,
+    genericGenericFontFamily: genericGenericFontFamily,
+    valGenericFontFamily: valGenericFontFamily,
+    eqFontWeight: eqFontWeight,
+    ordFontWeight: ordFontWeight,
+    genericFontWeight: genericFontWeight,
+    valFontWeight: valFontWeight,
+    normalFontWeight: normalFontWeight,
+    initialFontWeight: initialFontWeight,
+    inheritFontWeight: inheritFontWeight,
+    unsetFontWeight: unsetFontWeight,
+    eqFontStyle: eqFontStyle,
+    ordFontStyle: ordFontStyle,
+    genericFontStyle: genericFontStyle,
+    valFontStyle: valFontStyle,
+    normalFontStyle: normalFontStyle,
+    initialFontStyle: initialFontStyle,
+    inheritFontStyle: inheritFontStyle,
+    unsetFontStyle: unsetFontStyle
+};
+
+},{"../CSS.Color":170,"../CSS.Common":171,"../CSS.Property":179,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Alternative":195,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Functor":293,"../Data.Generic":297,"../Data.Maybe":310,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Unit":363,"../Prelude":375}],176:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Property = require("../CSS.Property");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Apply = require("../Control.Apply");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_HeytingAlgebra = require("../Data.HeytingAlgebra");
+var Data_Maybe = require("../Data.Maybe");
+var Data_NonEmpty = require("../Data.NonEmpty");
+var Data_Ord = require("../Data.Ord");
+var Data_Ordering = require("../Data.Ordering");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var WOFF = (function () {
+    function WOFF() {
+
+    };
+    WOFF.value = new WOFF();
+    return WOFF;
+})();
+var WOFF2 = (function () {
+    function WOFF2() {
+
+    };
+    WOFF2.value = new WOFF2();
+    return WOFF2;
+})();
+var TrueType = (function () {
+    function TrueType() {
+
+    };
+    TrueType.value = new TrueType();
+    return TrueType;
+})();
+var OpenType = (function () {
+    function OpenType() {
+
+    };
+    OpenType.value = new OpenType();
+    return OpenType;
+})();
+var EmbeddedOpenType = (function () {
+    function EmbeddedOpenType() {
+
+    };
+    EmbeddedOpenType.value = new EmbeddedOpenType();
+    return EmbeddedOpenType;
+})();
+var SVG = (function () {
+    function SVG() {
+
+    };
+    SVG.value = new SVG();
+    return SVG;
+})();
+var FontFaceSrcUrl = (function () {
+    function FontFaceSrcUrl(value0, value1) {
+        this.value0 = value0;
+        this.value1 = value1;
+    };
+    FontFaceSrcUrl.create = function (value0) {
+        return function (value1) {
+            return new FontFaceSrcUrl(value0, value1);
+        };
+    };
+    return FontFaceSrcUrl;
+})();
+var FontFaceSrcLocal = (function () {
+    function FontFaceSrcLocal(value0) {
+        this.value0 = value0;
+    };
+    FontFaceSrcLocal.create = function (value0) {
+        return new FontFaceSrcLocal(value0);
+    };
+    return FontFaceSrcLocal;
+})();
+var genericFontFaceFormat = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.FontFace.WOFF" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(WOFF.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.FontFace.WOFF2" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(WOFF2.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.FontFace.TrueType" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(TrueType.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.FontFace.OpenType" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(OpenType.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.FontFace.EmbeddedOpenType" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(EmbeddedOpenType.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.FontFace.SVG" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(SVG.value);
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.FontFace.FontFaceFormat", [ {
+        sigConstructor: "CSS.FontFace.WOFF",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.FontFace.WOFF2",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.FontFace.TrueType",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.FontFace.OpenType",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.FontFace.EmbeddedOpenType",
+        sigValues: [  ]
+    }, {
+        sigConstructor: "CSS.FontFace.SVG",
+        sigValues: [  ]
+    } ]);
+}, function (v) {
+    if (v instanceof WOFF) {
+        return new Data_Generic.SProd("CSS.FontFace.WOFF", [  ]);
+    };
+    if (v instanceof WOFF2) {
+        return new Data_Generic.SProd("CSS.FontFace.WOFF2", [  ]);
+    };
+    if (v instanceof TrueType) {
+        return new Data_Generic.SProd("CSS.FontFace.TrueType", [  ]);
+    };
+    if (v instanceof OpenType) {
+        return new Data_Generic.SProd("CSS.FontFace.OpenType", [  ]);
+    };
+    if (v instanceof EmbeddedOpenType) {
+        return new Data_Generic.SProd("CSS.FontFace.EmbeddedOpenType", [  ]);
+    };
+    if (v instanceof SVG) {
+        return new Data_Generic.SProd("CSS.FontFace.SVG", [  ]);
+    };
+    throw new Error("Failed pattern match at CSS.FontFace line 26, column 8 - line 26, column 64: " + [ v.constructor.name ]);
+});
+var genericFontFaceSrc = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.FontFace.FontFaceSrcUrl" && v.value1.length === 2)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(FontFaceSrcUrl.create))(Data_Generic.fromSpine(Data_Generic.genericString)(v["value1"][0](Data_Unit.unit))))(Data_Generic.fromSpine(Data_Generic.genericMaybe(genericFontFaceFormat))(v["value1"][1](Data_Unit.unit)));
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.FontFace.FontFaceSrcLocal" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(FontFaceSrcLocal.create))(Data_Generic.fromSpine(Data_Generic.genericString)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.FontFace.FontFaceSrc", [ {
+        sigConstructor: "CSS.FontFace.FontFaceSrcUrl",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(Data_Generic.genericString)(Data_Generic.anyProxy);
+        }, function ($dollarq1) {
+            return Data_Generic.toSignature(Data_Generic.genericMaybe(genericFontFaceFormat))(Data_Generic.anyProxy);
+        } ]
+    }, {
+        sigConstructor: "CSS.FontFace.FontFaceSrcLocal",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(Data_Generic.genericString)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    if (v instanceof FontFaceSrcUrl) {
+        return new Data_Generic.SProd("CSS.FontFace.FontFaceSrcUrl", [ function ($dollarq) {
+            return Data_Generic.toSpine(Data_Generic.genericString)(v.value0);
+        }, function ($dollarq) {
+            return Data_Generic.toSpine(Data_Generic.genericMaybe(genericFontFaceFormat))(v.value1);
+        } ]);
+    };
+    if (v instanceof FontFaceSrcLocal) {
+        return new Data_Generic.SProd("CSS.FontFace.FontFaceSrcLocal", [ function ($dollarq) {
+            return Data_Generic.toSpine(Data_Generic.genericString)(v.value0);
+        } ]);
+    };
+    throw new Error("Failed pattern match at CSS.FontFace line 42, column 8 - line 42, column 58: " + [ v.constructor.name ]);
+});
+var formatName = function (v) {
+    if (v instanceof WOFF) {
+        return "woff";
+    };
+    if (v instanceof WOFF2) {
+        return "woff2";
+    };
+    if (v instanceof TrueType) {
+        return "truetype";
+    };
+    if (v instanceof OpenType) {
+        return "opentype";
+    };
+    if (v instanceof EmbeddedOpenType) {
+        return "embedded-opentype";
+    };
+    if (v instanceof SVG) {
+        return "svg";
+    };
+    throw new Error("Failed pattern match at CSS.FontFace line 28, column 1 - line 28, column 39: " + [ v.constructor.name ]);
+};
+var valFontFaceSrc = new CSS_Property.Val(function (v) {
+    if (v instanceof FontFaceSrcUrl) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("url(" + (CSS_Property.quote(v.value0) + (")" + Data_Maybe.maybe("")(function (f$prime) {
+            return " format(" + (CSS_Property.quote(formatName(f$prime)) + ")");
+        })(v.value1))));
+    };
+    if (v instanceof FontFaceSrcLocal) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("local(" + (CSS_Property.quote(v.value0) + ")"));
+    };
+    throw new Error("Failed pattern match at CSS.FontFace line 44, column 1 - line 44, column 43: " + [ v.constructor.name ]);
+});
+var fontFaceSrc = CSS_Stylesheet.key(CSS_Property.valNonEmpty(valFontFaceSrc))(CSS_String.fromString(CSS_Property.isStringKey)("src"));
+var fontFaceFamily = function ($90) {
+    return CSS_Stylesheet.key(CSS_Property.valLiteral)(CSS_String.fromString(CSS_Property.isStringKey)("font-family"))(CSS_Property.Literal($90));
+};
+var eqFontFaceFormat = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        if (x instanceof WOFF && y instanceof WOFF) {
+            return true;
+        };
+        if (x instanceof WOFF2 && y instanceof WOFF2) {
+            return true;
+        };
+        if (x instanceof TrueType && y instanceof TrueType) {
+            return true;
+        };
+        if (x instanceof OpenType && y instanceof OpenType) {
+            return true;
+        };
+        if (x instanceof EmbeddedOpenType && y instanceof EmbeddedOpenType) {
+            return true;
+        };
+        if (x instanceof SVG && y instanceof SVG) {
+            return true;
+        };
+        return false;
+    };
+});
+var eqFontFaceSrc = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        if (x instanceof FontFaceSrcUrl && y instanceof FontFaceSrcUrl) {
+            return x.value0 === y.value0 && Data_Eq.eq(Data_Maybe.eqMaybe(eqFontFaceFormat))(x.value1)(y.value1);
+        };
+        if (x instanceof FontFaceSrcLocal && y instanceof FontFaceSrcLocal) {
+            return x.value0 === y.value0;
+        };
+        return false;
+    };
+});
+var ordFontFaceFormat = new Data_Ord.Ord(function () {
+    return eqFontFaceFormat;
+}, function (x) {
+    return function (y) {
+        if (x instanceof WOFF && y instanceof WOFF) {
+            return Data_Ordering.EQ.value;
+        };
+        if (x instanceof WOFF) {
+            return Data_Ordering.LT.value;
+        };
+        if (y instanceof WOFF) {
+            return Data_Ordering.GT.value;
+        };
+        if (x instanceof WOFF2 && y instanceof WOFF2) {
+            return Data_Ordering.EQ.value;
+        };
+        if (x instanceof WOFF2) {
+            return Data_Ordering.LT.value;
+        };
+        if (y instanceof WOFF2) {
+            return Data_Ordering.GT.value;
+        };
+        if (x instanceof TrueType && y instanceof TrueType) {
+            return Data_Ordering.EQ.value;
+        };
+        if (x instanceof TrueType) {
+            return Data_Ordering.LT.value;
+        };
+        if (y instanceof TrueType) {
+            return Data_Ordering.GT.value;
+        };
+        if (x instanceof OpenType && y instanceof OpenType) {
+            return Data_Ordering.EQ.value;
+        };
+        if (x instanceof OpenType) {
+            return Data_Ordering.LT.value;
+        };
+        if (y instanceof OpenType) {
+            return Data_Ordering.GT.value;
+        };
+        if (x instanceof EmbeddedOpenType && y instanceof EmbeddedOpenType) {
+            return Data_Ordering.EQ.value;
+        };
+        if (x instanceof EmbeddedOpenType) {
+            return Data_Ordering.LT.value;
+        };
+        if (y instanceof EmbeddedOpenType) {
+            return Data_Ordering.GT.value;
+        };
+        if (x instanceof SVG && y instanceof SVG) {
+            return Data_Ordering.EQ.value;
+        };
+        throw new Error("Failed pattern match at CSS.FontFace line 25, column 8 - line 25, column 56: " + [ x.constructor.name, y.constructor.name ]);
+    };
+});
+var ordFontFaceSrc = new Data_Ord.Ord(function () {
+    return eqFontFaceSrc;
+}, function (x) {
+    return function (y) {
+        if (x instanceof FontFaceSrcUrl && y instanceof FontFaceSrcUrl) {
+            var v = Data_Ord.compare(Data_Ord.ordString)(x.value0)(y.value0);
+            if (v instanceof Data_Ordering.LT) {
+                return Data_Ordering.LT.value;
+            };
+            if (v instanceof Data_Ordering.GT) {
+                return Data_Ordering.GT.value;
+            };
+            return Data_Ord.compare(Data_Maybe.ordMaybe(ordFontFaceFormat))(x.value1)(y.value1);
+        };
+        if (x instanceof FontFaceSrcUrl) {
+            return Data_Ordering.LT.value;
+        };
+        if (y instanceof FontFaceSrcUrl) {
+            return Data_Ordering.GT.value;
+        };
+        if (x instanceof FontFaceSrcLocal && y instanceof FontFaceSrcLocal) {
+            return Data_Ord.compare(Data_Ord.ordString)(x.value0)(y.value0);
+        };
+        throw new Error("Failed pattern match at CSS.FontFace line 41, column 8 - line 41, column 50: " + [ x.constructor.name, y.constructor.name ]);
+    };
+});
+module.exports = {
+    fontFaceFamily: fontFaceFamily,
+    WOFF: WOFF,
+    WOFF2: WOFF2,
+    TrueType: TrueType,
+    OpenType: OpenType,
+    EmbeddedOpenType: EmbeddedOpenType,
+    SVG: SVG,
+    formatName: formatName,
+    FontFaceSrcUrl: FontFaceSrcUrl,
+    FontFaceSrcLocal: FontFaceSrcLocal,
+    fontFaceSrc: fontFaceSrc,
+    eqFontFaceFormat: eqFontFaceFormat,
+    ordFontFaceFormat: ordFontFaceFormat,
+    genericFontFaceFormat: genericFontFaceFormat,
+    eqFontFaceSrc: eqFontFaceSrc,
+    ordFontFaceSrc: ordFontFaceSrc,
+    genericFontFaceSrc: genericFontFaceSrc,
+    valFontFaceSrc: valFontFaceSrc
+};
+
+},{"../CSS.Property":179,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Unit":363,"../Prelude":375}],177:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Property = require("../CSS.Property");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Data_Function = require("../Data.Function");
+var Data_Tuple_Nested = require("../Data.Tuple.Nested");
+var width = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("width"));
+var top = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("top"));
+var right = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("right"));
+var paddingTop = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("padding-top"));
+var paddingRight = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("padding-right"));
+var paddingLeft = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("padding-left"));
+var paddingBottom = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("padding-bottom"));
+var padding = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return CSS_Stylesheet.key(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valUnit)))))(CSS_String.fromString(CSS_Property.isStringKey)("padding"))(Data_Tuple_Nested.tuple4(a)(b)(c)(d));
+            };
+        };
+    };
+};
+var minWidth = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("min-width"));
+var minHeight = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("min-height"));
+var maxWidth = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("max-width"));
+var maxHeight = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("max-height"));
+var marginTop = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("margin-top"));
+var marginRight = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("margin-right"));
+var marginLeft = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("margin-left"));
+var marginBottom = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("margin-bottom"));
+var margin = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return CSS_Stylesheet.key(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valUnit)))))(CSS_String.fromString(CSS_Property.isStringKey)("margin"))(Data_Tuple_Nested.tuple4(a)(b)(c)(d));
+            };
+        };
+    };
+};
+var lineHeight = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("line-height"));
+var left = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("left"));
+var height = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("height"));
+var bottom = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("bottom"));
+module.exports = {
+    width: width,
+    height: height,
+    minWidth: minWidth,
+    minHeight: minHeight,
+    maxWidth: maxWidth,
+    maxHeight: maxHeight,
+    top: top,
+    bottom: bottom,
+    left: left,
+    right: right,
+    padding: padding,
+    paddingTop: paddingTop,
+    paddingBottom: paddingBottom,
+    paddingLeft: paddingLeft,
+    paddingRight: paddingRight,
+    margin: margin,
+    marginTop: marginTop,
+    marginBottom: marginBottom,
+    marginLeft: marginLeft,
+    marginRight: marginRight,
+    lineHeight: lineHeight
+};
+
+},{"../CSS.Property":179,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Data.Function":288,"../Data.Tuple.Nested":358}],178:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Background = require("../CSS.Background");
+var CSS_Color = require("../CSS.Color");
+var CSS_Common = require("../CSS.Common");
+var CSS_Property = require("../CSS.Property");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var Control_Apply = require("../Control.Apply");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Functor = require("../Data.Functor");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Tuple = require("../Data.Tuple");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var Radial = function (x) {
+    return x;
+};
+var Extend = function (x) {
+    return x;
+};
+var valRadial = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valExtend = new CSS_Property.Val(function (v) {
+    return v;
+});
+var shortcut = function (g) {
+    return function (f) {
+        return function (t) {
+            return g([ new Data_Tuple.Tuple(f, CSS_Size.pct(0.0)), new Data_Tuple.Tuple(t, CSS_Size.pct(100.0)) ]);
+        };
+    };
+};
+var ramp = function (xs) {
+    return CSS_Property.value(CSS_Property.valList(CSS_Property.valValue))(Data_Functor.map(Data_Functor.functorArray)(function (v) {
+        return CSS_Property.value(CSS_Property.valTuple(CSS_Property.valValue)(CSS_Property.valValue))(new Data_Tuple.Tuple(CSS_Property.value(CSS_Property.valColor)(v.value0), CSS_Property.value(CSS_Size.valSize)(v.value1)));
+    })(xs));
+};
+var repeatingLinearGradient = function (d) {
+    return function (xs) {
+        return CSS_Common.other(CSS_Background.otherBackgroundImage)(CSS_Property.Value((function () {
+            var rlg = Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)("repeating-linear-gradient("))(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Background.valDirection)(d))(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)(","))(Data_Semigroup.append(CSS_Property.semigroupValue)(ramp(xs))(CSS_String.fromString(CSS_Property.isStringValue)(")")))));
+            return Data_Semigroup.append(CSS_Property.semigroupPrefixed)(CSS_Common.browsers)(rlg);
+        })()));
+    };
+};
+var vRepeatingGradient = shortcut(repeatingLinearGradient(CSS_Background.straight(CSS_Background.sideTop)));
+var repeatingRadialGradient = function (dictLoc) {
+    return function (d) {
+        return function (r) {
+            return function (xs) {
+                return CSS_Common.other(CSS_Background.otherBackgroundImage)(CSS_Property.Value((function () {
+                    var rrg = Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)("repeating-radial-gradient("))(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valList(CSS_Property.valValue))([ CSS_Property.value(dictLoc.Val0())(d), CSS_Property.value(valRadial)(r), ramp(xs) ]))(CSS_String.fromString(CSS_Property.isStringValue)(")")));
+                    return Data_Semigroup.append(CSS_Property.semigroupPrefixed)(CSS_Common.browsers)(rrg);
+                })()));
+            };
+        };
+    };
+};
+var radialGradient = function (dictLoc) {
+    return function (d) {
+        return function (r) {
+            return function (xs) {
+                return CSS_Common.other(CSS_Background.otherBackgroundImage)(CSS_Property.Value((function () {
+                    var rg = Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)("radial-gradient("))(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valList(CSS_Property.valValue))([ CSS_Property.value(dictLoc.Val0())(d), CSS_Property.value(valRadial)(r), ramp(xs) ]))(CSS_String.fromString(CSS_Property.isStringValue)(")")));
+                    return Data_Semigroup.append(CSS_Property.semigroupPrefixed)(CSS_Common.browsers)(rg);
+                })()));
+            };
+        };
+    };
+};
+var otherRadial = new CSS_Common.Other(Radial);
+var otherExtend = new CSS_Common.Other(Extend);
+var linearGradient = function (d) {
+    return function (xs) {
+        return CSS_Common.other(CSS_Background.otherBackgroundImage)(CSS_Property.Value((function () {
+            var lg = Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)("linear-gradient("))(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Background.valDirection)(d))(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)(","))(Data_Semigroup.append(CSS_Property.semigroupValue)(ramp(xs))(CSS_String.fromString(CSS_Property.isStringValue)(")")))));
+            return Data_Semigroup.append(CSS_Property.semigroupPrefixed)(CSS_Common.browsers)(lg);
+        })()));
+    };
+};
+var vGradient = shortcut(linearGradient(CSS_Background.straight(CSS_Background.sideTop)));
+var hRepeatingGradient = shortcut(repeatingLinearGradient(CSS_Background.straight(CSS_Background.sideLeft)));
+var hGradient = shortcut(linearGradient(CSS_Background.straight(CSS_Background.sideLeft)));
+var genericRadial = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Gradient.Radial" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Radial))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Gradient.Radial", [ {
+        sigConstructor: "CSS.Gradient.Radial",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Gradient.Radial", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var genericExtend = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Gradient.Extend" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Extend))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Gradient.Extend", [ {
+        sigConstructor: "CSS.Gradient.Extend",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Gradient.Extend", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var farthestSide = Extend(CSS_String.fromString(CSS_Property.isStringValue)("farthest-side"));
+var farthestCorner = Extend(CSS_String.fromString(CSS_Property.isStringValue)("farthest-corner"));
+var eqRadial = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordRadial = new Data_Ord.Ord(function () {
+    return eqRadial;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var eqExtend = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordExtend = new Data_Ord.Ord(function () {
+    return eqExtend;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var elliptical = function (radx) {
+    return function (rady) {
+        return CSS_Property.value(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Size.valSize))(new Data_Tuple.Tuple(radx, rady));
+    };
+};
+var ellipse = function (ext) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)("ellipse "))(CSS_Property.value(valExtend)(ext));
+};
+var closestSide = Extend(CSS_String.fromString(CSS_Property.isStringValue)("closest-side"));
+var closestCorner = Extend(CSS_String.fromString(CSS_Property.isStringValue)("closest-corner"));
+var circular = function (radius) {
+    return CSS_Property.value(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Size.valSize))(new Data_Tuple.Tuple(radius, radius));
+};
+var circle = function (ext) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)("circle "))(CSS_Property.value(valExtend)(ext));
+};
+module.exports = {
+    linearGradient: linearGradient,
+    hGradient: hGradient,
+    vGradient: vGradient,
+    circle: circle,
+    ellipse: ellipse,
+    circular: circular,
+    elliptical: elliptical,
+    closestSide: closestSide,
+    closestCorner: closestCorner,
+    farthestSide: farthestSide,
+    farthestCorner: farthestCorner,
+    radialGradient: radialGradient,
+    repeatingLinearGradient: repeatingLinearGradient,
+    hRepeatingGradient: hRepeatingGradient,
+    vRepeatingGradient: vRepeatingGradient,
+    repeatingRadialGradient: repeatingRadialGradient,
+    eqRadial: eqRadial,
+    ordRadial: ordRadial,
+    genericRadial: genericRadial,
+    valRadial: valRadial,
+    otherRadial: otherRadial,
+    eqExtend: eqExtend,
+    ordExtend: ordExtend,
+    genericExtend: genericExtend,
+    valExtend: valExtend,
+    otherExtend: otherExtend
+};
+
+},{"../CSS.Background":167,"../CSS.Color":170,"../CSS.Common":171,"../CSS.Property":179,"../CSS.Size":183,"../CSS.String":184,"../Control.Apply":198,"../Data.Eq":277,"../Data.Function":288,"../Data.Functor":293,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],179:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var CSS_String = require("../CSS.String");
@@ -20470,7 +23682,17 @@ module.exports = {
     valColor: valColor
 };
 
-},{"../CSS.String":169,"../Color":171,"../Control.Alternative":173,"../Control.Apply":176,"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.Generic":275,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.NonEmpty":298,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Profunctor.Strong":306,"../Data.Semigroup":313,"../Data.Show":317,"../Data.Tuple":336,"../Data.Unit":340,"../Prelude":352}],167:[function(require,module,exports){
+},{"../CSS.String":184,"../Color":193,"../Control.Alternative":195,"../Control.Apply":198,"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Profunctor.Strong":328,"../Data.Semigroup":335,"../Data.Show":339,"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],180:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Selector = require("../CSS.Selector");
+var CSS_String = require("../CSS.String");
+var hover = CSS_String.fromString(CSS_Selector.isStringRefinement)(":hover");
+module.exports = {
+    hover: hover
+};
+
+},{"../CSS.Selector":182,"../CSS.String":184}],181:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var CSS_Property = require("../CSS.Property");
@@ -20908,7 +24130,7 @@ module.exports = {
     monoidFile: monoidFile
 };
 
-},{"../CSS.Property":166,"../CSS.Selector":168,"../CSS.String":169,"../CSS.Stylesheet":170,"../Control.Alternative":173,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad.Eff":203,"../Control.Monad.Eff.Console":193,"../Control.Semigroupoid":227,"../Data.Array":235,"../Data.Either":253,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.Generic":275,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.NonEmpty":298,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Data.These":329,"../Data.Tuple":336,"../Data.Unit":340,"../Prelude":352}],168:[function(require,module,exports){
+},{"../CSS.Property":179,"../CSS.Selector":182,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Alternative":195,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad.Eff":225,"../Control.Monad.Eff.Console":215,"../Control.Semigroupoid":249,"../Data.Array":257,"../Data.Either":275,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.Generic":297,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Data.These":351,"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],182:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var CSS_String = require("../CSS.String");
@@ -21854,7 +25076,180 @@ module.exports = {
     isStringSelector: isStringSelector
 };
 
-},{"../CSS.String":169,"../Control.Apply":176,"../Data.Eq":255,"../Data.Function":266,"../Data.Generic":275,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.String":328,"../Data.Unit":340,"../Prelude":352}],169:[function(require,module,exports){
+},{"../CSS.String":184,"../Control.Apply":198,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.String":350,"../Data.Unit":363,"../Prelude":375}],183:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Common = require("../CSS.Common");
+var CSS_Property = require("../CSS.Property");
+var CSS_String = require("../CSS.String");
+var Control_Apply = require("../Control.Apply");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var Size = function (x) {
+    return x;
+};
+var Angle = function (x) {
+    return x;
+};
+var vw = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("vw"));
+};
+var vmin = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("vmin"));
+};
+var vmax = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("vmax"));
+};
+var vh = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("vh"));
+};
+var valSize = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valAngle = new CSS_Property.Val(function (v) {
+    return v;
+});
+var sym = function (f) {
+    return function (a) {
+        return f(a)(a)(a)(a);
+    };
+};
+var rem = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("rem"));
+};
+var rad = function (i) {
+    return Angle(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("rad")));
+};
+var px = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("px"));
+};
+var pt = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("pt"));
+};
+var pct = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("%"));
+};
+var nil = Size(CSS_String.fromString(CSS_Property.isStringValue)("0"));
+var isStringSize = new CSS_String.IsString(function ($52) {
+    return Size(CSS_String.fromString(CSS_Property.isStringValue)($52));
+});
+var genericSize = function (dictGeneric) {
+    return new Data_Generic.Generic(function (v) {
+        if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Size.Size" && v.value1.length === 1)) {
+            return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Size))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+        };
+        return Data_Maybe.Nothing.value;
+    }, function ($dollarq) {
+        return new Data_Generic.SigProd("CSS.Size.Size", [ {
+            sigConstructor: "CSS.Size.Size",
+            sigValues: [ function ($dollarq1) {
+                return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+            } ]
+        } ]);
+    }, function (v) {
+        return new Data_Generic.SProd("CSS.Size.Size", [ function ($dollarq) {
+            return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+        } ]);
+    });
+};
+var genericAngle = function (dictGeneric) {
+    return new Data_Generic.Generic(function (v) {
+        if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Size.Angle" && v.value1.length === 1)) {
+            return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Angle))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+        };
+        return Data_Maybe.Nothing.value;
+    }, function ($dollarq) {
+        return new Data_Generic.SigProd("CSS.Size.Angle", [ {
+            sigConstructor: "CSS.Size.Angle",
+            sigValues: [ function ($dollarq1) {
+                return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+            } ]
+        } ]);
+    }, function (v) {
+        return new Data_Generic.SProd("CSS.Size.Angle", [ function ($dollarq) {
+            return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+        } ]);
+    });
+};
+var ex = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("ex"));
+};
+var eqSize = function (dictEq) {
+    return new Data_Eq.Eq(function (x) {
+        return function (y) {
+            return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+        };
+    });
+};
+var ordSize = function (dictOrd) {
+    return new Data_Ord.Ord(function () {
+        return eqSize(dictOrd.Eq0());
+    }, function (x) {
+        return function (y) {
+            return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+        };
+    });
+};
+var eqAngle = function (dictEq) {
+    return new Data_Eq.Eq(function (x) {
+        return function (y) {
+            return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+        };
+    });
+};
+var ordAngle = function (dictOrd) {
+    return new Data_Ord.Ord(function () {
+        return eqAngle(dictOrd.Eq0());
+    }, function (x) {
+        return function (y) {
+            return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+        };
+    });
+};
+var em = function (i) {
+    return Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("em"));
+};
+var deg = function (i) {
+    return Angle(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("deg")));
+};
+var autoSize = new CSS_Common.Auto(CSS_String.fromString(isStringSize)("auto"));
+module.exports = {
+    Size: Size,
+    nil: nil,
+    px: px,
+    pt: pt,
+    em: em,
+    ex: ex,
+    pct: pct,
+    rem: rem,
+    vw: vw,
+    vh: vh,
+    vmin: vmin,
+    vmax: vmax,
+    sym: sym,
+    Angle: Angle,
+    deg: deg,
+    rad: rad,
+    eqSize: eqSize,
+    ordSize: ordSize,
+    genericSize: genericSize,
+    isStringSize: isStringSize,
+    valSize: valSize,
+    autoSize: autoSize,
+    eqAngle: eqAngle,
+    ordAngle: ordAngle,
+    genericAngle: genericAngle,
+    valAngle: valAngle
+};
+
+},{"../CSS.Common":171,"../CSS.Property":179,"../CSS.String":184,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Unit":363,"../Prelude":375}],184:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -21872,7 +25267,7 @@ module.exports = {
     isStringString: isStringString
 };
 
-},{"../Control.Category":181,"../Prelude":352}],170:[function(require,module,exports){
+},{"../Control.Category":203,"../Prelude":375}],185:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var CSS_Property = require("../CSS.Property");
@@ -22758,7 +26153,830 @@ module.exports = {
     semigroupCSS: semigroupCSS
 };
 
-},{"../CSS.Property":166,"../CSS.Selector":168,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Control.Monad.Writer":220,"../Control.Monad.Writer.Class":218,"../Control.Monad.Writer.Trans":219,"../Control.Semigroupoid":227,"../Data.Array":235,"../Data.Eq":255,"../Data.Function":266,"../Data.Functor":271,"../Data.Generic":275,"../Data.HeytingAlgebra":277,"../Data.Identity":278,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.NonEmpty":298,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Profunctor.Strong":306,"../Data.Semigroup":313,"../Data.Tuple":336,"../Data.Unit":340,"../Prelude":352}],171:[function(require,module,exports){
+},{"../CSS.Property":179,"../CSS.Selector":182,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Control.Monad.Writer":242,"../Control.Monad.Writer.Class":240,"../Control.Monad.Writer.Trans":241,"../Control.Semigroupoid":249,"../Data.Array":257,"../Data.Eq":277,"../Data.Function":288,"../Data.Functor":293,"../Data.Generic":297,"../Data.HeytingAlgebra":299,"../Data.Identity":300,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Profunctor.Strong":328,"../Data.Semigroup":335,"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],186:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Property = require("../CSS.Property");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Apply = require("../Control.Apply");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var TextWhitespace = function (x) {
+    return x;
+};
+var whitespacePreWrap = TextWhitespace(CSS_String.fromString(CSS_Property.isStringValue)("pre-wrap"));
+var whitespacePreLine = TextWhitespace(CSS_String.fromString(CSS_Property.isStringValue)("pre-line"));
+var whitespacePre = TextWhitespace(CSS_String.fromString(CSS_Property.isStringValue)("pre"));
+var whitespaceNormal = TextWhitespace(CSS_String.fromString(CSS_Property.isStringValue)("normal"));
+var whitespaceNoWrap = TextWhitespace(CSS_String.fromString(CSS_Property.isStringValue)("nowrap"));
+var valTextWhitespace = new CSS_Property.Val(function (v) {
+    return v;
+});
+var textWhitespace = CSS_Stylesheet.key(valTextWhitespace)(CSS_String.fromString(CSS_Property.isStringKey)("white-space"));
+var genericTextWhitespace = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Text.Whitespace.TextWhitespace" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(TextWhitespace))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Text.Whitespace.TextWhitespace", [ {
+        sigConstructor: "CSS.Text.Whitespace.TextWhitespace",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Text.Whitespace.TextWhitespace", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var eqTextWhitespace = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordTextWhitespace = new Data_Ord.Ord(function () {
+    return eqTextWhitespace;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+module.exports = {
+    whitespaceNormal: whitespaceNormal,
+    whitespacePre: whitespacePre,
+    whitespaceNoWrap: whitespaceNoWrap,
+    whitespacePreWrap: whitespacePreWrap,
+    whitespacePreLine: whitespacePreLine,
+    textWhitespace: textWhitespace,
+    eqTextWhitespace: eqTextWhitespace,
+    ordTextWhitespace: ordTextWhitespace,
+    genericTextWhitespace: genericTextWhitespace,
+    valTextWhitespace: valTextWhitespace
+};
+
+},{"../CSS.Property":179,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Apply":198,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Unit":363,"../Prelude":375}],187:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Property = require("../CSS.Property");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Apply = require("../Control.Apply");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var TextDecoration = function (x) {
+    return x;
+};
+var valTextDecoration = new CSS_Property.Val(function (v) {
+    return v;
+});
+var underline = TextDecoration(CSS_String.fromString(CSS_Property.isStringValue)("underline"));
+var textDecoration = CSS_Stylesheet.key(valTextDecoration)(CSS_String.fromString(CSS_Property.isStringKey)("text-decoration"));
+var overline = TextDecoration(CSS_String.fromString(CSS_Property.isStringValue)("overline"));
+var noneTextDecoration = TextDecoration(CSS_String.fromString(CSS_Property.isStringValue)("none"));
+var lineThrough = TextDecoration(CSS_String.fromString(CSS_Property.isStringValue)("line-through"));
+var letterSpacing = CSS_Stylesheet.key(CSS_Size.valSize)(CSS_String.fromString(CSS_Property.isStringKey)("letter-spacing"));
+var genericTextDecoration = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Text.TextDecoration" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(TextDecoration))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Text.TextDecoration", [ {
+        sigConstructor: "CSS.Text.TextDecoration",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Text.TextDecoration", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var eqTextDecoration = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordTextDecoration = new Data_Ord.Ord(function () {
+    return eqTextDecoration;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var blink = TextDecoration(CSS_String.fromString(CSS_Property.isStringValue)("blink"));
+module.exports = {
+    letterSpacing: letterSpacing,
+    TextDecoration: TextDecoration,
+    noneTextDecoration: noneTextDecoration,
+    underline: underline,
+    overline: overline,
+    lineThrough: lineThrough,
+    blink: blink,
+    textDecoration: textDecoration,
+    eqTextDecoration: eqTextDecoration,
+    ordTextDecoration: ordTextDecoration,
+    genericTextDecoration: genericTextDecoration,
+    valTextDecoration: valTextDecoration
+};
+
+},{"../CSS.Property":179,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Apply":198,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Unit":363,"../Prelude":375}],188:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Property = require("../CSS.Property");
+var CSS_String = require("../CSS.String");
+var Control_Apply = require("../Control.Apply");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var Time = function (x) {
+    return x;
+};
+var valTime = new CSS_Property.Val(function (v) {
+    return v;
+});
+var sec = function (i) {
+    return Time(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("s")));
+};
+var ms = function (i) {
+    return Time(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valNumber)(i))(CSS_String.fromString(CSS_Property.isStringValue)("ms")));
+};
+var genericTime = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Time.Time" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Time))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Time.Time", [ {
+        sigConstructor: "CSS.Time.Time",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Time.Time", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var eqTime = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordTime = new Data_Ord.Ord(function () {
+    return eqTime;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+module.exports = {
+    Time: Time,
+    sec: sec,
+    ms: ms,
+    eqTime: eqTime,
+    ordTime: ordTime,
+    genericTime: genericTime,
+    valTime: valTime
+};
+
+},{"../CSS.Property":179,"../CSS.String":184,"../Control.Apply":198,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Unit":363,"../Prelude":375}],189:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Common = require("../CSS.Common");
+var CSS_Property = require("../CSS.Property");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var Control_Apply = require("../Control.Apply");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Tuple_Nested = require("../Data.Tuple.Nested");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var Transformation = function (x) {
+    return x;
+};
+var OffsetLength = (function () {
+    function OffsetLength(value0) {
+        this.value0 = value0;
+    };
+    OffsetLength.create = function (value0) {
+        return new OffsetLength(value0);
+    };
+    return OffsetLength;
+})();
+var OffsetTop = (function () {
+    function OffsetTop() {
+
+    };
+    OffsetTop.value = new OffsetTop();
+    return OffsetTop;
+})();
+var OffsetBottom = (function () {
+    function OffsetBottom() {
+
+    };
+    OffsetBottom.value = new OffsetBottom();
+    return OffsetBottom;
+})();
+var OffsetLeft = (function () {
+    function OffsetLeft() {
+
+    };
+    OffsetLeft.value = new OffsetLeft();
+    return OffsetLeft;
+})();
+var OffsetRight = (function () {
+    function OffsetRight() {
+
+    };
+    OffsetRight.value = new OffsetRight();
+    return OffsetRight;
+})();
+var OffsetCenter = (function () {
+    function OffsetCenter() {
+
+    };
+    OffsetCenter.value = new OffsetCenter();
+    return OffsetCenter;
+})();
+var TransformOrigin = (function () {
+    function TransformOrigin(value0, value1, value2) {
+        this.value0 = value0;
+        this.value1 = value1;
+        this.value2 = value2;
+    };
+    TransformOrigin.create = function (value0) {
+        return function (value1) {
+            return function (value2) {
+                return new TransformOrigin(value0, value1, value2);
+            };
+        };
+    };
+    return TransformOrigin;
+})();
+var Initial = (function () {
+    function Initial() {
+
+    };
+    Initial.value = new Initial();
+    return Initial;
+})();
+var Inherit = (function () {
+    function Inherit() {
+
+    };
+    Inherit.value = new Inherit();
+    return Inherit;
+})();
+var Unset = (function () {
+    function Unset() {
+
+    };
+    Unset.value = new Unset();
+    return Unset;
+})();
+var valTransformation = new CSS_Property.Val(function (v) {
+    return v;
+});
+var valTransformOriginOffset = new CSS_Property.Val(function (v) {
+    if (v instanceof OffsetLength) {
+        return CSS_Property.value(CSS_Size.valSize)(v.value0);
+    };
+    if (v instanceof OffsetTop) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("top");
+    };
+    if (v instanceof OffsetBottom) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("bottom");
+    };
+    if (v instanceof OffsetLeft) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("left");
+    };
+    if (v instanceof OffsetRight) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("right");
+    };
+    if (v instanceof OffsetCenter) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("center");
+    };
+    throw new Error("Failed pattern match at CSS.Transform line 47, column 1 - line 47, column 67: " + [ v.constructor.name ]);
+});
+var valTransformOrigin = new CSS_Property.Val(function (v) {
+    if (v instanceof TransformOrigin) {
+        return CSS_Property.value(CSS_Property.valTuple(valTransformOriginOffset)(CSS_Property.valTuple(valTransformOriginOffset)(CSS_Property.valTuple(CSS_Size.valSize)(CSS_Property.valUnit))))(Data_Tuple_Nested.tuple3(v.value0)(v.value1)(v.value2));
+    };
+    if (v instanceof Initial) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("initial");
+    };
+    if (v instanceof Inherit) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("inherit");
+    };
+    if (v instanceof Unset) {
+        return CSS_String.fromString(CSS_Property.isStringValue)("unset");
+    };
+    throw new Error("Failed pattern match at CSS.Transform line 55, column 1 - line 55, column 55: " + [ v.constructor.name ]);
+});
+var unsetTransformOrigin = new CSS_Common.Unset(Unset.value);
+var translate = function (x) {
+    return function (y) {
+        return Transformation(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)("translate("))(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Property.valList(CSS_Size.valSize))([ x, y ]))(CSS_String.fromString(CSS_Property.isStringValue)(")"))));
+    };
+};
+var transforms = function ($31) {
+    return CSS_Stylesheet.key(CSS_Property.valValue)(CSS_String.fromString(CSS_Property.isStringKey)("transform"))(CSS_Property.noCommas(valTransformation)($31));
+};
+var transformOrigin = function (x) {
+    return function (y) {
+        return function (z) {
+            return CSS_Stylesheet.key(valTransformOrigin)(CSS_String.fromString(CSS_Property.isStringKey)("transform-origin"))(new TransformOrigin(x, y, z));
+        };
+    };
+};
+var transform = CSS_Stylesheet.key(valTransformation)(CSS_String.fromString(CSS_Property.isStringKey)("transform"));
+var rotate = function (a) {
+    return Transformation(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_String.fromString(CSS_Property.isStringValue)("rotate("))(Data_Semigroup.append(CSS_Property.semigroupValue)(CSS_Property.value(CSS_Size.valAngle)(a))(CSS_String.fromString(CSS_Property.isStringValue)(")"))));
+};
+var offsetTop = OffsetTop.value;
+var offsetRight = OffsetRight.value;
+var offsetLeft = OffsetLeft.value;
+var offsetCenter = OffsetCenter.value;
+var offsetBottom = OffsetBottom.value;
+var offset = OffsetLength.create;
+var initialTransformOrigin = new CSS_Common.Initial(Initial.value);
+var inheritTransformOrigin = new CSS_Common.Inherit(Inherit.value);
+var genericTransformation = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Transform.Transformation" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(Transformation))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Transform.Transformation", [ {
+        sigConstructor: "CSS.Transform.Transformation",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Transform.Transformation", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var eqTransformation = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordTransformation = new Data_Ord.Ord(function () {
+    return eqTransformation;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+module.exports = {
+    Transformation: Transformation,
+    transform: transform,
+    transforms: transforms,
+    translate: translate,
+    rotate: rotate,
+    TransformOrigin: TransformOrigin,
+    Initial: Initial,
+    Inherit: Inherit,
+    Unset: Unset,
+    OffsetLength: OffsetLength,
+    OffsetTop: OffsetTop,
+    OffsetBottom: OffsetBottom,
+    OffsetLeft: OffsetLeft,
+    OffsetRight: OffsetRight,
+    OffsetCenter: OffsetCenter,
+    offset: offset,
+    offsetTop: offsetTop,
+    offsetBottom: offsetBottom,
+    offsetLeft: offsetLeft,
+    offsetRight: offsetRight,
+    offsetCenter: offsetCenter,
+    transformOrigin: transformOrigin,
+    eqTransformation: eqTransformation,
+    ordTransformation: ordTransformation,
+    genericTransformation: genericTransformation,
+    valTransformation: valTransformation,
+    valTransformOriginOffset: valTransformOriginOffset,
+    valTransformOrigin: valTransformOrigin,
+    initialTransformOrigin: initialTransformOrigin,
+    inheritTransformOrigin: inheritTransformOrigin,
+    unsetTransformOrigin: unsetTransformOrigin
+};
+
+},{"../CSS.Common":171,"../CSS.Property":179,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Tuple.Nested":358,"../Data.Unit":363,"../Prelude":375}],190:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Property = require("../CSS.Property");
+var CSS_String = require("../CSS.String");
+var Control_Apply = require("../Control.Apply");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var TimingFunction = function (x) {
+    return x;
+};
+var valTimingFunction = new CSS_Property.Val(function (v) {
+    return v;
+});
+var linear = TimingFunction(CSS_String.fromString(CSS_Property.isStringValue)("linear"));
+var genericTimingFunction = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "CSS.Transition.TimingFunction" && v.value1.length === 1)) {
+        return Control_Apply.apply(Data_Maybe.applyMaybe)(new Data_Maybe.Just(TimingFunction))(Data_Generic.fromSpine(CSS_Property.genericValue)(v["value1"][0](Data_Unit.unit)));
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("CSS.Transition.TimingFunction", [ {
+        sigConstructor: "CSS.Transition.TimingFunction",
+        sigValues: [ function ($dollarq1) {
+            return Data_Generic.toSignature(CSS_Property.genericValue)(Data_Generic.anyProxy);
+        } ]
+    } ]);
+}, function (v) {
+    return new Data_Generic.SProd("CSS.Transition.TimingFunction", [ function ($dollarq) {
+        return Data_Generic.toSpine(CSS_Property.genericValue)(v);
+    } ]);
+});
+var eqTimingFunction = new Data_Eq.Eq(function (x) {
+    return function (y) {
+        return Data_Eq.eq(CSS_Property.eqValue)(x)(y);
+    };
+});
+var ordTimingFunction = new Data_Ord.Ord(function () {
+    return eqTimingFunction;
+}, function (x) {
+    return function (y) {
+        return Data_Ord.compare(CSS_Property.ordValue)(x)(y);
+    };
+});
+var easeOut = TimingFunction(CSS_String.fromString(CSS_Property.isStringValue)("ease-out"));
+module.exports = {
+    TimingFunction: TimingFunction,
+    linear: linear,
+    easeOut: easeOut,
+    eqTimingFunction: eqTimingFunction,
+    ordTimingFunction: ordTimingFunction,
+    genericTimingFunction: genericTimingFunction,
+    valTimingFunction: valTimingFunction
+};
+
+},{"../CSS.Property":179,"../CSS.String":184,"../Control.Apply":198,"../Data.Eq":277,"../Data.Function":288,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Unit":363,"../Prelude":375}],191:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var CSS_Animation = require("../CSS.Animation");
+var CSS_Background = require("../CSS.Background");
+var CSS_Border = require("../CSS.Border");
+var CSS_Box = require("../CSS.Box");
+var CSS_Color = require("../CSS.Color");
+var CSS_Display = require("../CSS.Display");
+var CSS_Elements = require("../CSS.Elements");
+var CSS_Flexbox = require("../CSS.Flexbox");
+var CSS_Font = require("../CSS.Font");
+var CSS_FontFace = require("../CSS.FontFace");
+var CSS_Geometry = require("../CSS.Geometry");
+var CSS_Gradient = require("../CSS.Gradient");
+var CSS_Property = require("../CSS.Property");
+var CSS_Pseudo = require("../CSS.Pseudo");
+var CSS_Render = require("../CSS.Render");
+var CSS_Selector = require("../CSS.Selector");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
+var CSS_Text = require("../CSS.Text");
+var CSS_Text_Whitespace = require("../CSS.Text.Whitespace");
+var CSS_Time = require("../CSS.Time");
+var CSS_Transform = require("../CSS.Transform");
+var CSS_Transition = require("../CSS.Transition");
+module.exports = {};
+
+},{"../CSS.Animation":166,"../CSS.Background":167,"../CSS.Border":168,"../CSS.Box":169,"../CSS.Color":170,"../CSS.Display":172,"../CSS.Elements":173,"../CSS.Flexbox":174,"../CSS.Font":175,"../CSS.FontFace":176,"../CSS.Geometry":177,"../CSS.Gradient":178,"../CSS.Property":179,"../CSS.Pseudo":180,"../CSS.Render":181,"../CSS.Selector":182,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../CSS.Text":187,"../CSS.Text.Whitespace":186,"../CSS.Time":188,"../CSS.Transform":189,"../CSS.Transition":190}],192:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var Color = require("../Color");
+var yellowgreen = Color.rgb(154)(205)(50);
+var yellow = Color.rgb(255)(255)(0);
+var whitesmoke = Color.rgb(245)(245)(245);
+var wheat = Color.rgb(245)(222)(179);
+var violet = Color.rgb(238)(130)(238);
+var turquoise = Color.rgb(64)(224)(208);
+var tomato = Color.rgb(255)(99)(71);
+var thistle = Color.rgb(216)(191)(216);
+var teal = Color.rgb(0)(128)(128);
+var tan = Color.rgb(210)(180)(140);
+var steelblue = Color.rgb(70)(130)(180);
+var springgreen = Color.rgb(0)(255)(127);
+var snow = Color.rgb(255)(250)(250);
+var slategrey = Color.rgb(112)(128)(144);
+var slategray = Color.rgb(112)(128)(144);
+var slateblue = Color.rgb(106)(90)(205);
+var skyblue = Color.rgb(135)(206)(235);
+var silver = Color.rgb(192)(192)(192);
+var sienna = Color.rgb(160)(82)(45);
+var seashell = Color.rgb(255)(245)(238);
+var seagreen = Color.rgb(46)(139)(87);
+var sandybrown = Color.rgb(244)(164)(96);
+var salmon = Color.rgb(250)(128)(114);
+var saddlebrown = Color.rgb(139)(69)(19);
+var royalblue = Color.rgb(65)(105)(225);
+var rosybrown = Color.rgb(188)(143)(143);
+var red = Color.rgb(255)(0)(0);
+var purple = Color.rgb(128)(0)(128);
+var powderblue = Color.rgb(176)(224)(230);
+var plum = Color.rgb(221)(160)(221);
+var pink = Color.rgb(255)(192)(203);
+var peru = Color.rgb(205)(133)(63);
+var peachpuff = Color.rgb(255)(218)(185);
+var papayawhip = Color.rgb(255)(239)(213);
+var palevioletred = Color.rgb(219)(112)(147);
+var paleturquoise = Color.rgb(175)(238)(238);
+var palegreen = Color.rgb(152)(251)(152);
+var palegoldenrod = Color.rgb(238)(232)(170);
+var orchid = Color.rgb(218)(112)(214);
+var orangered = Color.rgb(255)(69)(0);
+var orange = Color.rgb(255)(165)(0);
+var olivedrab = Color.rgb(107)(142)(35);
+var olive = Color.rgb(128)(128)(0);
+var oldlace = Color.rgb(253)(245)(230);
+var navy = Color.rgb(0)(0)(128);
+var navajowhite = Color.rgb(255)(222)(173);
+var moccasin = Color.rgb(255)(228)(181);
+var mistyrose = Color.rgb(255)(228)(225);
+var mintcream = Color.rgb(245)(255)(250);
+var midnightblue = Color.rgb(25)(25)(112);
+var mediumvioletred = Color.rgb(199)(21)(133);
+var mediumturquoise = Color.rgb(72)(209)(204);
+var mediumspringgreen = Color.rgb(0)(250)(154);
+var mediumslateblue = Color.rgb(123)(104)(238);
+var mediumseagreen = Color.rgb(60)(179)(113);
+var mediumpurple = Color.rgb(147)(112)(219);
+var mediumorchid = Color.rgb(186)(85)(211);
+var mediumblue = Color.rgb(0)(0)(205);
+var mediumaquamarine = Color.rgb(102)(205)(170);
+var maroon = Color.rgb(128)(0)(0);
+var magenta = Color.rgb(255)(0)(255);
+var linen = Color.rgb(250)(240)(230);
+var limegreen = Color.rgb(50)(205)(50);
+var lime = Color.rgb(0)(255)(0);
+var lightyellow = Color.rgb(255)(255)(224);
+var lightsteelblue = Color.rgb(176)(196)(222);
+var lightslategrey = Color.rgb(119)(136)(153);
+var lightslategray = Color.rgb(119)(136)(153);
+var lightskyblue = Color.rgb(135)(206)(250);
+var lightseagreen = Color.rgb(32)(178)(170);
+var lightsalmon = Color.rgb(255)(160)(122);
+var lightpink = Color.rgb(255)(182)(193);
+var lightgrey = Color.rgb(211)(211)(211);
+var lightgreen = Color.rgb(144)(238)(144);
+var lightgray = Color.rgb(211)(211)(211);
+var lightgoldenrodyellow = Color.rgb(250)(250)(210);
+var lightcyan = Color.rgb(224)(255)(255);
+var lightcoral = Color.rgb(240)(128)(128);
+var lightblue = Color.rgb(173)(216)(230);
+var lemonchiffon = Color.rgb(255)(250)(205);
+var lawngreen = Color.rgb(124)(252)(0);
+var lavenderblush = Color.rgb(255)(240)(245);
+var lavender = Color.rgb(230)(230)(250);
+var khaki = Color.rgb(240)(230)(140);
+var ivory = Color.rgb(255)(255)(240);
+var indigo = Color.rgb(75)(0)(130);
+var indianred = Color.rgb(205)(92)(92);
+var hotpink = Color.rgb(255)(105)(180);
+var honeydew = Color.rgb(240)(255)(240);
+var grey = Color.rgb(128)(128)(128);
+var greenyellow = Color.rgb(173)(255)(47);
+var green = Color.rgb(0)(128)(0);
+var gray = Color.rgb(128)(128)(128);
+var goldenrod = Color.rgb(218)(165)(32);
+var gold = Color.rgb(255)(215)(0);
+var ghostwhite = Color.rgb(248)(248)(255);
+var gainsboro = Color.rgb(220)(220)(220);
+var fuchsia = Color.rgb(255)(0)(255);
+var forestgreen = Color.rgb(34)(139)(34);
+var floralwhite = Color.rgb(255)(250)(240);
+var firebrick = Color.rgb(178)(34)(34);
+var dodgerblue = Color.rgb(30)(144)(255);
+var dimgrey = Color.rgb(105)(105)(105);
+var dimgray = Color.rgb(105)(105)(105);
+var deepskyblue = Color.rgb(0)(191)(255);
+var deeppink = Color.rgb(255)(20)(147);
+var darkviolet = Color.rgb(148)(0)(211);
+var darkturquoise = Color.rgb(0)(206)(209);
+var darkslategrey = Color.rgb(47)(79)(79);
+var darkslategray = Color.rgb(47)(79)(79);
+var darkslateblue = Color.rgb(72)(61)(139);
+var darkseagreen = Color.rgb(143)(188)(143);
+var darksalmon = Color.rgb(233)(150)(122);
+var darkred = Color.rgb(139)(0)(0);
+var darkorchid = Color.rgb(153)(50)(204);
+var darkorange = Color.rgb(255)(140)(0);
+var darkolivegreen = Color.rgb(85)(107)(47);
+var darkmagenta = Color.rgb(139)(0)(139);
+var darkkhaki = Color.rgb(189)(183)(107);
+var darkgrey = Color.rgb(169)(169)(169);
+var darkgreen = Color.rgb(0)(100)(0);
+var darkgray = Color.rgb(169)(169)(169);
+var darkgoldenrod = Color.rgb(184)(134)(11);
+var darkcyan = Color.rgb(0)(139)(139);
+var darkblue = Color.rgb(0)(0)(139);
+var cyan = Color.rgb(0)(255)(255);
+var crimson = Color.rgb(220)(20)(60);
+var cornsilk = Color.rgb(255)(248)(220);
+var cornflowerblue = Color.rgb(100)(149)(237);
+var coral = Color.rgb(255)(127)(80);
+var chocolate = Color.rgb(210)(105)(30);
+var chartreuse = Color.rgb(127)(255)(0);
+var cadetblue = Color.rgb(95)(158)(160);
+var burlywood = Color.rgb(222)(184)(135);
+var brown = Color.rgb(165)(42)(42);
+var blueviolet = Color.rgb(138)(43)(226);
+var blue = Color.rgb(0)(0)(255);
+var blanchedalmond = Color.rgb(255)(235)(205);
+var bisque = Color.rgb(255)(228)(196);
+var beige = Color.rgb(245)(245)(220);
+var azure = Color.rgb(240)(255)(255);
+var aquamarine = Color.rgb(127)(255)(212);
+var aqua = Color.rgb(0)(255)(255);
+var antiquewhite = Color.rgb(250)(235)(215);
+var aliceblue = Color.rgb(240)(248)(255);
+module.exports = {
+    aliceblue: aliceblue,
+    antiquewhite: antiquewhite,
+    aqua: aqua,
+    aquamarine: aquamarine,
+    azure: azure,
+    beige: beige,
+    bisque: bisque,
+    blanchedalmond: blanchedalmond,
+    blue: blue,
+    blueviolet: blueviolet,
+    brown: brown,
+    burlywood: burlywood,
+    cadetblue: cadetblue,
+    chartreuse: chartreuse,
+    chocolate: chocolate,
+    coral: coral,
+    cornflowerblue: cornflowerblue,
+    cornsilk: cornsilk,
+    crimson: crimson,
+    cyan: cyan,
+    darkblue: darkblue,
+    darkcyan: darkcyan,
+    darkgoldenrod: darkgoldenrod,
+    darkgray: darkgray,
+    darkgreen: darkgreen,
+    darkgrey: darkgrey,
+    darkkhaki: darkkhaki,
+    darkmagenta: darkmagenta,
+    darkolivegreen: darkolivegreen,
+    darkorange: darkorange,
+    darkorchid: darkorchid,
+    darkred: darkred,
+    darksalmon: darksalmon,
+    darkseagreen: darkseagreen,
+    darkslateblue: darkslateblue,
+    darkslategray: darkslategray,
+    darkslategrey: darkslategrey,
+    darkturquoise: darkturquoise,
+    darkviolet: darkviolet,
+    deeppink: deeppink,
+    deepskyblue: deepskyblue,
+    dimgray: dimgray,
+    dimgrey: dimgrey,
+    dodgerblue: dodgerblue,
+    firebrick: firebrick,
+    floralwhite: floralwhite,
+    forestgreen: forestgreen,
+    fuchsia: fuchsia,
+    gainsboro: gainsboro,
+    ghostwhite: ghostwhite,
+    gold: gold,
+    goldenrod: goldenrod,
+    gray: gray,
+    green: green,
+    greenyellow: greenyellow,
+    grey: grey,
+    honeydew: honeydew,
+    hotpink: hotpink,
+    indianred: indianred,
+    indigo: indigo,
+    ivory: ivory,
+    khaki: khaki,
+    lavender: lavender,
+    lavenderblush: lavenderblush,
+    lawngreen: lawngreen,
+    lemonchiffon: lemonchiffon,
+    lightblue: lightblue,
+    lightcoral: lightcoral,
+    lightcyan: lightcyan,
+    lightgoldenrodyellow: lightgoldenrodyellow,
+    lightgray: lightgray,
+    lightgreen: lightgreen,
+    lightgrey: lightgrey,
+    lightpink: lightpink,
+    lightsalmon: lightsalmon,
+    lightseagreen: lightseagreen,
+    lightskyblue: lightskyblue,
+    lightslategray: lightslategray,
+    lightslategrey: lightslategrey,
+    lightsteelblue: lightsteelblue,
+    lightyellow: lightyellow,
+    lime: lime,
+    limegreen: limegreen,
+    linen: linen,
+    magenta: magenta,
+    maroon: maroon,
+    mediumaquamarine: mediumaquamarine,
+    mediumblue: mediumblue,
+    mediumorchid: mediumorchid,
+    mediumpurple: mediumpurple,
+    mediumseagreen: mediumseagreen,
+    mediumslateblue: mediumslateblue,
+    mediumspringgreen: mediumspringgreen,
+    mediumturquoise: mediumturquoise,
+    mediumvioletred: mediumvioletred,
+    midnightblue: midnightblue,
+    mintcream: mintcream,
+    mistyrose: mistyrose,
+    moccasin: moccasin,
+    navajowhite: navajowhite,
+    navy: navy,
+    oldlace: oldlace,
+    olive: olive,
+    olivedrab: olivedrab,
+    orange: orange,
+    orangered: orangered,
+    orchid: orchid,
+    palegoldenrod: palegoldenrod,
+    palegreen: palegreen,
+    paleturquoise: paleturquoise,
+    palevioletred: palevioletred,
+    papayawhip: papayawhip,
+    peachpuff: peachpuff,
+    peru: peru,
+    pink: pink,
+    plum: plum,
+    powderblue: powderblue,
+    purple: purple,
+    red: red,
+    rosybrown: rosybrown,
+    royalblue: royalblue,
+    saddlebrown: saddlebrown,
+    salmon: salmon,
+    sandybrown: sandybrown,
+    seagreen: seagreen,
+    seashell: seashell,
+    sienna: sienna,
+    silver: silver,
+    skyblue: skyblue,
+    slateblue: slateblue,
+    slategray: slategray,
+    slategrey: slategrey,
+    snow: snow,
+    springgreen: springgreen,
+    steelblue: steelblue,
+    tan: tan,
+    teal: teal,
+    thistle: thistle,
+    tomato: tomato,
+    turquoise: turquoise,
+    violet: violet,
+    wheat: wheat,
+    whitesmoke: whitesmoke,
+    yellow: yellow,
+    yellowgreen: yellowgreen
+};
+
+},{"../Color":193}],193:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -23467,7 +27685,7 @@ module.exports = {
     eqColor: eqColor
 };
 
-},{"../Control.Applicative":174,"../Control.Bind":180,"../Control.Semigroupoid":227,"../Data.Array":235,"../Data.Boolean":244,"../Data.Either":253,"../Data.Eq":255,"../Data.EuclideanRing":257,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.HeytingAlgebra":277,"../Data.Int":282,"../Data.Int.Bits":280,"../Data.Maybe":288,"../Data.Ord":304,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Data.String":328,"../Data.String.Regex":324,"../Math":346,"../Partial.Unsafe":349,"../Prelude":352}],172:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Bind":202,"../Control.Semigroupoid":249,"../Data.Array":257,"../Data.Boolean":266,"../Data.Either":275,"../Data.Eq":277,"../Data.EuclideanRing":279,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.HeytingAlgebra":299,"../Data.Int":304,"../Data.Int.Bits":302,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Data.String":350,"../Data.String.Regex":346,"../Math":369,"../Partial.Unsafe":372,"../Prelude":375}],194:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_Functor = require("../Data.Functor");
@@ -23488,7 +27706,7 @@ module.exports = {
     altArray: altArray
 };
 
-},{"../Data.Functor":271,"../Data.Semigroup":313}],173:[function(require,module,exports){
+},{"../Data.Functor":293,"../Data.Semigroup":335}],195:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -23510,7 +27728,7 @@ module.exports = {
     alternativeArray: alternativeArray
 };
 
-},{"../Control.Alt":172,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Plus":226,"../Data.Functor":271}],174:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Plus":248,"../Data.Functor":293}],196:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Apply = require("../Control.Apply");
@@ -23578,7 +27796,7 @@ module.exports = {
     applicativeArray: applicativeArray
 };
 
-},{"../Control.Apply":176,"../Data.Functor":271,"../Data.Unit":340}],175:[function(require,module,exports){
+},{"../Control.Apply":198,"../Data.Functor":293,"../Data.Unit":363}],197:[function(require,module,exports){
 "use strict";
 
 exports.arrayApply = function (fs) {
@@ -23597,7 +27815,7 @@ exports.arrayApply = function (fs) {
   };
 };
 
-},{}],176:[function(require,module,exports){
+},{}],198:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -23698,7 +27916,7 @@ module.exports = {
     applyArray: applyArray
 };
 
-},{"../Control.Category":181,"../Data.Function":266,"../Data.Functor":271,"./foreign":175}],177:[function(require,module,exports){
+},{"../Control.Category":203,"../Data.Function":288,"../Data.Functor":293,"./foreign":197}],199:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Biapply = require("../Control.Biapply");
@@ -23714,7 +27932,7 @@ module.exports = {
     Biapplicative: Biapplicative
 };
 
-},{"../Control.Biapply":178}],178:[function(require,module,exports){
+},{"../Control.Biapply":200}],200:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -23774,7 +27992,7 @@ module.exports = {
     bilift3: bilift3
 };
 
-},{"../Control.Category":181,"../Data.Bifunctor":242,"../Data.Function":266}],179:[function(require,module,exports){
+},{"../Control.Category":203,"../Data.Bifunctor":264,"../Data.Function":288}],201:[function(require,module,exports){
 "use strict";
 
 exports.arrayBind = function (arr) {
@@ -23787,7 +28005,7 @@ exports.arrayBind = function (arr) {
   };
 };
 
-},{}],180:[function(require,module,exports){
+},{}],202:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -23880,7 +28098,7 @@ module.exports = {
     discardUnit: discardUnit
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Category":181,"../Data.Function":266,"../Data.Functor":271,"../Data.Unit":340,"./foreign":179}],181:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Category":203,"../Data.Function":288,"../Data.Functor":293,"../Data.Unit":363,"./foreign":201}],203:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Semigroupoid = require("../Control.Semigroupoid");
@@ -23902,7 +28120,7 @@ module.exports = {
     categoryFn: categoryFn
 };
 
-},{"../Control.Semigroupoid":227}],182:[function(require,module,exports){
+},{"../Control.Semigroupoid":249}],204:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Extend = require("../Control.Extend");
@@ -23919,7 +28137,7 @@ module.exports = {
     extract: extract
 };
 
-},{"../Control.Extend":184,"../Data.Functor":271}],183:[function(require,module,exports){
+},{"../Control.Extend":206,"../Data.Functor":293}],205:[function(require,module,exports){
 "use strict";
 
 exports.arrayExtend = function(f) {
@@ -23930,7 +28148,7 @@ exports.arrayExtend = function(f) {
   };
 };
 
-},{}],184:[function(require,module,exports){
+},{}],206:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -23999,7 +28217,7 @@ module.exports = {
     extendArray: extendArray
 };
 
-},{"../Control.Category":181,"../Data.Functor":271,"../Data.Semigroup":313,"./foreign":183}],185:[function(require,module,exports){
+},{"../Control.Category":203,"../Data.Functor":293,"../Data.Semigroup":335,"./foreign":205}],207:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_Unit = require("../Data.Unit");
@@ -24032,7 +28250,7 @@ module.exports = {
     lazyUnit: lazyUnit
 };
 
-},{"../Data.Unit":340}],186:[function(require,module,exports){
+},{"../Data.Unit":363}],208:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Monad_Aff = require("../Control.Monad.Aff");
@@ -24042,7 +28260,7 @@ module.exports = {
     unsafeCoerceAff: unsafeCoerceAff
 };
 
-},{"../Control.Monad.Aff":188,"../Unsafe.Coerce":374}],187:[function(require,module,exports){
+},{"../Control.Monad.Aff":210,"../Unsafe.Coerce":397}],209:[function(require,module,exports){
 /* globals setImmediate, clearImmediate, setTimeout, clearTimeout */
 /* jshint -W083, -W098, -W003 */
 "use strict";
@@ -25175,7 +29393,7 @@ exports._delay = function () {
 
 exports._sequential = Aff.Seq;
 
-},{}],188:[function(require,module,exports){
+},{}],210:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -25557,7 +29775,7 @@ module.exports = {
     generalBracket: $foreign.generalBracket
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Control.Monad.Eff":203,"../Control.Monad.Eff.Class":191,"../Control.Monad.Eff.Exception":195,"../Control.Monad.Eff.Unsafe":201,"../Control.Monad.Error.Class":204,"../Control.Monad.Rec.Class":211,"../Control.Parallel":225,"../Control.Parallel.Class":224,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Either":253,"../Data.Foldable":260,"../Data.Function":266,"../Data.Function.Uncurried":265,"../Data.Functor":271,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Semigroup":313,"../Data.Time.Duration":330,"../Data.Unit":340,"../Partial.Unsafe":349,"../Prelude":352,"../Unsafe.Coerce":374,"./foreign":187}],189:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Control.Monad.Eff":225,"../Control.Monad.Eff.Class":213,"../Control.Monad.Eff.Exception":217,"../Control.Monad.Eff.Unsafe":223,"../Control.Monad.Error.Class":226,"../Control.Monad.Rec.Class":233,"../Control.Parallel":247,"../Control.Parallel.Class":246,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Either":275,"../Data.Foldable":282,"../Data.Function":288,"../Data.Function.Uncurried":287,"../Data.Functor":293,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Semigroup":335,"../Data.Time.Duration":352,"../Data.Unit":363,"../Partial.Unsafe":372,"../Prelude":375,"../Unsafe.Coerce":397,"./foreign":209}],211:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Prelude = require("../Prelude");
@@ -25573,7 +29791,7 @@ module.exports = {
     callCC: callCC
 };
 
-},{"../Prelude":352}],190:[function(require,module,exports){
+},{"../Prelude":375}],212:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -25745,7 +29963,7 @@ module.exports = {
     monadStateContT: monadStateContT
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Control.Monad.Cont.Class":189,"../Control.Monad.Eff.Class":191,"../Control.Monad.Reader.Class":209,"../Control.Monad.State.Class":214,"../Control.Monad.Trans.Class":217,"../Control.Semigroupoid":227,"../Data.Function":266,"../Data.Functor":271,"../Data.Newtype":297,"../Prelude":352}],191:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Control.Monad.Cont.Class":211,"../Control.Monad.Eff.Class":213,"../Control.Monad.Reader.Class":231,"../Control.Monad.State.Class":236,"../Control.Monad.Trans.Class":239,"../Control.Semigroupoid":249,"../Data.Function":288,"../Data.Functor":293,"../Data.Newtype":319,"../Prelude":375}],213:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -25767,7 +29985,7 @@ module.exports = {
     monadEffEff: monadEffEff
 };
 
-},{"../Control.Category":181,"../Control.Monad":221,"../Control.Monad.Eff":203}],192:[function(require,module,exports){
+},{"../Control.Category":203,"../Control.Monad":243,"../Control.Monad.Eff":225}],214:[function(require,module,exports){
 "use strict";
 
 exports.log = function (s) {
@@ -25798,7 +30016,7 @@ exports.info = function (s) {
   };
 };
 
-},{}],193:[function(require,module,exports){
+},{}],215:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -25836,7 +30054,7 @@ module.exports = {
     info: $foreign.info
 };
 
-},{"../Control.Monad.Eff":203,"../Data.Show":317,"../Data.Unit":340,"./foreign":192}],194:[function(require,module,exports){
+},{"../Control.Monad.Eff":225,"../Data.Show":339,"../Data.Unit":363,"./foreign":214}],216:[function(require,module,exports){
 "use strict";
 
 exports.showErrorImpl = function (err) {
@@ -25885,7 +30103,7 @@ exports.catchException = function (c) {
   };
 };
 
-},{}],195:[function(require,module,exports){
+},{}],217:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -25919,7 +30137,7 @@ module.exports = {
     catchException: $foreign.catchException
 };
 
-},{"../Control.Applicative":174,"../Control.Monad.Eff":203,"../Control.Semigroupoid":227,"../Data.Either":253,"../Data.Functor":271,"../Data.Maybe":288,"../Data.Show":317,"../Prelude":352,"./foreign":194}],196:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Monad.Eff":225,"../Control.Semigroupoid":249,"../Data.Either":275,"../Data.Functor":293,"../Data.Maybe":310,"../Data.Show":339,"../Prelude":375,"./foreign":216}],218:[function(require,module,exports){
 "use strict";
 
 exports.newRef = function (val) {
@@ -25953,7 +30171,7 @@ exports.writeRef = function (ref) {
   };
 };
 
-},{}],197:[function(require,module,exports){
+},{}],219:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -25978,7 +30196,7 @@ module.exports = {
     writeRef: $foreign.writeRef
 };
 
-},{"../Control.Monad.Eff":203,"../Data.Unit":340,"../Prelude":352,"./foreign":196}],198:[function(require,module,exports){
+},{"../Control.Monad.Eff":225,"../Data.Unit":363,"../Prelude":375,"./foreign":218}],220:[function(require,module,exports){
 "use strict";
 
 exports.mkEffFn1 = function mkEffFn1(fn) {
@@ -26211,7 +30429,7 @@ exports.runEffFn10 = function runEffFn10(fn) {
   };
 };
 
-},{}],199:[function(require,module,exports){
+},{}],221:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -26239,14 +30457,14 @@ module.exports = {
     runEffFn10: $foreign.runEffFn10
 };
 
-},{"../Control.Monad.Eff":203,"./foreign":198}],200:[function(require,module,exports){
+},{"../Control.Monad.Eff":225,"./foreign":220}],222:[function(require,module,exports){
 "use strict";
 
 exports.unsafeCoerceEff = function (f) {
   return f;
 };
 
-},{}],201:[function(require,module,exports){
+},{}],223:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -26260,7 +30478,7 @@ module.exports = {
     unsafeCoerceEff: $foreign.unsafeCoerceEff
 };
 
-},{"../Control.Monad.Eff":203,"../Control.Semigroupoid":227,"./foreign":200}],202:[function(require,module,exports){
+},{"../Control.Monad.Eff":225,"../Control.Semigroupoid":249,"./foreign":222}],224:[function(require,module,exports){
 "use strict";
 
 exports.pureE = function (a) {
@@ -26321,7 +30539,7 @@ exports.foreachE = function (as) {
   };
 };
 
-},{}],203:[function(require,module,exports){
+},{}],225:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -26359,7 +30577,7 @@ module.exports = {
     foreachE: $foreign.foreachE
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Data.Functor":271,"../Data.Unit":340,"./foreign":202}],204:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Data.Functor":293,"../Data.Unit":363,"./foreign":224}],226:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -26472,7 +30690,7 @@ module.exports = {
     monadErrorMaybe: monadErrorMaybe
 };
 
-},{"../Control.Applicative":174,"../Control.Bind":180,"../Control.Semigroupoid":227,"../Data.Either":253,"../Data.Function":266,"../Data.Functor":271,"../Data.Maybe":288,"../Data.Unit":340,"../Prelude":352}],205:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Bind":202,"../Control.Semigroupoid":249,"../Data.Either":275,"../Data.Function":288,"../Data.Functor":293,"../Data.Maybe":310,"../Data.Unit":363,"../Prelude":375}],227:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -26789,7 +31007,7 @@ module.exports = {
     monadWriterExceptT: monadWriterExceptT
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Monad":221,"../Control.Monad.Cont.Class":189,"../Control.Monad.Eff.Class":191,"../Control.Monad.Error.Class":204,"../Control.Monad.Reader.Class":209,"../Control.Monad.Rec.Class":211,"../Control.Monad.State.Class":214,"../Control.Monad.Trans.Class":217,"../Control.Monad.Writer.Class":218,"../Control.MonadPlus":222,"../Control.MonadZero":223,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Either":253,"../Data.Function":266,"../Data.Functor":271,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Semigroup":313,"../Data.Tuple":336,"../Prelude":352}],206:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Monad":243,"../Control.Monad.Cont.Class":211,"../Control.Monad.Eff.Class":213,"../Control.Monad.Error.Class":226,"../Control.Monad.Reader.Class":231,"../Control.Monad.Rec.Class":233,"../Control.Monad.State.Class":236,"../Control.Monad.Trans.Class":239,"../Control.Monad.Writer.Class":240,"../Control.MonadPlus":244,"../Control.MonadZero":245,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Either":275,"../Data.Function":288,"../Data.Functor":293,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Semigroup":335,"../Data.Tuple":359,"../Prelude":375}],228:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Monad_Error_Class = require("../Control.Monad.Error.Class");
@@ -26814,7 +31032,7 @@ module.exports = {
     withExcept: withExcept
 };
 
-},{"../Control.Monad.Error.Class":204,"../Control.Monad.Except.Trans":205,"../Control.Semigroupoid":227,"../Data.Either":253,"../Data.Identity":278,"../Data.Newtype":297,"../Prelude":352}],207:[function(require,module,exports){
+},{"../Control.Monad.Error.Class":226,"../Control.Monad.Except.Trans":227,"../Control.Semigroupoid":249,"../Data.Either":275,"../Data.Identity":300,"../Data.Newtype":319,"../Prelude":375}],229:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -27235,7 +31453,7 @@ module.exports = {
     traversableFree: traversableFree
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Monad":221,"../Control.Monad.Rec.Class":211,"../Control.Monad.Trans.Class":217,"../Control.Semigroupoid":227,"../Data.CatList":248,"../Data.Either":253,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.Maybe":288,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.Traversable":334,"../Data.Tuple":336,"../Prelude":352,"../Unsafe.Coerce":374}],208:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Monad":243,"../Control.Monad.Rec.Class":233,"../Control.Monad.Trans.Class":239,"../Control.Semigroupoid":249,"../Data.CatList":270,"../Data.Either":275,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Traversable":356,"../Data.Tuple":359,"../Prelude":375,"../Unsafe.Coerce":397}],230:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -27506,7 +31724,7 @@ module.exports = {
     monadWriterMaybeT: monadWriterMaybeT
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Monad":221,"../Control.Monad.Cont.Class":189,"../Control.Monad.Eff.Class":191,"../Control.Monad.Error.Class":204,"../Control.Monad.Reader.Class":209,"../Control.Monad.Rec.Class":211,"../Control.Monad.State.Class":214,"../Control.Monad.Trans.Class":217,"../Control.Monad.Writer.Class":218,"../Control.MonadPlus":222,"../Control.MonadZero":223,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Function":266,"../Data.Functor":271,"../Data.Maybe":288,"../Data.Newtype":297,"../Data.Tuple":336,"../Prelude":352}],209:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Monad":243,"../Control.Monad.Cont.Class":211,"../Control.Monad.Eff.Class":213,"../Control.Monad.Error.Class":226,"../Control.Monad.Reader.Class":231,"../Control.Monad.Rec.Class":233,"../Control.Monad.State.Class":236,"../Control.Monad.Trans.Class":239,"../Control.Monad.Writer.Class":240,"../Control.MonadPlus":244,"../Control.MonadZero":245,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Function":288,"../Data.Functor":293,"../Data.Maybe":310,"../Data.Newtype":319,"../Data.Tuple":359,"../Prelude":375}],231:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -27549,7 +31767,7 @@ module.exports = {
     monadReaderFun: monadReaderFun
 };
 
-},{"../Control.Category":181,"../Control.Monad":221,"../Control.Semigroupoid":227,"../Data.Functor":271,"../Prelude":352}],210:[function(require,module,exports){
+},{"../Control.Category":203,"../Control.Monad":243,"../Control.Semigroupoid":249,"../Data.Functor":293,"../Prelude":375}],232:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -27835,7 +32053,7 @@ module.exports = {
     monadRecReaderT: monadRecReaderT
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Control.Monad.Cont.Class":189,"../Control.Monad.Eff.Class":191,"../Control.Monad.Error.Class":204,"../Control.Monad.Reader.Class":209,"../Control.Monad.Rec.Class":211,"../Control.Monad.State.Class":214,"../Control.Monad.Trans.Class":217,"../Control.Monad.Writer.Class":218,"../Control.MonadPlus":222,"../Control.MonadZero":223,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Distributive":251,"../Data.Function":266,"../Data.Functor":271,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Semigroup":313,"../Prelude":352}],211:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Control.Monad.Cont.Class":211,"../Control.Monad.Eff.Class":213,"../Control.Monad.Error.Class":226,"../Control.Monad.Reader.Class":231,"../Control.Monad.Rec.Class":233,"../Control.Monad.State.Class":236,"../Control.Monad.Trans.Class":239,"../Control.Monad.Writer.Class":240,"../Control.MonadPlus":244,"../Control.MonadZero":245,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Distributive":273,"../Data.Function":288,"../Data.Functor":293,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Semigroup":335,"../Prelude":375}],233:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -28087,7 +32305,7 @@ module.exports = {
     monadRecMaybe: monadRecMaybe
 };
 
-},{"../Control.Applicative":174,"../Control.Bind":180,"../Control.Monad":221,"../Control.Monad.Eff":203,"../Control.Monad.Eff.Unsafe":201,"../Control.Monad.ST":213,"../Control.Semigroupoid":227,"../Data.Bifunctor":242,"../Data.Either":253,"../Data.Functor":271,"../Data.Identity":278,"../Data.Maybe":288,"../Data.Unit":340,"../Partial.Unsafe":349,"../Prelude":352}],212:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Bind":202,"../Control.Monad":243,"../Control.Monad.Eff":225,"../Control.Monad.Eff.Unsafe":223,"../Control.Monad.ST":235,"../Control.Semigroupoid":249,"../Data.Bifunctor":264,"../Data.Either":275,"../Data.Functor":293,"../Data.Identity":300,"../Data.Maybe":310,"../Data.Unit":363,"../Partial.Unsafe":372,"../Prelude":375}],234:[function(require,module,exports){
 "use strict";
 
 exports.newSTRef = function (val) {
@@ -28122,7 +32340,7 @@ exports.runST = function (f) {
   return f;
 };
 
-},{}],213:[function(require,module,exports){
+},{}],235:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -28139,7 +32357,7 @@ module.exports = {
     runST: $foreign.runST
 };
 
-},{"../Control.Monad.Eff":203,"./foreign":212}],214:[function(require,module,exports){
+},{"../Control.Monad.Eff":225,"./foreign":234}],236:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_Tuple = require("../Data.Tuple");
@@ -28187,7 +32405,7 @@ module.exports = {
     modify: modify
 };
 
-},{"../Data.Tuple":336,"../Data.Unit":340,"../Prelude":352}],215:[function(require,module,exports){
+},{"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],237:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -28504,7 +32722,7 @@ module.exports = {
     monadWriterStateT: monadWriterStateT
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Lazy":185,"../Control.Monad":221,"../Control.Monad.Cont.Class":189,"../Control.Monad.Eff.Class":191,"../Control.Monad.Error.Class":204,"../Control.Monad.Reader.Class":209,"../Control.Monad.Rec.Class":211,"../Control.Monad.State.Class":214,"../Control.Monad.Trans.Class":217,"../Control.Monad.Writer.Class":218,"../Control.MonadPlus":222,"../Control.MonadZero":223,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Function":266,"../Data.Functor":271,"../Data.Newtype":297,"../Data.Tuple":336,"../Data.Unit":340,"../Prelude":352}],216:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Lazy":207,"../Control.Monad":243,"../Control.Monad.Cont.Class":211,"../Control.Monad.Eff.Class":213,"../Control.Monad.Error.Class":226,"../Control.Monad.Reader.Class":231,"../Control.Monad.Rec.Class":233,"../Control.Monad.State.Class":236,"../Control.Monad.Trans.Class":239,"../Control.Monad.Writer.Class":240,"../Control.MonadPlus":244,"../Control.MonadZero":245,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Function":288,"../Data.Functor":293,"../Data.Newtype":319,"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],238:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Monad_State_Class = require("../Control.Monad.State.Class");
@@ -28545,7 +32763,7 @@ module.exports = {
     withState: withState
 };
 
-},{"../Control.Monad.State.Class":214,"../Control.Monad.State.Trans":215,"../Control.Semigroupoid":227,"../Data.Identity":278,"../Data.Newtype":297,"../Data.Tuple":336,"../Prelude":352}],217:[function(require,module,exports){
+},{"../Control.Monad.State.Class":236,"../Control.Monad.State.Trans":237,"../Control.Semigroupoid":249,"../Data.Identity":300,"../Data.Newtype":319,"../Data.Tuple":359,"../Prelude":375}],239:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Prelude = require("../Prelude");
@@ -28560,7 +32778,7 @@ module.exports = {
     MonadTrans: MonadTrans
 };
 
-},{"../Prelude":352}],218:[function(require,module,exports){
+},{"../Prelude":375}],240:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -28614,7 +32832,7 @@ module.exports = {
     censor: censor
 };
 
-},{"../Control.Applicative":174,"../Control.Bind":180,"../Data.Function":266,"../Data.Tuple":336,"../Prelude":352}],219:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Bind":202,"../Data.Function":288,"../Data.Tuple":359,"../Prelude":375}],241:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -28918,7 +33136,7 @@ module.exports = {
     monadWriterWriterT: monadWriterWriterT
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Control.Monad.Cont.Class":189,"../Control.Monad.Eff.Class":191,"../Control.Monad.Error.Class":204,"../Control.Monad.Reader.Class":209,"../Control.Monad.Rec.Class":211,"../Control.Monad.State.Class":214,"../Control.Monad.Trans.Class":217,"../Control.Monad.Writer.Class":218,"../Control.MonadPlus":222,"../Control.MonadZero":223,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Function":266,"../Data.Functor":271,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Semigroup":313,"../Data.Tuple":336,"../Data.Unit":340,"../Prelude":352}],220:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Control.Monad.Cont.Class":211,"../Control.Monad.Eff.Class":213,"../Control.Monad.Error.Class":226,"../Control.Monad.Reader.Class":231,"../Control.Monad.Rec.Class":233,"../Control.Monad.State.Class":236,"../Control.Monad.Trans.Class":239,"../Control.Monad.Writer.Class":240,"../Control.MonadPlus":244,"../Control.MonadZero":245,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Function":288,"../Data.Functor":293,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Semigroup":335,"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],242:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -28950,7 +33168,7 @@ module.exports = {
     mapWriter: mapWriter
 };
 
-},{"../Control.Applicative":174,"../Control.Monad.Writer.Class":218,"../Control.Monad.Writer.Trans":219,"../Control.Semigroupoid":227,"../Data.Identity":278,"../Data.Newtype":297,"../Data.Tuple":336,"../Prelude":352}],221:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Monad.Writer.Class":240,"../Control.Monad.Writer.Trans":241,"../Control.Semigroupoid":249,"../Data.Identity":300,"../Data.Newtype":319,"../Data.Tuple":359,"../Prelude":375}],243:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -29020,7 +33238,7 @@ module.exports = {
     monadArray: monadArray
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Data.Functor":271,"../Data.Unit":340}],222:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Data.Functor":293,"../Data.Unit":363}],244:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -29043,7 +33261,7 @@ module.exports = {
     monadPlusArray: monadPlusArray
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Control.MonadZero":223,"../Control.Plus":226,"../Data.Functor":271}],223:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Control.MonadZero":245,"../Control.Plus":248,"../Data.Functor":293}],245:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -29081,7 +33299,7 @@ module.exports = {
     monadZeroArray: monadZeroArray
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Control.Plus":226,"../Data.Functor":271,"../Data.Unit":340}],224:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Control.Plus":248,"../Data.Functor":293,"../Data.Unit":363}],246:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -29292,7 +33510,7 @@ module.exports = {
     monadParParCont: monadParParCont
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad.Cont.Trans":190,"../Control.Monad.Eff":203,"../Control.Monad.Eff.Class":191,"../Control.Monad.Eff.Ref":197,"../Control.Monad.Eff.Unsafe":201,"../Control.Monad.Except.Trans":205,"../Control.Monad.Maybe.Trans":208,"../Control.Monad.Reader.Trans":210,"../Control.Monad.Writer.Trans":219,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Either":253,"../Data.Function":266,"../Data.Functor":271,"../Data.Functor.Compose":268,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Unit":340,"../Prelude":352}],225:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad.Cont.Trans":212,"../Control.Monad.Eff":225,"../Control.Monad.Eff.Class":213,"../Control.Monad.Eff.Ref":219,"../Control.Monad.Eff.Unsafe":223,"../Control.Monad.Except.Trans":227,"../Control.Monad.Maybe.Trans":230,"../Control.Monad.Reader.Trans":232,"../Control.Monad.Writer.Trans":241,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Either":275,"../Data.Function":288,"../Data.Functor":293,"../Data.Functor.Compose":290,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Unit":363,"../Prelude":375}],247:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alternative = require("../Control.Alternative");
@@ -29378,7 +33596,7 @@ module.exports = {
     parApply: parApply
 };
 
-},{"../Control.Alternative":173,"../Control.Apply":176,"../Control.Category":181,"../Control.Parallel.Class":224,"../Control.Semigroupoid":227,"../Data.Foldable":260,"../Data.Traversable":334,"../Prelude":352}],226:[function(require,module,exports){
+},{"../Control.Alternative":195,"../Control.Apply":198,"../Control.Category":203,"../Control.Parallel.Class":246,"../Control.Semigroupoid":249,"../Data.Foldable":282,"../Data.Traversable":356,"../Prelude":375}],248:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -29399,7 +33617,7 @@ module.exports = {
     plusArray: plusArray
 };
 
-},{"../Control.Alt":172,"../Data.Functor":271}],227:[function(require,module,exports){
+},{"../Control.Alt":194,"../Data.Functor":293}],249:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Semigroupoid = function (compose) {
@@ -29429,7 +33647,7 @@ module.exports = {
     semigroupoidFn: semigroupoidFn
 };
 
-},{}],228:[function(require,module,exports){
+},{}],250:[function(require,module,exports){
 /* global EventTarget */
 "use strict";
 
@@ -29441,7 +33659,7 @@ exports._readEventTarget = function (left) {
   };
 };
 
-},{}],229:[function(require,module,exports){
+},{}],251:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -29527,13 +33745,13 @@ module.exports = {
     ordEventType: ordEventType
 };
 
-},{"../Control.Applicative":174,"../Control.Monad.Except.Trans":205,"../Control.Semigroupoid":227,"../Data.Bifunctor":242,"../Data.Either":253,"../Data.Eq":255,"../Data.Foreign":263,"../Data.Identity":278,"../Data.List.Types":284,"../Data.Newtype":297,"../Data.Ord":304,"../Prelude":352,"../Unsafe.Coerce":374,"./foreign":228}],230:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Monad.Except.Trans":227,"../Control.Semigroupoid":249,"../Data.Bifunctor":264,"../Data.Either":275,"../Data.Eq":277,"../Data.Foreign":285,"../Data.Identity":300,"../Data.List.Types":306,"../Data.Newtype":319,"../Data.Ord":326,"../Prelude":375,"../Unsafe.Coerce":397,"./foreign":250}],252:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Monad_Eff = require("../Control.Monad.Eff");
 module.exports = {};
 
-},{"../Control.Monad.Eff":203}],231:[function(require,module,exports){
+},{"../Control.Monad.Eff":225}],253:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -29632,7 +33850,7 @@ module.exports = {
     pushAll: pushAll
 };
 
-},{"../Control.Applicative":174,"../Control.Bind":180,"../Control.Monad.Eff":203,"../Control.Monad.ST":213,"../Control.Semigroupoid":227,"../Data.Array.ST":233,"../Data.Function":266,"../Data.Functor":271,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.Semiring":315,"../Prelude":352}],232:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Bind":202,"../Control.Monad.Eff":225,"../Control.Monad.ST":235,"../Control.Semigroupoid":249,"../Data.Array.ST":255,"../Data.Function":288,"../Data.Functor":293,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.Semiring":337,"../Prelude":375}],254:[function(require,module,exports){
 "use strict";
 
 exports.runSTArray = function (f) {
@@ -29702,7 +33920,7 @@ exports.toAssocArray = function (xs) {
   };
 };
 
-},{}],233:[function(require,module,exports){
+},{}],255:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -29766,7 +33984,7 @@ module.exports = {
     toAssocArray: $foreign.toAssocArray
 };
 
-},{"../Control.Applicative":174,"../Control.Bind":180,"../Control.Monad.Eff":203,"../Control.Monad.ST":213,"../Control.Semigroupoid":227,"../Data.Maybe":288,"../Prelude":352,"../Unsafe.Coerce":374,"./foreign":232}],234:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Bind":202,"../Control.Monad.Eff":225,"../Control.Monad.ST":235,"../Control.Semigroupoid":249,"../Data.Maybe":310,"../Prelude":375,"../Unsafe.Coerce":397,"./foreign":254}],256:[function(require,module,exports){
 "use strict";
 
 //------------------------------------------------------------------------------
@@ -30076,7 +34294,7 @@ exports.unsafeIndexImpl = function (xs) {
   };
 };
 
-},{}],235:[function(require,module,exports){
+},{}],257:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -30628,7 +34846,7 @@ module.exports = {
     zipWith: $foreign.zipWith
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Lazy":185,"../Control.Monad.Eff":203,"../Control.Monad.Rec.Class":211,"../Control.Monad.ST":213,"../Control.Semigroupoid":227,"../Data.Array.ST":233,"../Data.Array.ST.Iterator":231,"../Data.Boolean":244,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.NonEmpty":298,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Traversable":334,"../Data.Tuple":336,"../Data.Unfoldable":338,"../Partial.Unsafe":349,"../Prelude":352,"./foreign":234}],236:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Lazy":207,"../Control.Monad.Eff":225,"../Control.Monad.Rec.Class":233,"../Control.Monad.ST":235,"../Control.Semigroupoid":249,"../Data.Array.ST":255,"../Data.Array.ST.Iterator":253,"../Data.Boolean":266,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Traversable":356,"../Data.Tuple":359,"../Data.Unfoldable":361,"../Partial.Unsafe":372,"../Prelude":375,"./foreign":256}],258:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -30948,7 +35166,7 @@ module.exports = {
     bifoldableWrap: bifoldableWrap
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Bifunctor.Clown":237,"../Data.Bifunctor.Flip":238,"../Data.Bifunctor.Joker":239,"../Data.Bifunctor.Product":240,"../Data.Bifunctor.Wrap":241,"../Data.Foldable":260,"../Data.Function":266,"../Data.Monoid":295,"../Data.Monoid.Conj":290,"../Data.Monoid.Disj":291,"../Data.Monoid.Dual":292,"../Data.Monoid.Endo":293,"../Data.Newtype":297,"../Data.Semigroup":313,"../Data.Unit":340,"../Prelude":352}],237:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Bifunctor.Clown":259,"../Data.Bifunctor.Flip":260,"../Data.Bifunctor.Joker":261,"../Data.Bifunctor.Product":262,"../Data.Bifunctor.Wrap":263,"../Data.Foldable":282,"../Data.Function":288,"../Data.Monoid":317,"../Data.Monoid.Conj":312,"../Data.Monoid.Disj":313,"../Data.Monoid.Dual":314,"../Data.Monoid.Endo":315,"../Data.Newtype":319,"../Data.Semigroup":335,"../Data.Unit":363,"../Prelude":375}],259:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -31024,7 +35242,7 @@ module.exports = {
     biapplicativeClown: biapplicativeClown
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Biapplicative":177,"../Control.Biapply":178,"../Data.Bifunctor":242,"../Data.Eq":255,"../Data.Functor":271,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Prelude":352}],238:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Biapplicative":199,"../Control.Biapply":200,"../Data.Bifunctor":264,"../Data.Eq":277,"../Data.Functor":293,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Prelude":375}],260:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Biapplicative = require("../Control.Biapplicative");
@@ -31100,7 +35318,7 @@ module.exports = {
     biapplicativeFlip: biapplicativeFlip
 };
 
-},{"../Control.Biapplicative":177,"../Control.Biapply":178,"../Data.Bifunctor":242,"../Data.Eq":255,"../Data.Functor":271,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Prelude":352}],239:[function(require,module,exports){
+},{"../Control.Biapplicative":199,"../Control.Biapply":200,"../Data.Bifunctor":264,"../Data.Eq":277,"../Data.Functor":293,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Prelude":375}],261:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -31178,7 +35396,7 @@ module.exports = {
     biapplicativeJoker: biapplicativeJoker
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Biapplicative":177,"../Control.Biapply":178,"../Data.Bifunctor":242,"../Data.Eq":255,"../Data.Functor":271,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Prelude":352}],240:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Biapplicative":199,"../Control.Biapply":200,"../Data.Bifunctor":264,"../Data.Eq":277,"../Data.Functor":293,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Prelude":375}],262:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Biapplicative = require("../Control.Biapplicative");
@@ -31280,7 +35498,7 @@ module.exports = {
     biapplicativeProduct: biapplicativeProduct
 };
 
-},{"../Control.Biapplicative":177,"../Control.Biapply":178,"../Data.Bifunctor":242,"../Data.Eq":255,"../Data.HeytingAlgebra":277,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.Show":317,"../Prelude":352}],241:[function(require,module,exports){
+},{"../Control.Biapplicative":199,"../Control.Biapply":200,"../Data.Bifunctor":264,"../Data.Eq":277,"../Data.HeytingAlgebra":299,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Show":339,"../Prelude":375}],263:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Biapplicative = require("../Control.Biapplicative");
@@ -31356,7 +35574,7 @@ module.exports = {
     biapplicativeWrap: biapplicativeWrap
 };
 
-},{"../Control.Biapplicative":177,"../Control.Biapply":178,"../Data.Bifunctor":242,"../Data.Eq":255,"../Data.Functor":271,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Prelude":352}],242:[function(require,module,exports){
+},{"../Control.Biapplicative":199,"../Control.Biapply":200,"../Data.Bifunctor":264,"../Data.Eq":277,"../Data.Functor":293,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Prelude":375}],264:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -31381,7 +35599,7 @@ module.exports = {
     rmap: rmap
 };
 
-},{"../Control.Category":181}],243:[function(require,module,exports){
+},{"../Control.Category":203}],265:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -31581,7 +35799,7 @@ module.exports = {
     bitraversableWrap: bitraversableWrap
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Category":181,"../Data.Bifoldable":236,"../Data.Bifunctor":242,"../Data.Bifunctor.Clown":237,"../Data.Bifunctor.Flip":238,"../Data.Bifunctor.Joker":239,"../Data.Bifunctor.Product":240,"../Data.Bifunctor.Wrap":241,"../Data.Functor":271,"../Data.Traversable":334,"../Prelude":352}],244:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Category":203,"../Data.Bifoldable":258,"../Data.Bifunctor":264,"../Data.Bifunctor.Clown":259,"../Data.Bifunctor.Flip":260,"../Data.Bifunctor.Joker":261,"../Data.Bifunctor.Product":262,"../Data.Bifunctor.Wrap":263,"../Data.Functor":293,"../Data.Traversable":356,"../Prelude":375}],266:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var otherwise = true;
@@ -31589,7 +35807,7 @@ module.exports = {
     otherwise: otherwise
 };
 
-},{}],245:[function(require,module,exports){
+},{}],267:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_HeytingAlgebra = require("../Data.HeytingAlgebra");
@@ -31615,7 +35833,7 @@ module.exports = {
     booleanAlgebraFn: booleanAlgebraFn
 };
 
-},{"../Data.HeytingAlgebra":277,"../Data.Unit":340}],246:[function(require,module,exports){
+},{"../Data.HeytingAlgebra":299,"../Data.Unit":363}],268:[function(require,module,exports){
 "use strict";
 
 exports.topInt = 2147483647;
@@ -31624,7 +35842,7 @@ exports.bottomInt = -2147483648;
 exports.topChar = String.fromCharCode(65535);
 exports.bottomChar = String.fromCharCode(0);
 
-},{}],247:[function(require,module,exports){
+},{}],269:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -31668,7 +35886,7 @@ module.exports = {
     boundedUnit: boundedUnit
 };
 
-},{"../Data.Ord":304,"../Data.Ordering":305,"../Data.Unit":340,"./foreign":246}],248:[function(require,module,exports){
+},{"../Data.Ord":326,"../Data.Ordering":327,"../Data.Unit":363,"./foreign":268}],270:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -32041,7 +36259,7 @@ module.exports = {
     monadPlusCatList: monadPlusCatList
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Control.MonadPlus":222,"../Control.MonadZero":223,"../Control.Plus":226,"../Data.CatQueue":249,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.List":285,"../Data.List.Types":284,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.NaturalTransformation":296,"../Data.Semigroup":313,"../Data.Show":317,"../Data.Traversable":334,"../Data.Tuple":336,"../Data.Unfoldable":338}],249:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Control.MonadPlus":244,"../Control.MonadZero":245,"../Control.Plus":248,"../Data.CatQueue":271,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.List":307,"../Data.List.Types":306,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.NaturalTransformation":318,"../Data.Semigroup":335,"../Data.Show":339,"../Data.Traversable":356,"../Data.Tuple":359,"../Data.Unfoldable":361}],271:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_List = require("../Data.List");
@@ -32111,7 +36329,7 @@ module.exports = {
     showCatQueue: showCatQueue
 };
 
-},{"../Data.List":285,"../Data.List.Types":284,"../Data.Maybe":288,"../Data.Semigroup":313,"../Data.Show":317,"../Data.Tuple":336}],250:[function(require,module,exports){
+},{"../Data.List":307,"../Data.List.Types":306,"../Data.Maybe":310,"../Data.Semigroup":335,"../Data.Show":339,"../Data.Tuple":359}],272:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_Ring = require("../Data.Ring");
@@ -32142,7 +36360,7 @@ module.exports = {
     commutativeRingFn: commutativeRingFn
 };
 
-},{"../Data.Ring":309,"../Data.Semiring":315,"../Data.Unit":340}],251:[function(require,module,exports){
+},{"../Data.Ring":331,"../Data.Semiring":337,"../Data.Unit":363}],273:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -32229,7 +36447,7 @@ module.exports = {
     distributiveFunction: distributiveFunction
 };
 
-},{"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Function":266,"../Data.Functor":271,"../Data.Identity":278,"../Data.Newtype":297,"../Prelude":352}],252:[function(require,module,exports){
+},{"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Function":288,"../Data.Functor":293,"../Data.Identity":300,"../Data.Newtype":319,"../Prelude":375}],274:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_EuclideanRing = require("../Data.EuclideanRing");
@@ -32269,7 +36487,7 @@ module.exports = {
     divisionringNumber: divisionringNumber
 };
 
-},{"../Data.EuclideanRing":257,"../Data.Ring":309,"../Data.Semiring":315}],253:[function(require,module,exports){
+},{"../Data.EuclideanRing":279,"../Data.Ring":331,"../Data.Semiring":337}],275:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -32705,7 +36923,7 @@ module.exports = {
     semigroupEither: semigroupEither
 };
 
-},{"../Control.Alt":172,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Extend":184,"../Control.Monad":221,"../Data.Bifoldable":236,"../Data.Bifunctor":242,"../Data.Bitraversable":243,"../Data.Bounded":247,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Data.Traversable":334,"../Prelude":352}],254:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Extend":206,"../Control.Monad":243,"../Data.Bifoldable":258,"../Data.Bifunctor":264,"../Data.Bitraversable":265,"../Data.Bounded":269,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Data.Traversable":356,"../Prelude":375}],276:[function(require,module,exports){
 "use strict";
 
 exports.refEq = function (r1) {
@@ -32726,7 +36944,7 @@ exports.eqArrayImpl = function (f) {
   };
 };
 
-},{}],255:[function(require,module,exports){
+},{}],277:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -32799,7 +37017,7 @@ module.exports = {
     eq1Array: eq1Array
 };
 
-},{"../Data.Unit":340,"../Data.Void":341,"./foreign":254}],256:[function(require,module,exports){
+},{"../Data.Unit":363,"../Data.Void":364,"./foreign":276}],278:[function(require,module,exports){
 "use strict";
 
 exports.intDegree = function (x) {
@@ -32825,7 +37043,7 @@ exports.numDiv = function (n1) {
   };
 };
 
-},{}],257:[function(require,module,exports){
+},{}],279:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -32915,7 +37133,7 @@ module.exports = {
     euclideanRingNumber: euclideanRingNumber
 };
 
-},{"../Data.BooleanAlgebra":245,"../Data.CommutativeRing":250,"../Data.Eq":255,"../Data.HeytingAlgebra":277,"../Data.Ring":309,"../Data.Semiring":315,"./foreign":256}],258:[function(require,module,exports){
+},{"../Data.BooleanAlgebra":267,"../Data.CommutativeRing":272,"../Data.Eq":277,"../Data.HeytingAlgebra":299,"../Data.Ring":331,"../Data.Semiring":337,"./foreign":278}],280:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_CommutativeRing = require("../Data.CommutativeRing");
@@ -32934,7 +37152,7 @@ module.exports = {
     fieldNumber: fieldNumber
 };
 
-},{"../Data.CommutativeRing":250,"../Data.DivisionRing":252,"../Data.EuclideanRing":257,"../Data.Ring":309,"../Data.Semiring":315}],259:[function(require,module,exports){
+},{"../Data.CommutativeRing":272,"../Data.DivisionRing":274,"../Data.EuclideanRing":279,"../Data.Ring":331,"../Data.Semiring":337}],281:[function(require,module,exports){
 "use strict";
 
 exports.foldrArray = function (f) {
@@ -32963,7 +37181,7 @@ exports.foldlArray = function (f) {
   };
 };
 
-},{}],260:[function(require,module,exports){
+},{}],282:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -33576,7 +37794,7 @@ module.exports = {
     foldableMultiplicative: foldableMultiplicative
 };
 
-},{"../Control.Alt":172,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Eq":255,"../Data.Function":266,"../Data.Functor":271,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.Maybe.First":286,"../Data.Maybe.Last":287,"../Data.Monoid":295,"../Data.Monoid.Additive":289,"../Data.Monoid.Conj":290,"../Data.Monoid.Disj":291,"../Data.Monoid.Dual":292,"../Data.Monoid.Endo":293,"../Data.Monoid.Multiplicative":294,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Unit":340,"../Prelude":352,"./foreign":259}],261:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Functor":293,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.Maybe.First":308,"../Data.Maybe.Last":309,"../Data.Monoid":317,"../Data.Monoid.Additive":311,"../Data.Monoid.Conj":312,"../Data.Monoid.Disj":313,"../Data.Monoid.Dual":314,"../Data.Monoid.Endo":315,"../Data.Monoid.Multiplicative":316,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Unit":363,"../Prelude":375,"./foreign":281}],283:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -33909,7 +38127,7 @@ module.exports = {
     foldableWithIndexMultiplicative: foldableWithIndexMultiplicative
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Semigroupoid":227,"../Data.Foldable":260,"../Data.Function":266,"../Data.FunctorWithIndex":273,"../Data.Maybe":288,"../Data.Maybe.First":286,"../Data.Maybe.Last":287,"../Data.Monoid":295,"../Data.Monoid.Additive":289,"../Data.Monoid.Conj":290,"../Data.Monoid.Disj":291,"../Data.Monoid.Dual":292,"../Data.Monoid.Endo":293,"../Data.Monoid.Multiplicative":294,"../Data.Newtype":297,"../Data.Semigroup":313,"../Data.Unit":340,"../Prelude":352}],262:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Semigroupoid":249,"../Data.Foldable":282,"../Data.Function":288,"../Data.FunctorWithIndex":295,"../Data.Maybe":310,"../Data.Maybe.First":308,"../Data.Maybe.Last":309,"../Data.Monoid":317,"../Data.Monoid.Additive":311,"../Data.Monoid.Conj":312,"../Data.Monoid.Disj":313,"../Data.Monoid.Dual":314,"../Data.Monoid.Endo":315,"../Data.Monoid.Multiplicative":316,"../Data.Newtype":319,"../Data.Semigroup":335,"../Data.Unit":363,"../Prelude":375}],284:[function(require,module,exports){
 "use strict";
 
 exports.toForeign = function (value) {
@@ -33940,7 +38158,7 @@ exports.isArray = Array.isArray || function (value) {
   return Object.prototype.toString.call(value) === "[object Array]";
 };
 
-},{}],263:[function(require,module,exports){
+},{}],285:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -34238,7 +38456,7 @@ module.exports = {
     isArray: $foreign.isArray
 };
 
-},{"../Control.Applicative":174,"../Control.Monad.Error.Class":204,"../Control.Monad.Except":206,"../Control.Monad.Except.Trans":205,"../Control.Semigroupoid":227,"../Data.Boolean":244,"../Data.Either":253,"../Data.Eq":255,"../Data.Function":266,"../Data.HeytingAlgebra":277,"../Data.Identity":278,"../Data.Int":282,"../Data.List.NonEmpty":283,"../Data.Maybe":288,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.Show":317,"../Data.String":328,"../Prelude":352,"./foreign":262}],264:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Monad.Error.Class":226,"../Control.Monad.Except":228,"../Control.Monad.Except.Trans":227,"../Control.Semigroupoid":249,"../Data.Boolean":266,"../Data.Either":275,"../Data.Eq":277,"../Data.Function":288,"../Data.HeytingAlgebra":299,"../Data.Identity":300,"../Data.Int":304,"../Data.List.NonEmpty":305,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Show":339,"../Data.String":350,"../Prelude":375,"./foreign":284}],286:[function(require,module,exports){
 "use strict";
 
 // module Data.Function.Uncurried
@@ -34460,7 +38678,7 @@ exports.runFn10 = function (fn) {
   };
 };
 
-},{}],265:[function(require,module,exports){
+},{}],287:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -34496,7 +38714,7 @@ module.exports = {
     runFn10: $foreign.runFn10
 };
 
-},{"../Data.Unit":340,"./foreign":264}],266:[function(require,module,exports){
+},{"../Data.Unit":363,"./foreign":286}],288:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -34539,7 +38757,7 @@ module.exports = {
     on: on
 };
 
-},{"../Control.Category":181}],267:[function(require,module,exports){
+},{"../Control.Category":203}],289:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -34706,7 +38924,7 @@ module.exports = {
     comonadApp: comonadApp
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Comonad":182,"../Control.Extend":184,"../Control.Lazy":185,"../Control.Monad":221,"../Control.MonadPlus":222,"../Control.MonadZero":223,"../Control.Plus":226,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Functor":271,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Data.Traversable":334,"../Prelude":352,"../Unsafe.Coerce":374}],268:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Comonad":204,"../Control.Extend":206,"../Control.Lazy":207,"../Control.Monad":243,"../Control.MonadPlus":244,"../Control.MonadZero":245,"../Control.Plus":248,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Functor":293,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Data.Traversable":356,"../Prelude":375,"../Unsafe.Coerce":397}],290:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -34902,7 +39120,7 @@ module.exports = {
     alternativeCompose: alternativeCompose
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Category":181,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.Functor.App":267,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Data.Traversable":334,"../Prelude":352}],269:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Category":203,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.Functor.App":289,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Data.Traversable":356,"../Prelude":375}],291:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_Functor = require("../Data.Functor");
@@ -34929,7 +39147,7 @@ module.exports = {
     invariantArray: invariantArray
 };
 
-},{"../Data.Functor":271}],270:[function(require,module,exports){
+},{"../Data.Functor":293}],292:[function(require,module,exports){
 "use strict";
 
 exports.arrayMap = function (f) {
@@ -34943,7 +39161,7 @@ exports.arrayMap = function (f) {
   };
 };
 
-},{}],271:[function(require,module,exports){
+},{}],293:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -35001,7 +39219,7 @@ module.exports = {
     functorArray: functorArray
 };
 
-},{"../Control.Semigroupoid":227,"../Data.Function":266,"../Data.Unit":340,"./foreign":270}],272:[function(require,module,exports){
+},{"../Control.Semigroupoid":249,"../Data.Function":288,"../Data.Unit":363,"./foreign":292}],294:[function(require,module,exports){
 "use strict";
 
 exports.mapWithIndexArray = function (f) {
@@ -35015,7 +39233,7 @@ exports.mapWithIndexArray = function (f) {
   };
 };
 
-},{}],273:[function(require,module,exports){
+},{}],295:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -35095,7 +39313,7 @@ module.exports = {
     functorWithIndexMultiplicative: functorWithIndexMultiplicative
 };
 
-},{"../Data.Function":266,"../Data.Functor":271,"../Data.Maybe":288,"../Data.Maybe.First":286,"../Data.Maybe.Last":287,"../Data.Monoid.Additive":289,"../Data.Monoid.Conj":290,"../Data.Monoid.Disj":291,"../Data.Monoid.Dual":292,"../Data.Monoid.Multiplicative":294,"../Data.Unit":340,"../Prelude":352,"./foreign":272}],274:[function(require,module,exports){
+},{"../Data.Function":288,"../Data.Functor":293,"../Data.Maybe":310,"../Data.Maybe.First":308,"../Data.Maybe.Last":309,"../Data.Monoid.Additive":311,"../Data.Monoid.Conj":312,"../Data.Monoid.Disj":313,"../Data.Monoid.Dual":314,"../Data.Monoid.Multiplicative":316,"../Data.Unit":363,"../Prelude":375,"./foreign":294}],296:[function(require,module,exports){
 "use strict";
 
 // module Data.Generic
@@ -35138,7 +39356,7 @@ exports.zipCompare = function (f) {
   };
 };
 
-},{}],275:[function(require,module,exports){
+},{}],297:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -36194,7 +40412,7 @@ module.exports = {
     showGenericSignature: showGenericSignature
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Semigroupoid":227,"../Data.Array":235,"../Data.Boolean":244,"../Data.Either":253,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.HeytingAlgebra":277,"../Data.Identity":278,"../Data.List.Types":284,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.NonEmpty":298,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Show":317,"../Data.String":328,"../Data.Traversable":334,"../Data.Tuple":336,"../Data.Unit":340,"../Data.Void":341,"../Prelude":352,"../Type.Proxy":372,"./foreign":274}],276:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Semigroupoid":249,"../Data.Array":257,"../Data.Boolean":266,"../Data.Either":275,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.HeytingAlgebra":299,"../Data.Identity":300,"../Data.List.Types":306,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Show":339,"../Data.String":350,"../Data.Traversable":356,"../Data.Tuple":359,"../Data.Unit":363,"../Data.Void":364,"../Prelude":375,"../Type.Proxy":395,"./foreign":296}],298:[function(require,module,exports){
 "use strict";
 
 exports.boolConj = function (b1) {
@@ -36213,7 +40431,7 @@ exports.boolNot = function (b) {
   return !b;
 };
 
-},{}],277:[function(require,module,exports){
+},{}],299:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -36306,7 +40524,7 @@ module.exports = {
     heytingAlgebraFunction: heytingAlgebraFunction
 };
 
-},{"../Data.Unit":340,"./foreign":276}],278:[function(require,module,exports){
+},{"../Data.Unit":363,"./foreign":298}],300:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -36507,7 +40725,7 @@ module.exports = {
     traversableIdentity: traversableIdentity
 };
 
-},{"../Control.Alt":172,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Comonad":182,"../Control.Extend":184,"../Control.Lazy":185,"../Control.Monad":221,"../Data.BooleanAlgebra":245,"../Data.Bounded":247,"../Data.CommutativeRing":250,"../Data.Eq":255,"../Data.EuclideanRing":257,"../Data.Field":258,"../Data.Foldable":260,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.HeytingAlgebra":277,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Data.Traversable":334,"../Prelude":352}],279:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Comonad":204,"../Control.Extend":206,"../Control.Lazy":207,"../Control.Monad":243,"../Data.BooleanAlgebra":267,"../Data.Bounded":269,"../Data.CommutativeRing":272,"../Data.Eq":277,"../Data.EuclideanRing":279,"../Data.Field":280,"../Data.Foldable":282,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.HeytingAlgebra":299,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Data.Traversable":356,"../Prelude":375}],301:[function(require,module,exports){
 "use strict";
 
 // module Data.Int.Bits
@@ -36559,7 +40777,7 @@ exports.complement = function (n) {
   return ~n;
 };
 
-},{}],280:[function(require,module,exports){
+},{}],302:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -36573,7 +40791,7 @@ module.exports = {
     complement: $foreign.complement
 };
 
-},{"./foreign":279}],281:[function(require,module,exports){
+},{"./foreign":301}],303:[function(require,module,exports){
 "use strict";
 
 // module Data.Int
@@ -36630,7 +40848,7 @@ exports.pow = function (x) {
   };
 };
 
-},{}],282:[function(require,module,exports){
+},{}],304:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -36850,7 +41068,7 @@ module.exports = {
     pow: $foreign.pow
 };
 
-},{"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Boolean":244,"../Data.Bounded":247,"../Data.CommutativeRing":250,"../Data.DivisionRing":252,"../Data.Eq":255,"../Data.EuclideanRing":257,"../Data.Field":258,"../Data.HeytingAlgebra":277,"../Data.Int.Bits":280,"../Data.Maybe":288,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semiring":315,"../Data.Show":317,"../Global":343,"../Math":346,"../Prelude":352,"./foreign":281}],283:[function(require,module,exports){
+},{"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Boolean":266,"../Data.Bounded":269,"../Data.CommutativeRing":272,"../Data.DivisionRing":274,"../Data.Eq":277,"../Data.EuclideanRing":279,"../Data.Field":280,"../Data.HeytingAlgebra":299,"../Data.Int.Bits":302,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semiring":337,"../Data.Show":339,"../Global":366,"../Math":369,"../Prelude":375,"./foreign":303}],305:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Bind = require("../Control.Bind");
@@ -37262,7 +41480,7 @@ module.exports = {
     foldM: foldM
 };
 
-},{"../Control.Bind":180,"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Boolean":244,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.List":285,"../Data.List.Types":284,"../Data.Maybe":288,"../Data.NonEmpty":298,"../Data.Ord":304,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semigroup.Foldable":310,"../Data.Semigroup.Traversable":311,"../Data.Semiring":315,"../Data.Traversable":334,"../Data.Tuple":336,"../Data.Unfoldable":338,"../Partial.Unsafe":349,"../Prelude":352}],284:[function(require,module,exports){
+},{"../Control.Bind":202,"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Boolean":266,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.List":307,"../Data.List.Types":306,"../Data.Maybe":310,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semigroup.Foldable":332,"../Data.Semigroup.Traversable":333,"../Data.Semiring":337,"../Data.Traversable":356,"../Data.Tuple":359,"../Data.Unfoldable":361,"../Partial.Unsafe":372,"../Prelude":375}],306:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -37846,7 +42064,7 @@ module.exports = {
     traversable1NonEmptyList: traversable1NonEmptyList
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Comonad":182,"../Control.Extend":184,"../Control.Monad":221,"../Control.MonadPlus":222,"../Control.MonadZero":223,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Eq":255,"../Data.Foldable":260,"../Data.FoldableWithIndex":261,"../Data.Function":266,"../Data.Functor":271,"../Data.FunctorWithIndex":273,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.NonEmpty":298,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semigroup.Foldable":310,"../Data.Semigroup.Traversable":311,"../Data.Semiring":315,"../Data.Show":317,"../Data.Traversable":334,"../Data.TraversableWithIndex":335,"../Data.Tuple":336,"../Data.Unfoldable":338,"../Prelude":352}],285:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Comonad":204,"../Control.Extend":206,"../Control.Monad":243,"../Control.MonadPlus":244,"../Control.MonadZero":245,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Foldable":282,"../Data.FoldableWithIndex":283,"../Data.Function":288,"../Data.Functor":293,"../Data.FunctorWithIndex":295,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semigroup.Foldable":332,"../Data.Semigroup.Traversable":333,"../Data.Semiring":337,"../Data.Show":339,"../Data.Traversable":356,"../Data.TraversableWithIndex":357,"../Data.Tuple":359,"../Data.Unfoldable":361,"../Prelude":375}],307:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -38949,7 +43167,7 @@ module.exports = {
     showPattern: showPattern
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Lazy":185,"../Control.Monad.Rec.Class":211,"../Control.Semigroupoid":227,"../Data.Bifunctor":242,"../Data.Boolean":244,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.FunctorWithIndex":273,"../Data.HeytingAlgebra":277,"../Data.List.Types":284,"../Data.Maybe":288,"../Data.Newtype":297,"../Data.NonEmpty":298,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Data.Traversable":334,"../Data.Tuple":336,"../Data.Unfoldable":338,"../Data.Unit":340,"../Prelude":352}],286:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Lazy":207,"../Control.Monad.Rec.Class":233,"../Control.Semigroupoid":249,"../Data.Bifunctor":264,"../Data.Boolean":266,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.FunctorWithIndex":295,"../Data.HeytingAlgebra":299,"../Data.List.Types":306,"../Data.Maybe":310,"../Data.Newtype":319,"../Data.NonEmpty":320,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Data.Traversable":356,"../Data.Tuple":359,"../Data.Unfoldable":361,"../Data.Unit":363,"../Prelude":375}],308:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -39028,7 +43246,7 @@ module.exports = {
     monoidFirst: monoidFirst
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Extend":184,"../Control.Monad":221,"../Data.Bounded":247,"../Data.Eq":255,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Prelude":352}],287:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Extend":206,"../Control.Monad":243,"../Data.Bounded":269,"../Data.Eq":277,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Prelude":375}],309:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -39110,7 +43328,7 @@ module.exports = {
     monoidLast: monoidLast
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Extend":184,"../Control.Monad":221,"../Data.Bounded":247,"../Data.Eq":255,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Prelude":352}],288:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Extend":206,"../Control.Monad":243,"../Data.Bounded":269,"../Data.Eq":277,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Prelude":375}],310:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -39386,7 +43604,7 @@ module.exports = {
     showMaybe: showMaybe
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Extend":184,"../Control.Monad":221,"../Control.MonadZero":223,"../Control.Plus":226,"../Data.Bounded":247,"../Data.Eq":255,"../Data.Function":266,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.Monoid":295,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.Show":317,"../Data.Unit":340,"../Prelude":352}],289:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Extend":206,"../Control.Monad":243,"../Control.MonadZero":245,"../Control.Plus":248,"../Data.Bounded":269,"../Data.Eq":277,"../Data.Function":288,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.Monoid":317,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Show":339,"../Data.Unit":363,"../Prelude":375}],311:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -39501,7 +43719,7 @@ module.exports = {
     monoidAdditive: monoidAdditive
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Comonad":182,"../Control.Extend":184,"../Control.Monad":221,"../Data.Bounded":247,"../Data.Eq":255,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Prelude":352}],290:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Comonad":204,"../Control.Extend":206,"../Control.Monad":243,"../Data.Bounded":269,"../Data.Eq":277,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Prelude":375}],312:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -39629,7 +43847,7 @@ module.exports = {
     semiringConj: semiringConj
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Comonad":182,"../Control.Extend":184,"../Control.Monad":221,"../Data.Bounded":247,"../Data.Eq":255,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.HeytingAlgebra":277,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Prelude":352}],291:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Comonad":204,"../Control.Extend":206,"../Control.Monad":243,"../Data.Bounded":269,"../Data.Eq":277,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.HeytingAlgebra":299,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Prelude":375}],313:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -39757,7 +43975,7 @@ module.exports = {
     semiringDisj: semiringDisj
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Comonad":182,"../Control.Extend":184,"../Control.Monad":221,"../Data.Bounded":247,"../Data.Eq":255,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.HeytingAlgebra":277,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Prelude":352}],292:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Comonad":204,"../Control.Extend":206,"../Control.Monad":243,"../Data.Bounded":269,"../Data.Eq":277,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.HeytingAlgebra":299,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Prelude":375}],314:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -39871,7 +44089,7 @@ module.exports = {
     monoidDual: monoidDual
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Comonad":182,"../Control.Extend":184,"../Control.Monad":221,"../Data.Bounded":247,"../Data.Eq":255,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Prelude":352}],293:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Comonad":204,"../Control.Extend":206,"../Control.Monad":243,"../Data.Bounded":269,"../Data.Eq":277,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Prelude":375}],315:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -39914,7 +44132,7 @@ module.exports = {
     monoidEndo: monoidEndo
 };
 
-},{"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Functor.Invariant":269,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Semigroup":313,"../Prelude":352}],294:[function(require,module,exports){
+},{"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Functor.Invariant":291,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Semigroup":335,"../Prelude":375}],316:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -40029,7 +44247,7 @@ module.exports = {
     monoidMultiplicative: monoidMultiplicative
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Comonad":182,"../Control.Extend":184,"../Control.Monad":221,"../Data.Bounded":247,"../Data.Eq":255,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Prelude":352}],295:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Comonad":204,"../Control.Extend":206,"../Control.Monad":243,"../Data.Bounded":269,"../Data.Eq":277,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Prelude":375}],317:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_Boolean = require("../Data.Boolean");
@@ -40112,12 +44330,12 @@ module.exports = {
     monoidArray: monoidArray
 };
 
-},{"../Data.Boolean":244,"../Data.Eq":255,"../Data.EuclideanRing":257,"../Data.Function":266,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.Unit":340,"../Prelude":352}],296:[function(require,module,exports){
+},{"../Data.Boolean":266,"../Data.Eq":277,"../Data.EuclideanRing":279,"../Data.Function":288,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Unit":363,"../Prelude":375}],318:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 module.exports = {};
 
-},{}],297:[function(require,module,exports){
+},{}],319:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Semigroupoid = require("../Control.Semigroupoid");
@@ -40322,7 +44540,7 @@ module.exports = {
     collect: collect
 };
 
-},{"../Control.Semigroupoid":227,"../Data.Function":266,"../Data.Functor":271,"../Prelude":352}],298:[function(require,module,exports){
+},{"../Control.Semigroupoid":249,"../Data.Function":288,"../Data.Functor":293,"../Prelude":375}],320:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -40572,7 +44790,7 @@ module.exports = {
     traversableWithIndexNonEmpty: traversableWithIndexNonEmpty
 };
 
-},{"../Control.Alt":172,"../Control.Alternative":173,"../Control.Applicative":174,"../Control.Apply":176,"../Control.Category":181,"../Control.Plus":226,"../Control.Semigroupoid":227,"../Data.Eq":255,"../Data.Foldable":260,"../Data.FoldableWithIndex":261,"../Data.Functor":271,"../Data.FunctorWithIndex":273,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.Show":317,"../Data.Traversable":334,"../Data.TraversableWithIndex":335,"../Prelude":352}],299:[function(require,module,exports){
+},{"../Control.Alt":194,"../Control.Alternative":195,"../Control.Applicative":196,"../Control.Apply":198,"../Control.Category":203,"../Control.Plus":248,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Foldable":282,"../Data.FoldableWithIndex":283,"../Data.Functor":293,"../Data.FunctorWithIndex":295,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Show":339,"../Data.Traversable":356,"../Data.TraversableWithIndex":357,"../Prelude":375}],321:[function(require,module,exports){
 "use strict";
 
 exports["null"] = null;
@@ -40585,7 +44803,7 @@ exports.notNull = function (x) {
   return x;
 };
 
-},{}],300:[function(require,module,exports){
+},{}],322:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -40632,7 +44850,7 @@ module.exports = {
     ord1Nullable: ord1Nullable
 };
 
-},{"../Control.Semigroupoid":227,"../Data.Eq":255,"../Data.Function":266,"../Data.Function.Uncurried":265,"../Data.Maybe":288,"../Data.Ord":304,"../Data.Show":317,"../Prelude":352,"./foreign":299}],301:[function(require,module,exports){
+},{"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Function.Uncurried":287,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Show":339,"../Prelude":375,"./foreign":321}],323:[function(require,module,exports){
 "use strict";
 
 exports.unsafeCompareImpl = function (lt) {
@@ -40647,7 +44865,7 @@ exports.unsafeCompareImpl = function (lt) {
   };
 };
 
-},{}],302:[function(require,module,exports){
+},{}],324:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -40657,7 +44875,7 @@ module.exports = {
     unsafeCompare: unsafeCompare
 };
 
-},{"../Data.Ordering":305,"./foreign":301}],303:[function(require,module,exports){
+},{"../Data.Ordering":327,"./foreign":323}],325:[function(require,module,exports){
 "use strict";
 
 exports.ordArrayImpl = function (f) {
@@ -40686,7 +44904,7 @@ exports.ordArrayImpl = function (f) {
   };
 };
 
-},{}],304:[function(require,module,exports){
+},{}],326:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -40957,7 +45175,7 @@ module.exports = {
     ord1Array: ord1Array
 };
 
-},{"../Data.Eq":255,"../Data.Function":266,"../Data.Ord.Unsafe":302,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semiring":315,"../Data.Unit":340,"../Data.Void":341,"./foreign":303}],305:[function(require,module,exports){
+},{"../Data.Eq":277,"../Data.Function":288,"../Data.Ord.Unsafe":324,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semiring":337,"../Data.Unit":363,"../Data.Void":364,"./foreign":325}],327:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_Eq = require("../Data.Eq");
@@ -41046,7 +45264,7 @@ module.exports = {
     showOrdering: showOrdering
 };
 
-},{"../Data.Eq":255,"../Data.Semigroup":313,"../Data.Show":317}],306:[function(require,module,exports){
+},{"../Data.Eq":277,"../Data.Semigroup":335,"../Data.Show":339}],328:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -41103,7 +45321,7 @@ module.exports = {
     strongFn: strongFn
 };
 
-},{"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Functor":271,"../Data.Profunctor":307,"../Data.Tuple":336,"../Prelude":352}],307:[function(require,module,exports){
+},{"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Functor":293,"../Data.Profunctor":329,"../Data.Tuple":359,"../Prelude":375}],329:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -41165,7 +45383,7 @@ module.exports = {
     profunctorFn: profunctorFn
 };
 
-},{"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Newtype":297,"../Prelude":352}],308:[function(require,module,exports){
+},{"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Newtype":319,"../Prelude":375}],330:[function(require,module,exports){
 "use strict";
 
 exports.intSub = function (x) {
@@ -41181,7 +45399,7 @@ exports.numSub = function (n1) {
   };
 };
 
-},{}],309:[function(require,module,exports){
+},{}],331:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -41233,7 +45451,7 @@ module.exports = {
     ringFn: ringFn
 };
 
-},{"../Data.Semiring":315,"../Data.Unit":340,"./foreign":308}],310:[function(require,module,exports){
+},{"../Data.Semiring":337,"../Data.Unit":363,"./foreign":330}],332:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Apply = require("../Control.Apply");
@@ -41343,7 +45561,7 @@ module.exports = {
     foldableMultiplicative: foldableMultiplicative
 };
 
-},{"../Control.Apply":176,"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.Monoid.Dual":292,"../Data.Monoid.Multiplicative":294,"../Data.Semigroup":313,"../Data.Unit":340,"../Prelude":352}],311:[function(require,module,exports){
+},{"../Control.Apply":198,"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.Monoid.Dual":314,"../Data.Monoid.Multiplicative":316,"../Data.Semigroup":335,"../Data.Unit":363,"../Prelude":375}],333:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -41385,7 +45603,7 @@ module.exports = {
     sequence1Default: sequence1Default
 };
 
-},{"../Control.Category":181,"../Data.Functor":271,"../Data.Semigroup.Foldable":310,"../Data.Traversable":334,"../Prelude":352}],312:[function(require,module,exports){
+},{"../Control.Category":203,"../Data.Functor":293,"../Data.Semigroup.Foldable":332,"../Data.Traversable":356,"../Prelude":375}],334:[function(require,module,exports){
 "use strict";
 
 exports.concatString = function (s1) {
@@ -41402,7 +45620,7 @@ exports.concatArray = function (xs) {
   };
 };
 
-},{}],313:[function(require,module,exports){
+},{}],335:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -41443,7 +45661,7 @@ module.exports = {
     semigroupArray: semigroupArray
 };
 
-},{"../Data.Unit":340,"../Data.Void":341,"./foreign":312}],314:[function(require,module,exports){
+},{"../Data.Unit":363,"../Data.Void":364,"./foreign":334}],336:[function(require,module,exports){
 "use strict";
 
 exports.intAdd = function (x) {
@@ -41472,7 +45690,7 @@ exports.numMul = function (n1) {
   };
 };
 
-},{}],315:[function(require,module,exports){
+},{}],337:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -41537,7 +45755,7 @@ module.exports = {
     semiringUnit: semiringUnit
 };
 
-},{"../Data.Unit":340,"./foreign":314}],316:[function(require,module,exports){
+},{"../Data.Unit":363,"./foreign":336}],338:[function(require,module,exports){
 "use strict";
 
 exports.showIntImpl = function (n) {
@@ -41600,7 +45818,7 @@ exports.showArrayImpl = function (f) {
   };
 };
 
-},{}],317:[function(require,module,exports){
+},{}],339:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -41637,7 +45855,7 @@ module.exports = {
     showArray: showArray
 };
 
-},{"./foreign":316}],318:[function(require,module,exports){
+},{"./foreign":338}],340:[function(require,module,exports){
 "use strict";
 
 exports["new"] = function () {
@@ -41676,7 +45894,7 @@ exports["delete"] = function (m) {
   };
 };
 
-},{}],319:[function(require,module,exports){
+},{}],341:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -41691,7 +45909,7 @@ module.exports = {
     "delete": $foreign["delete"]
 };
 
-},{"../Control.Monad.Eff":203,"../Control.Monad.ST":213,"../Data.Maybe":288,"./foreign":318}],320:[function(require,module,exports){
+},{"../Control.Monad.Eff":225,"../Control.Monad.ST":235,"../Data.Maybe":310,"./foreign":340}],342:[function(require,module,exports){
 "use strict";
 
 exports._copyEff = function (m) {
@@ -41818,7 +46036,7 @@ exports.keys = Object.keys || toArrayWithKey(function (k) {
   return function () { return k; };
 });
 
-},{}],321:[function(require,module,exports){
+},{}],343:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -42203,7 +46421,7 @@ module.exports = {
     toArrayWithKey: $foreign.toArrayWithKey
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Monad.Eff":203,"../Control.Monad.ST":213,"../Control.Semigroupoid":227,"../Data.Array":235,"../Data.Eq":255,"../Data.Foldable":260,"../Data.FoldableWithIndex":261,"../Data.Function":266,"../Data.Function.Uncurried":265,"../Data.Functor":271,"../Data.FunctorWithIndex":273,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.Ord":304,"../Data.Semigroup":313,"../Data.Show":317,"../Data.StrMap.ST":319,"../Data.Traversable":334,"../Data.TraversableWithIndex":335,"../Data.Tuple":336,"../Data.Unfoldable":338,"../Prelude":352,"./foreign":320}],322:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Monad.Eff":225,"../Control.Monad.ST":235,"../Control.Semigroupoid":249,"../Data.Array":257,"../Data.Eq":277,"../Data.Foldable":282,"../Data.FoldableWithIndex":283,"../Data.Function":288,"../Data.Function.Uncurried":287,"../Data.Functor":293,"../Data.FunctorWithIndex":295,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.Ord":326,"../Data.Semigroup":335,"../Data.Show":339,"../Data.StrMap.ST":341,"../Data.Traversable":356,"../Data.TraversableWithIndex":357,"../Data.Tuple":359,"../Data.Unfoldable":361,"../Prelude":375,"./foreign":342}],344:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_MonadPlus = require("../Control.MonadPlus");
@@ -42308,7 +46526,7 @@ module.exports = {
     showRegexFlags: showRegexFlags
 };
 
-},{"../Control.MonadPlus":222,"../Control.MonadZero":223,"../Data.Eq":255,"../Data.Functor":271,"../Data.HeytingAlgebra":277,"../Data.Monoid":295,"../Data.Semigroup":313,"../Data.Show":317,"../Data.String":328,"../Prelude":352}],323:[function(require,module,exports){
+},{"../Control.MonadPlus":244,"../Control.MonadZero":245,"../Data.Eq":277,"../Data.Functor":293,"../Data.HeytingAlgebra":299,"../Data.Monoid":317,"../Data.Semigroup":335,"../Data.Show":339,"../Data.String":350,"../Prelude":375}],345:[function(require,module,exports){
 "use strict";
 
 exports["showRegex'"] = function (r) {
@@ -42405,7 +46623,7 @@ exports.split = function (r) {
   };
 };
 
-},{}],324:[function(require,module,exports){
+},{}],346:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -42481,7 +46699,7 @@ module.exports = {
     split: $foreign.split
 };
 
-},{"../Control.Semigroupoid":227,"../Data.Either":253,"../Data.Function":266,"../Data.Maybe":288,"../Data.Semigroup":313,"../Data.Show":317,"../Data.String":328,"../Data.String.Regex.Flags":322,"../Prelude":352,"./foreign":323}],325:[function(require,module,exports){
+},{"../Control.Semigroupoid":249,"../Data.Either":275,"../Data.Function":288,"../Data.Maybe":310,"../Data.Semigroup":335,"../Data.Show":339,"../Data.String":350,"../Data.String.Regex.Flags":344,"../Prelude":375,"./foreign":345}],347:[function(require,module,exports){
 "use strict";
 
 exports.charCodeAt = function (i) {
@@ -42503,7 +46721,7 @@ exports.char = function (s) {
   throw new Error("Data.String.Unsafe.char: Expected string of length 1.");
 };
 
-},{}],326:[function(require,module,exports){
+},{}],348:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -42513,7 +46731,7 @@ module.exports = {
     charCodeAt: $foreign.charCodeAt
 };
 
-},{"./foreign":325}],327:[function(require,module,exports){
+},{"./foreign":347}],349:[function(require,module,exports){
 "use strict";
 
 exports._charAt = function (just) {
@@ -42695,7 +46913,7 @@ exports.joinWith = function (s) {
   };
 };
 
-},{}],328:[function(require,module,exports){
+},{}],350:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -42851,7 +47069,7 @@ module.exports = {
     joinWith: $foreign.joinWith
 };
 
-},{"../Control.Semigroupoid":227,"../Data.Eq":255,"../Data.Function":266,"../Data.Maybe":288,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Data.String.Unsafe":326,"../Prelude":352,"./foreign":327}],329:[function(require,module,exports){
+},{"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.Function":288,"../Data.Maybe":310,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Data.String.Unsafe":348,"../Prelude":375,"./foreign":349}],351:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -43345,7 +47563,7 @@ module.exports = {
     showThese: showThese
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Extend":184,"../Control.Monad":221,"../Control.Semigroupoid":227,"../Data.Bifoldable":236,"../Data.Bifunctor":242,"../Data.Bitraversable":243,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Semigroup":313,"../Data.Show":317,"../Data.Traversable":334,"../Data.Tuple":336,"../Prelude":352}],330:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Extend":206,"../Control.Monad":243,"../Control.Semigroupoid":249,"../Data.Bifoldable":258,"../Data.Bifunctor":264,"../Data.Bitraversable":265,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Semigroup":335,"../Data.Show":339,"../Data.Traversable":356,"../Data.Tuple":359,"../Prelude":375}],352:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Apply = require("../Control.Apply");
@@ -43603,7 +47821,7 @@ module.exports = {
     durationDays: durationDays
 };
 
-},{"../Control.Apply":176,"../Control.Category":181,"../Control.Semigroupoid":227,"../Data.Eq":255,"../Data.EuclideanRing":257,"../Data.Generic":275,"../Data.Maybe":288,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Data.Unit":340,"../Prelude":352}],331:[function(require,module,exports){
+},{"../Control.Apply":198,"../Control.Category":203,"../Control.Semigroupoid":249,"../Data.Eq":277,"../Data.EuclideanRing":279,"../Data.Generic":297,"../Data.Maybe":310,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Data.Unit":363,"../Prelude":375}],353:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -43706,9 +47924,9 @@ module.exports = {
     applicativeStateR: applicativeStateR
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Data.Functor":271,"../Data.Traversable.Accum":332,"../Prelude":352}],332:[function(require,module,exports){
-arguments[4][296][0].apply(exports,arguments)
-},{"dup":296}],333:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Data.Functor":293,"../Data.Traversable.Accum":354,"../Prelude":375}],354:[function(require,module,exports){
+arguments[4][318][0].apply(exports,arguments)
+},{"dup":318}],355:[function(require,module,exports){
 "use strict";
 
 // jshint maxparams: 3
@@ -43774,7 +47992,7 @@ exports.traverseArrayImpl = function () {
   };
 }();
 
-},{}],334:[function(require,module,exports){
+},{}],356:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -44052,7 +48270,7 @@ module.exports = {
     traversableMultiplicative: traversableMultiplicative
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Category":181,"../Data.Foldable":260,"../Data.Functor":271,"../Data.Maybe":288,"../Data.Maybe.First":286,"../Data.Maybe.Last":287,"../Data.Monoid.Additive":289,"../Data.Monoid.Conj":290,"../Data.Monoid.Disj":291,"../Data.Monoid.Dual":292,"../Data.Monoid.Multiplicative":294,"../Data.Traversable.Accum":332,"../Data.Traversable.Accum.Internal":331,"../Prelude":352,"./foreign":333}],335:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Category":203,"../Data.Foldable":282,"../Data.Functor":293,"../Data.Maybe":310,"../Data.Maybe.First":308,"../Data.Maybe.Last":309,"../Data.Monoid.Additive":311,"../Data.Monoid.Conj":312,"../Data.Monoid.Disj":313,"../Data.Monoid.Dual":314,"../Data.Monoid.Multiplicative":316,"../Data.Traversable.Accum":354,"../Data.Traversable.Accum.Internal":353,"../Prelude":375,"./foreign":355}],357:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Semigroupoid = require("../Control.Semigroupoid");
@@ -44280,7 +48498,476 @@ module.exports = {
     traversableWithIndexMultiplicative: traversableWithIndexMultiplicative
 };
 
-},{"../Control.Semigroupoid":227,"../Data.FoldableWithIndex":261,"../Data.Function":266,"../Data.FunctorWithIndex":273,"../Data.Maybe":288,"../Data.Maybe.First":286,"../Data.Maybe.Last":287,"../Data.Monoid.Additive":289,"../Data.Monoid.Conj":290,"../Data.Monoid.Disj":291,"../Data.Monoid.Dual":292,"../Data.Monoid.Multiplicative":294,"../Data.Traversable":334,"../Data.Traversable.Accum":332,"../Data.Traversable.Accum.Internal":331,"../Data.Unit":340,"../Prelude":352}],336:[function(require,module,exports){
+},{"../Control.Semigroupoid":249,"../Data.FoldableWithIndex":283,"../Data.Function":288,"../Data.FunctorWithIndex":295,"../Data.Maybe":310,"../Data.Maybe.First":308,"../Data.Maybe.Last":309,"../Data.Monoid.Additive":311,"../Data.Monoid.Conj":312,"../Data.Monoid.Disj":313,"../Data.Monoid.Dual":314,"../Data.Monoid.Multiplicative":316,"../Data.Traversable":356,"../Data.Traversable.Accum":354,"../Data.Traversable.Accum.Internal":353,"../Data.Unit":363,"../Prelude":375}],358:[function(require,module,exports){
+// Generated by purs version 0.11.7
+"use strict";
+var Data_Tuple = require("../Data.Tuple");
+var Data_Unit = require("../Data.Unit");
+var Prelude = require("../Prelude");
+var uncurry9 = function (f$prime) {
+    return function (v) {
+        return f$prime(v.value0)(v.value1.value0)(v.value1.value1.value0)(v.value1.value1.value1.value0)(v.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value1.value1.value0);
+    };
+};
+var uncurry8 = function (f$prime) {
+    return function (v) {
+        return f$prime(v.value0)(v.value1.value0)(v.value1.value1.value0)(v.value1.value1.value1.value0)(v.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value1.value0);
+    };
+};
+var uncurry7 = function (f$prime) {
+    return function (v) {
+        return f$prime(v.value0)(v.value1.value0)(v.value1.value1.value0)(v.value1.value1.value1.value0)(v.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value0);
+    };
+};
+var uncurry6 = function (f$prime) {
+    return function (v) {
+        return f$prime(v.value0)(v.value1.value0)(v.value1.value1.value0)(v.value1.value1.value1.value0)(v.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value0);
+    };
+};
+var uncurry5 = function (f) {
+    return function (v) {
+        return f(v.value0)(v.value1.value0)(v.value1.value1.value0)(v.value1.value1.value1.value0)(v.value1.value1.value1.value1.value0);
+    };
+};
+var uncurry4 = function (f) {
+    return function (v) {
+        return f(v.value0)(v.value1.value0)(v.value1.value1.value0)(v.value1.value1.value1.value0);
+    };
+};
+var uncurry3 = function (f) {
+    return function (v) {
+        return f(v.value0)(v.value1.value0)(v.value1.value1.value0);
+    };
+};
+var uncurry2 = function (f) {
+    return function (v) {
+        return f(v.value0)(v.value1.value0);
+    };
+};
+var uncurry10 = function (f$prime) {
+    return function (v) {
+        return f$prime(v.value0)(v.value1.value0)(v.value1.value1.value0)(v.value1.value1.value1.value0)(v.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value1.value1.value0)(v.value1.value1.value1.value1.value1.value1.value1.value1.value1.value0);
+    };
+};
+var uncurry1 = function (f) {
+    return function (v) {
+        return f(v.value0);
+    };
+};
+var tuple9 = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return function (e) {
+                    return function (f) {
+                        return function (g) {
+                            return function (h) {
+                                return function (i) {
+                                    return new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, new Data_Tuple.Tuple(g, new Data_Tuple.Tuple(h, new Data_Tuple.Tuple(i, Data_Unit.unit)))))))));
+                                };
+                            };
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var tuple8 = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return function (e) {
+                    return function (f) {
+                        return function (g) {
+                            return function (h) {
+                                return new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, new Data_Tuple.Tuple(g, new Data_Tuple.Tuple(h, Data_Unit.unit))))))));
+                            };
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var tuple7 = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return function (e) {
+                    return function (f) {
+                        return function (g) {
+                            return new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, new Data_Tuple.Tuple(g, Data_Unit.unit)))))));
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var tuple6 = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return function (e) {
+                    return function (f) {
+                        return new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, Data_Unit.unit))))));
+                    };
+                };
+            };
+        };
+    };
+};
+var tuple5 = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return function (e) {
+                    return new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, Data_Unit.unit)))));
+                };
+            };
+        };
+    };
+};
+var tuple4 = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, Data_Unit.unit))));
+            };
+        };
+    };
+};
+var tuple3 = function (a) {
+    return function (b) {
+        return function (c) {
+            return new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, Data_Unit.unit)));
+        };
+    };
+};
+var tuple2 = function (a) {
+    return function (b) {
+        return new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, Data_Unit.unit));
+    };
+};
+var tuple10 = function (a) {
+    return function (b) {
+        return function (c) {
+            return function (d) {
+                return function (e) {
+                    return function (f) {
+                        return function (g) {
+                            return function (h) {
+                                return function (i) {
+                                    return function (j) {
+                                        return new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, new Data_Tuple.Tuple(g, new Data_Tuple.Tuple(h, new Data_Tuple.Tuple(i, new Data_Tuple.Tuple(j, Data_Unit.unit))))))))));
+                                    };
+                                };
+                            };
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var tuple1 = function (a) {
+    return new Data_Tuple.Tuple(a, Data_Unit.unit);
+};
+var over9 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(v.value0, new Data_Tuple.Tuple(v.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(o(v.value1.value1.value1.value1.value1.value1.value1.value1.value0), v.value1.value1.value1.value1.value1.value1.value1.value1.value1)))))))));
+    };
+};
+var over8 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(v.value0, new Data_Tuple.Tuple(v.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(o(v.value1.value1.value1.value1.value1.value1.value1.value0), v.value1.value1.value1.value1.value1.value1.value1.value1))))))));
+    };
+};
+var over7 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(v.value0, new Data_Tuple.Tuple(v.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(o(v.value1.value1.value1.value1.value1.value1.value0), v.value1.value1.value1.value1.value1.value1.value1)))))));
+    };
+};
+var over6 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(v.value0, new Data_Tuple.Tuple(v.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(o(v.value1.value1.value1.value1.value1.value0), v.value1.value1.value1.value1.value1.value1))))));
+    };
+};
+var over5 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(v.value0, new Data_Tuple.Tuple(v.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value0, new Data_Tuple.Tuple(o(v.value1.value1.value1.value1.value0), v.value1.value1.value1.value1.value1)))));
+    };
+};
+var over4 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(v.value0, new Data_Tuple.Tuple(v.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value0, new Data_Tuple.Tuple(o(v.value1.value1.value1.value0), v.value1.value1.value1.value1))));
+    };
+};
+var over3 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(v.value0, new Data_Tuple.Tuple(v.value1.value0, new Data_Tuple.Tuple(o(v.value1.value1.value0), v.value1.value1.value1)));
+    };
+};
+var over2 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(v.value0, new Data_Tuple.Tuple(o(v.value1.value0), v.value1.value1));
+    };
+};
+var over10 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(v.value0, new Data_Tuple.Tuple(v.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(v.value1.value1.value1.value1.value1.value1.value1.value1.value0, new Data_Tuple.Tuple(o(v.value1.value1.value1.value1.value1.value1.value1.value1.value1.value0), v.value1.value1.value1.value1.value1.value1.value1.value1.value1.value1))))))))));
+    };
+};
+var over1 = function (o) {
+    return function (v) {
+        return new Data_Tuple.Tuple(o(v.value0), v.value1);
+    };
+};
+var get9 = function (v) {
+    return v.value1.value1.value1.value1.value1.value1.value1.value1.value0;
+};
+var get8 = function (v) {
+    return v.value1.value1.value1.value1.value1.value1.value1.value0;
+};
+var get7 = function (v) {
+    return v.value1.value1.value1.value1.value1.value1.value0;
+};
+var get6 = function (v) {
+    return v.value1.value1.value1.value1.value1.value0;
+};
+var get5 = function (v) {
+    return v.value1.value1.value1.value1.value0;
+};
+var get4 = function (v) {
+    return v.value1.value1.value1.value0;
+};
+var get3 = function (v) {
+    return v.value1.value1.value0;
+};
+var get2 = function (v) {
+    return v.value1.value0;
+};
+var get10 = function (v) {
+    return v.value1.value1.value1.value1.value1.value1.value1.value1.value1.value0;
+};
+var get1 = function (v) {
+    return v.value0;
+};
+var curry9 = function (z) {
+    return function (f$prime) {
+        return function (a) {
+            return function (b) {
+                return function (c) {
+                    return function (d) {
+                        return function (e) {
+                            return function (f) {
+                                return function (g) {
+                                    return function (h) {
+                                        return function (i) {
+                                            return f$prime(new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, new Data_Tuple.Tuple(g, new Data_Tuple.Tuple(h, new Data_Tuple.Tuple(i, z))))))))));
+                                        };
+                                    };
+                                };
+                            };
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var curry8 = function (z) {
+    return function (f$prime) {
+        return function (a) {
+            return function (b) {
+                return function (c) {
+                    return function (d) {
+                        return function (e) {
+                            return function (f) {
+                                return function (g) {
+                                    return function (h) {
+                                        return f$prime(new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, new Data_Tuple.Tuple(g, new Data_Tuple.Tuple(h, z)))))))));
+                                    };
+                                };
+                            };
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var curry7 = function (z) {
+    return function (f$prime) {
+        return function (a) {
+            return function (b) {
+                return function (c) {
+                    return function (d) {
+                        return function (e) {
+                            return function (f) {
+                                return function (g) {
+                                    return f$prime(new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, new Data_Tuple.Tuple(g, z))))))));
+                                };
+                            };
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var curry6 = function (z) {
+    return function (f$prime) {
+        return function (a) {
+            return function (b) {
+                return function (c) {
+                    return function (d) {
+                        return function (e) {
+                            return function (f) {
+                                return f$prime(new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, z)))))));
+                            };
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var curry5 = function (z) {
+    return function (f) {
+        return function (a) {
+            return function (b) {
+                return function (c) {
+                    return function (d) {
+                        return function (e) {
+                            return f(new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, z))))));
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var curry4 = function (z) {
+    return function (f) {
+        return function (a) {
+            return function (b) {
+                return function (c) {
+                    return function (d) {
+                        return f(new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, z)))));
+                    };
+                };
+            };
+        };
+    };
+};
+var curry3 = function (z) {
+    return function (f) {
+        return function (a) {
+            return function (b) {
+                return function (c) {
+                    return f(new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, z))));
+                };
+            };
+        };
+    };
+};
+var curry2 = function (z) {
+    return function (f) {
+        return function (a) {
+            return function (b) {
+                return f(new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, z)));
+            };
+        };
+    };
+};
+var curry10 = function (z) {
+    return function (f$prime) {
+        return function (a) {
+            return function (b) {
+                return function (c) {
+                    return function (d) {
+                        return function (e) {
+                            return function (f) {
+                                return function (g) {
+                                    return function (h) {
+                                        return function (i) {
+                                            return function (j) {
+                                                return f$prime(new Data_Tuple.Tuple(a, new Data_Tuple.Tuple(b, new Data_Tuple.Tuple(c, new Data_Tuple.Tuple(d, new Data_Tuple.Tuple(e, new Data_Tuple.Tuple(f, new Data_Tuple.Tuple(g, new Data_Tuple.Tuple(h, new Data_Tuple.Tuple(i, new Data_Tuple.Tuple(j, z)))))))))));
+                                            };
+                                        };
+                                    };
+                                };
+                            };
+                        };
+                    };
+                };
+            };
+        };
+    };
+};
+var curry1 = function (z) {
+    return function (f) {
+        return function (a) {
+            return f(new Data_Tuple.Tuple(a, z));
+        };
+    };
+};
+module.exports = {
+    tuple1: tuple1,
+    tuple2: tuple2,
+    tuple3: tuple3,
+    tuple4: tuple4,
+    tuple5: tuple5,
+    tuple6: tuple6,
+    tuple7: tuple7,
+    tuple8: tuple8,
+    tuple9: tuple9,
+    tuple10: tuple10,
+    get1: get1,
+    get2: get2,
+    get3: get3,
+    get4: get4,
+    get5: get5,
+    get6: get6,
+    get7: get7,
+    get8: get8,
+    get9: get9,
+    get10: get10,
+    over1: over1,
+    over2: over2,
+    over3: over3,
+    over4: over4,
+    over5: over5,
+    over6: over6,
+    over7: over7,
+    over8: over8,
+    over9: over9,
+    over10: over10,
+    uncurry1: uncurry1,
+    uncurry2: uncurry2,
+    uncurry3: uncurry3,
+    uncurry4: uncurry4,
+    uncurry5: uncurry5,
+    uncurry6: uncurry6,
+    uncurry7: uncurry7,
+    uncurry8: uncurry8,
+    uncurry9: uncurry9,
+    uncurry10: uncurry10,
+    curry1: curry1,
+    curry2: curry2,
+    curry3: curry3,
+    curry4: curry4,
+    curry5: curry5,
+    curry6: curry6,
+    curry7: curry7,
+    curry8: curry8,
+    curry9: curry9,
+    curry10: curry10
+};
+
+},{"../Data.Tuple":359,"../Data.Unit":363,"../Prelude":375}],359:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -44702,7 +49389,7 @@ module.exports = {
     distributiveTuple: distributiveTuple
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Biapplicative":177,"../Control.Biapply":178,"../Control.Bind":180,"../Control.Comonad":182,"../Control.Extend":184,"../Control.Lazy":185,"../Control.Monad":221,"../Control.Semigroupoid":227,"../Data.Bifoldable":236,"../Data.Bifunctor":242,"../Data.Bitraversable":243,"../Data.BooleanAlgebra":245,"../Data.Bounded":247,"../Data.CommutativeRing":250,"../Data.Distributive":251,"../Data.Eq":255,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.Functor.Invariant":269,"../Data.HeytingAlgebra":277,"../Data.Maybe":288,"../Data.Maybe.First":286,"../Data.Monoid":295,"../Data.Newtype":297,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Data.Traversable":334,"../Data.Unit":340,"../Prelude":352,"../Type.Equality":371}],337:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Biapplicative":199,"../Control.Biapply":200,"../Control.Bind":202,"../Control.Comonad":204,"../Control.Extend":206,"../Control.Lazy":207,"../Control.Monad":243,"../Control.Semigroupoid":249,"../Data.Bifoldable":258,"../Data.Bifunctor":264,"../Data.Bitraversable":265,"../Data.BooleanAlgebra":267,"../Data.Bounded":269,"../Data.CommutativeRing":272,"../Data.Distributive":273,"../Data.Eq":277,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.Functor.Invariant":291,"../Data.HeytingAlgebra":299,"../Data.Maybe":310,"../Data.Maybe.First":308,"../Data.Monoid":317,"../Data.Newtype":319,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Data.Traversable":356,"../Data.Unit":363,"../Prelude":375,"../Type.Equality":394}],360:[function(require,module,exports){
 "use strict";
 
 exports.unfoldrArrayImpl = function (isNothing) {
@@ -44727,7 +49414,7 @@ exports.unfoldrArrayImpl = function (isNothing) {
   };
 };
 
-},{}],338:[function(require,module,exports){
+},{}],361:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -44810,12 +49497,12 @@ module.exports = {
     unfoldableArray: unfoldableArray
 };
 
-},{"../Data.Function":266,"../Data.Functor":271,"../Data.Maybe":288,"../Data.Ord":304,"../Data.Ring":309,"../Data.Semiring":315,"../Data.Traversable":334,"../Data.Tuple":336,"../Data.Unit":340,"../Partial.Unsafe":349,"../Prelude":352,"./foreign":337}],339:[function(require,module,exports){
+},{"../Data.Function":288,"../Data.Functor":293,"../Data.Maybe":310,"../Data.Ord":326,"../Data.Ring":331,"../Data.Semiring":337,"../Data.Traversable":356,"../Data.Tuple":359,"../Data.Unit":363,"../Partial.Unsafe":372,"../Prelude":375,"./foreign":360}],362:[function(require,module,exports){
 "use strict";
 
 exports.unit = {};
 
-},{}],340:[function(require,module,exports){
+},{}],363:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -44828,7 +49515,7 @@ module.exports = {
     unit: $foreign.unit
 };
 
-},{"../Data.Show":317,"./foreign":339}],341:[function(require,module,exports){
+},{"../Data.Show":339,"./foreign":362}],364:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Data_Show = require("../Data.Show");
@@ -44855,7 +49542,7 @@ module.exports = {
     showVoid: showVoid
 };
 
-},{"../Data.Show":317}],342:[function(require,module,exports){
+},{"../Data.Show":339}],365:[function(require,module,exports){
 /* globals exports */
 "use strict";
 
@@ -44882,7 +49569,7 @@ exports.encodeURI = encodeURI;
 exports.decodeURIComponent = decodeURIComponent;
 exports.encodeURIComponent = encodeURIComponent;
 
-},{}],343:[function(require,module,exports){
+},{}],366:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -44899,9 +49586,14 @@ module.exports = {
     "encodeURIComponent": $foreign["encodeURIComponent"]
 };
 
-},{"./foreign":342}],344:[function(require,module,exports){
-// Generated by purs version 0.11.7
+},{"./foreign":365}],367:[function(require,module,exports){
 "use strict";
+var CSS = require("../CSS");
+var CSS_Geometry = require("../CSS.Geometry");
+var CSS_Selector = require("../CSS.Selector");
+var CSS_Size = require("../CSS.Size");
+var CSS_String = require("../CSS.String");
+var CSS_Stylesheet = require("../CSS.Stylesheet");
 var Control_Applicative = require("../Control.Applicative");
 var Control_Bind = require("../Control.Bind");
 var Control_Monad_Eff = require("../Control.Monad.Eff");
@@ -44936,14 +49628,16 @@ var InputChange = (function () {
 })();
 var showColors = function (v) {
     if (v instanceof Data_Maybe.Nothing) {
-        return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.div)(Text_Smolder_HTML_Attributes.className("pure-u-1-8"))(Text_Smolder_HTML.span(Text_Smolder_Markup.text("none")));
+        return Text_Smolder_HTML.div(Text_Smolder_HTML.span(Text_Smolder_Markup.text("none")));
     };
     if (v instanceof Data_Maybe.Just) {
-        return Data_Foldable.for_(Control_Monad_Free.freeApplicative)(Data_Foldable.foldableArray)(v.value0)(function (color) {
-            return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.div)(Text_Smolder_HTML_Attributes.className("pure-u-1-8"))(Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.span)(Text_Smolder_HTML_Attributes.style("background-color: " + color))(Text_Smolder_Markup.text(color)));
-        });
+        return Text_Smolder_HTML.div(Control_Bind.discard(Control_Bind.discardUnit)(Control_Monad_Free.freeBind)(Pux_DOM_HTML.style(CSS_Stylesheet.select(CSS_String.fromString(CSS_Selector.isStringSelector)(".foo"))(CSS_Geometry.maxWidth(CSS_Size.px(100.0)))))(function () {
+            return Data_Foldable.for_(Control_Monad_Free.freeApplicative)(Data_Foldable.foldableArray)(v.value0)(function (color) {
+                return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.span)(Text_Smolder_HTML_Attributes.style("background-color: " + color))(Text_Smolder_Markup.text(color));
+            });
+        }));
     };
-    throw new Error("Failed pattern match at Main line 35, column 1 - line 35, column 48: " + [ v.constructor.name ]);
+    throw new Error("Failed pattern match at Main line 36, column 1 - line 36, column 48: " + [ v.constructor.name ]);
 };
 var matchInput = function (input) {
     var v = Data_String_Regex.regex("#[0-9a-fA-F]{6}")(Data_String_Regex_Flags.global);
@@ -44953,13 +49647,13 @@ var matchInput = function (input) {
     if (v instanceof Data_Either.Left) {
         return Data_Maybe.Nothing.value;
     };
-    throw new Error("Failed pattern match at Main line 31, column 20 - line 33, column 20: " + [ v.constructor.name ]);
+    throw new Error("Failed pattern match at Main line 32, column 20 - line 34, column 20: " + [ v.constructor.name ]);
 };
 var view = function (state) {
     return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.div)(Text_Smolder_HTML_Attributes.className("layout"))(Control_Bind.discard(Control_Bind.discardUnit)(Control_Monad_Free.freeBind)(Text_Smolder_HTML.h2(Text_Smolder_Markup.text("paste text and code here")))(function () {
-        return Control_Bind.discard(Control_Bind.discardUnit)(Control_Monad_Free.freeBind)(Text_Smolder_HTML.div(Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_Markup.withEvent(Text_Smolder_Markup.eventableMarkupMF)(Text_Smolder_HTML.textarea)(Pux_DOM_Events.onChange(InputChange.create)))(Text_Smolder_HTML_Attributes.className("pure-input-1"))(Text_Smolder_Markup.text(Mock.demoText))))(function () {
+        return Control_Bind.discard(Control_Bind.discardUnit)(Control_Monad_Free.freeBind)(Text_Smolder_HTML.div(Text_Smolder_Markup.withEvent(Text_Smolder_Markup.eventableMarkupMF)(Text_Smolder_HTML.textarea)(Pux_DOM_Events.onChange(InputChange.create))(Text_Smolder_Markup.text(Mock.demoText))))(function () {
             return Control_Bind.discard(Control_Bind.discardUnit)(Control_Monad_Free.freeBind)(Text_Smolder_HTML.h2(Text_Smolder_Markup.text("colors found:")))(function () {
-                return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.div)(Text_Smolder_HTML_Attributes.className("pure-g"))(showColors(Data_Traversable.traverse(Data_Traversable.traversableArray)(Data_Maybe.applicativeMaybe)(Control_Bind.join(Data_Maybe.bindMaybe))(Data_Traversable.sequence(Data_Traversable.traversableMaybe)(Control_Applicative.applicativeArray)(matchInput(state.input)))));
+                return Text_Smolder_HTML.div(showColors(Data_Traversable.traverse(Data_Traversable.traversableArray)(Data_Maybe.applicativeMaybe)(Control_Bind.join(Data_Maybe.bindMaybe))(Data_Traversable.sequence(Data_Traversable.traversableMaybe)(Control_Applicative.applicativeArray)(matchInput(state.input)))));
             });
         });
     }));
@@ -45004,7 +49698,7 @@ module.exports = {
     main: main
 };
 
-},{"../Control.Applicative":174,"../Control.Bind":180,"../Control.Monad.Eff":203,"../Control.Monad.Eff.Console":193,"../Control.Monad.Free":207,"../DOM":230,"../Data.Either":253,"../Data.Foldable":260,"../Data.Function":266,"../Data.Maybe":288,"../Data.Semigroup":313,"../Data.String.Regex":324,"../Data.String.Regex.Flags":322,"../Data.Traversable":334,"../Mock":347,"../Prelude":352,"../Pux":361,"../Pux.DOM.Events":354,"../Pux.DOM.HTML":357,"../Pux.Renderer.React":359,"../Text.Smolder.HTML":369,"../Text.Smolder.HTML.Attributes":368,"../Text.Smolder.Markup":370}],345:[function(require,module,exports){
+},{"../CSS":191,"../CSS.Geometry":177,"../CSS.Selector":182,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Applicative":196,"../Control.Bind":202,"../Control.Monad.Eff":225,"../Control.Monad.Eff.Console":215,"../Control.Monad.Free":229,"../DOM":252,"../Data.Either":275,"../Data.Foldable":282,"../Data.Function":288,"../Data.Maybe":310,"../Data.Semigroup":335,"../Data.String.Regex":346,"../Data.String.Regex.Flags":344,"../Data.Traversable":356,"../Mock":370,"../Prelude":375,"../Pux":384,"../Pux.DOM.Events":377,"../Pux.DOM.HTML":380,"../Pux.Renderer.React":382,"../Text.Smolder.HTML":392,"../Text.Smolder.HTML.Attributes":391,"../Text.Smolder.Markup":393}],368:[function(require,module,exports){
 "use strict";
 
 // module Math
@@ -45087,7 +49781,7 @@ exports.sqrt1_2 = Math.SQRT1_2;
 
 exports.sqrt2 = Math.SQRT2;
 
-},{}],346:[function(require,module,exports){
+},{}],369:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -45122,7 +49816,7 @@ module.exports = {
     sqrt2: $foreign.sqrt2
 };
 
-},{"./foreign":345}],347:[function(require,module,exports){
+},{"./foreign":368}],370:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var demoText = "# Theme colors (navy-and-ivory - terminal.sexy) # class                 border  backgr. text    indic.    child_border # client.focused          #9ED9D8 #44B5B1 #FFFFFF #FF5879   #9ED9D8 # client.focused_inactive #2E3340 #61778D #E8DFD6 #2E3340   #61778D # client.unfocused        #2E3340 #2E3340 #E8DFD6 #2E3340   #61778D # client.urgent           #C2454E #C2454E #E8DFD6 #C2454E   #C2454E # client.placeholder      #000000 #0C0C0C #E8DFD6 #000000   #0C0C0C";
@@ -45130,7 +49824,7 @@ module.exports = {
     demoText: demoText
 };
 
-},{}],348:[function(require,module,exports){
+},{}],371:[function(require,module,exports){
 "use strict";
 
 // module Partial.Unsafe
@@ -45139,7 +49833,7 @@ exports.unsafePartial = function (f) {
   return f();
 };
 
-},{}],349:[function(require,module,exports){
+},{}],372:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -45162,7 +49856,7 @@ module.exports = {
     unsafePartial: $foreign.unsafePartial
 };
 
-},{"../Partial":351,"./foreign":348}],350:[function(require,module,exports){
+},{"../Partial":374,"./foreign":371}],373:[function(require,module,exports){
 "use strict";
 
 // module Partial
@@ -45173,7 +49867,7 @@ exports.crashWith = function () {
   };
 };
 
-},{}],351:[function(require,module,exports){
+},{}],374:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -45185,7 +49879,7 @@ module.exports = {
     crashWith: $foreign.crashWith
 };
 
-},{"./foreign":350}],352:[function(require,module,exports){
+},{"./foreign":373}],375:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -45216,7 +49910,7 @@ var Data_Unit = require("../Data.Unit");
 var Data_Void = require("../Data.Void");
 module.exports = {};
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Category":181,"../Control.Monad":221,"../Control.Semigroupoid":227,"../Data.Boolean":244,"../Data.BooleanAlgebra":245,"../Data.Bounded":247,"../Data.CommutativeRing":250,"../Data.DivisionRing":252,"../Data.Eq":255,"../Data.EuclideanRing":257,"../Data.Field":258,"../Data.Function":266,"../Data.Functor":271,"../Data.HeytingAlgebra":277,"../Data.NaturalTransformation":296,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Data.Unit":340,"../Data.Void":341}],353:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Category":203,"../Control.Monad":243,"../Control.Semigroupoid":249,"../Data.Boolean":266,"../Data.BooleanAlgebra":267,"../Data.Bounded":269,"../Data.CommutativeRing":272,"../Data.DivisionRing":274,"../Data.Eq":277,"../Data.EuclideanRing":279,"../Data.Field":280,"../Data.Function":288,"../Data.Functor":293,"../Data.HeytingAlgebra":299,"../Data.NaturalTransformation":318,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Data.Unit":363,"../Data.Void":364}],376:[function(require,module,exports){
 exports.targetValue = function (ev) {
   var target = ev['target'];
   if (target === undefined) return '';
@@ -45225,7 +49919,7 @@ exports.targetValue = function (ev) {
   return value;
 };
 
-},{}],354:[function(require,module,exports){
+},{}],377:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -45361,7 +50055,7 @@ module.exports = {
     targetValue: $foreign.targetValue
 };
 
-},{"../DOM.Event.Types":229,"../Text.Smolder.Markup":370,"./foreign":353}],355:[function(require,module,exports){
+},{"../DOM.Event.Types":251,"../Text.Smolder.Markup":393,"./foreign":376}],378:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var CSS_Render = require("../CSS.Render");
@@ -45385,7 +50079,7 @@ module.exports = {
     style: style
 };
 
-},{"../CSS.Render":167,"../CSS.Stylesheet":170,"../Data.Maybe":288,"../Data.Semigroup":313,"../Text.Smolder.HTML.Attributes":368,"../Text.Smolder.Markup":370}],356:[function(require,module,exports){
+},{"../CSS.Render":181,"../CSS.Stylesheet":185,"../Data.Maybe":310,"../Data.Semigroup":335,"../Text.Smolder.HTML.Attributes":391,"../Text.Smolder.Markup":393}],379:[function(require,module,exports){
 exports.memoize_ = function (wrapper) {
   return function (view) {
     return (function () {
@@ -45414,7 +50108,7 @@ PuxStateString.prototype.toString = function () {
   return '';
 };
 
-},{}],357:[function(require,module,exports){
+},{}],380:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -45461,7 +50155,7 @@ module.exports = {
     style: style
 };
 
-},{"../CSS.Render":167,"../CSS.Stylesheet":170,"../Control.Monad.Free":207,"../Data.CatList":248,"../Data.Function":266,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.Unit":340,"../Pux.DOM.Events":354,"../Text.Smolder.HTML":369,"../Text.Smolder.Markup":370,"./foreign":356}],358:[function(require,module,exports){
+},{"../CSS.Render":181,"../CSS.Stylesheet":185,"../Control.Monad.Free":229,"../Data.CatList":270,"../Data.Function":288,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.Unit":363,"../Pux.DOM.Events":377,"../Text.Smolder.HTML":392,"../Text.Smolder.Markup":393,"./foreign":379}],381:[function(require,module,exports){
 'use strict';
 
 // module Pux.Renderer.React
@@ -45731,7 +50425,7 @@ var attrMap = {
   'usemap': 'useMap'
 }
 
-},{"create-react-class":2,"react":165,"react-dom":8,"react-dom/server":9}],359:[function(require,module,exports){
+},{"create-react-class":2,"react":165,"react-dom":8,"react-dom/server":9}],382:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -45859,7 +50553,7 @@ module.exports = {
     reactClassWithProps: reactClassWithProps
 };
 
-},{"../Control.Applicative":174,"../Control.Bind":180,"../Control.Monad.Eff":203,"../Control.Monad.Free":207,"../Control.Monad.Rec.Class":211,"../Control.Monad.State":216,"../Control.Monad.State.Class":214,"../Control.Monad.State.Trans":215,"../Data.Array":235,"../Data.CatList":248,"../Data.Function":266,"../Data.Function.Uncurried":265,"../Data.Functor":271,"../Data.Identity":278,"../Data.List":285,"../Data.List.Types":284,"../Data.Maybe":288,"../Data.NaturalTransformation":296,"../Data.Nullable":300,"../Data.Semigroup":313,"../Data.StrMap":321,"../Data.Tuple":336,"../Prelude":352,"../Pux.DOM.HTML":357,"../Pux.DOM.HTML.Attributes":355,"../React":363,"../Signal":367,"../Signal.Channel":365,"../Text.Smolder.Markup":370,"./foreign":358}],360:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Bind":202,"../Control.Monad.Eff":225,"../Control.Monad.Free":229,"../Control.Monad.Rec.Class":233,"../Control.Monad.State":238,"../Control.Monad.State.Class":236,"../Control.Monad.State.Trans":237,"../Data.Array":257,"../Data.CatList":270,"../Data.Function":288,"../Data.Function.Uncurried":287,"../Data.Functor":293,"../Data.Identity":300,"../Data.List":307,"../Data.List.Types":306,"../Data.Maybe":310,"../Data.NaturalTransformation":318,"../Data.Nullable":322,"../Data.Semigroup":335,"../Data.StrMap":343,"../Data.Tuple":359,"../Prelude":375,"../Pux.DOM.HTML":380,"../Pux.DOM.HTML.Attributes":378,"../React":386,"../Signal":390,"../Signal.Channel":388,"../Text.Smolder.Markup":393,"./foreign":381}],383:[function(require,module,exports){
 exports.start_ = function (app) {
   if (typeof window === 'object' && typeof CustomEvent === 'function') {
     var hook = HookDevtool(app);
@@ -46057,7 +50751,7 @@ exports.waitEvent_ = function (until) {
   };
 };
 
-},{}],361:[function(require,module,exports){
+},{}],384:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -46189,7 +50883,7 @@ module.exports = {
     waitState: waitState
 };
 
-},{"../Control.Applicative":174,"../Control.Bind":180,"../Control.Monad.Aff":188,"../Control.Monad.Aff.Unsafe":186,"../Control.Monad.Eff":203,"../Control.Monad.Eff.Class":191,"../Control.Monad.Eff.Exception":195,"../Control.Semigroupoid":227,"../Data.Array":235,"../Data.Either":253,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.List":285,"../Data.List.Types":284,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.Time.Duration":330,"../Data.Unit":340,"../Partial.Unsafe":349,"../Signal":367,"../Signal.Channel":365,"../Text.Smolder.Markup":370,"./foreign":360}],362:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Bind":202,"../Control.Monad.Aff":210,"../Control.Monad.Aff.Unsafe":208,"../Control.Monad.Eff":225,"../Control.Monad.Eff.Class":213,"../Control.Monad.Eff.Exception":217,"../Control.Semigroupoid":249,"../Data.Array":257,"../Data.Either":275,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.List":307,"../Data.List.Types":306,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.Time.Duration":352,"../Data.Unit":363,"../Partial.Unsafe":372,"../Signal":390,"../Signal.Channel":388,"../Text.Smolder.Markup":393,"./foreign":383}],385:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -46388,7 +51082,7 @@ function stopPropagation(event) {
 };
 exports.stopPropagation = stopPropagation;
 
-},{"create-react-class":2,"react":165}],363:[function(require,module,exports){
+},{"create-react-class":2,"react":165}],386:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -46497,7 +51191,7 @@ module.exports = {
     childrenToArray: $foreign.childrenToArray
 };
 
-},{"../Control.Applicative":174,"../Control.Monad.Eff":203,"../Control.Monad.Eff.Uncurried":199,"../Data.Functor":271,"../Data.Maybe":288,"../Data.Nullable":300,"../Data.Unit":340,"../Prelude":352,"../Unsafe.Coerce":374,"./foreign":362}],364:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Monad.Eff":225,"../Control.Monad.Eff.Uncurried":221,"../Data.Functor":293,"../Data.Maybe":310,"../Data.Nullable":322,"../Data.Unit":363,"../Prelude":375,"../Unsafe.Coerce":397,"./foreign":385}],387:[function(require,module,exports){
 // module Signal.Channel
 
 exports.channelP =
@@ -46523,7 +51217,7 @@ exports.subscribe =
     return chan;
   };
 
-},{}],365:[function(require,module,exports){
+},{}],388:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -46538,7 +51232,7 @@ module.exports = {
     subscribe: $foreign.subscribe
 };
 
-},{"../Control.Monad.Eff":203,"../Prelude":352,"../Signal":367,"./foreign":364}],366:[function(require,module,exports){
+},{"../Control.Monad.Eff":225,"../Prelude":375,"../Signal":390,"./foreign":387}],389:[function(require,module,exports){
 // module Signal
 
 function make(initial) {
@@ -46688,7 +51382,7 @@ exports.flattenArray = function(sig) {
   };
 };
 
-},{}],367:[function(require,module,exports){
+},{}],390:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -46832,7 +51526,7 @@ module.exports = {
     flattenArray: $foreign.flattenArray
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Monad.Eff":203,"../Control.Semigroupoid":227,"../Data.Foldable":260,"../Data.Function":266,"../Data.Functor":271,"../Data.Maybe":288,"../Data.Monoid":295,"../Data.Semigroup":313,"../Prelude":352,"./foreign":366}],368:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Monad.Eff":225,"../Control.Semigroupoid":249,"../Data.Foldable":282,"../Data.Function":288,"../Data.Functor":293,"../Data.Maybe":310,"../Data.Monoid":317,"../Data.Semigroup":335,"../Prelude":375,"./foreign":389}],391:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Text_Smolder_Markup = require("../Text.Smolder.Markup");
@@ -47171,7 +51865,7 @@ module.exports = {
     xmlns: xmlns
 };
 
-},{"../Text.Smolder.Markup":370}],369:[function(require,module,exports){
+},{"../Text.Smolder.Markup":393}],392:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Text_Smolder_Markup = require("../Text.Smolder.Markup");
@@ -47390,7 +52084,7 @@ module.exports = {
     wbr: wbr
 };
 
-},{"../Text.Smolder.Markup":370}],370:[function(require,module,exports){
+},{"../Text.Smolder.Markup":393}],393:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -47634,7 +52328,7 @@ module.exports = {
     eventableMarkupMF: eventableMarkupMF
 };
 
-},{"../Control.Applicative":174,"../Control.Monad.Free":207,"../Data.Bifunctor":242,"../Data.CatList":248,"../Data.Function":266,"../Data.Functor":271,"../Data.Monoid":295,"../Data.Semigroup":313,"../Data.Unit":340,"../Prelude":352}],371:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Monad.Free":229,"../Data.Bifunctor":264,"../Data.CatList":270,"../Data.Function":288,"../Data.Functor":293,"../Data.Monoid":317,"../Data.Semigroup":335,"../Data.Unit":363,"../Prelude":375}],394:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var TypeEquals = function (from, to) {
@@ -47659,7 +52353,7 @@ module.exports = {
     refl: refl
 };
 
-},{}],372:[function(require,module,exports){
+},{}],395:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -47962,7 +52656,7 @@ module.exports = {
     showProxy3: showProxy3
 };
 
-},{"../Control.Applicative":174,"../Control.Apply":176,"../Control.Bind":180,"../Control.Monad":221,"../Data.BooleanAlgebra":245,"../Data.Bounded":247,"../Data.CommutativeRing":250,"../Data.Eq":255,"../Data.Functor":271,"../Data.HeytingAlgebra":277,"../Data.Ord":304,"../Data.Ordering":305,"../Data.Ring":309,"../Data.Semigroup":313,"../Data.Semiring":315,"../Data.Show":317,"../Prelude":352}],373:[function(require,module,exports){
+},{"../Control.Applicative":196,"../Control.Apply":198,"../Control.Bind":202,"../Control.Monad":243,"../Data.BooleanAlgebra":267,"../Data.Bounded":269,"../Data.CommutativeRing":272,"../Data.Eq":277,"../Data.Functor":293,"../Data.HeytingAlgebra":299,"../Data.Ord":326,"../Data.Ordering":327,"../Data.Ring":331,"../Data.Semigroup":335,"../Data.Semiring":337,"../Data.Show":339,"../Prelude":375}],396:[function(require,module,exports){
 "use strict";
 
 // module Unsafe.Coerce
@@ -47971,7 +52665,7 @@ exports.unsafeCoerce = function (x) {
   return x;
 };
 
-},{}],374:[function(require,module,exports){
+},{}],397:[function(require,module,exports){
 // Generated by purs version 0.11.7
 "use strict";
 var $foreign = require("./foreign");
@@ -47979,10 +52673,10 @@ module.exports = {
     unsafeCoerce: $foreign.unsafeCoerce
 };
 
-},{"./foreign":373}],375:[function(require,module,exports){
+},{"./foreign":396}],398:[function(require,module,exports){
 require('Main').main();
 
-},{"Main":344}],376:[function(require,module,exports){
+},{"Main":367}],399:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -48168,4 +52862,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[375]);
+},{}]},{},[398]);

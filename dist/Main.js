@@ -49590,10 +49590,7 @@ module.exports = {
 "use strict";
 var CSS = require("../CSS");
 var CSS_Geometry = require("../CSS.Geometry");
-var CSS_Selector = require("../CSS.Selector");
 var CSS_Size = require("../CSS.Size");
-var CSS_String = require("../CSS.String");
-var CSS_Stylesheet = require("../CSS.Stylesheet");
 var Control_Applicative = require("../Control.Applicative");
 var Control_Bind = require("../Control.Bind");
 var Control_Monad_Eff = require("../Control.Monad.Eff");
@@ -49613,6 +49610,7 @@ var Prelude = require("../Prelude");
 var Pux = require("../Pux");
 var Pux_DOM_Events = require("../Pux.DOM.Events");
 var Pux_DOM_HTML = require("../Pux.DOM.HTML");
+var Pux_DOM_HTML_Attributes = require("../Pux.DOM.HTML.Attributes");
 var Pux_Renderer_React = require("../Pux.Renderer.React");
 var Text_Smolder_HTML = require("../Text.Smolder.HTML");
 var Text_Smolder_HTML_Attributes = require("../Text.Smolder.HTML.Attributes");
@@ -49631,13 +49629,11 @@ var showColors = function (v) {
         return Text_Smolder_HTML.div(Text_Smolder_HTML.span(Text_Smolder_Markup.text("none")));
     };
     if (v instanceof Data_Maybe.Just) {
-        return Text_Smolder_HTML.div(Control_Bind.discard(Control_Bind.discardUnit)(Control_Monad_Free.freeBind)(Pux_DOM_HTML.style(CSS_Stylesheet.select(CSS_String.fromString(CSS_Selector.isStringSelector)(".foo"))(CSS_Geometry.maxWidth(CSS_Size.px(100.0)))))(function () {
-            return Data_Foldable.for_(Control_Monad_Free.freeApplicative)(Data_Foldable.foldableArray)(v.value0)(function (color) {
-                return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.span)(Text_Smolder_HTML_Attributes.style("background-color: " + color))(Text_Smolder_Markup.text(color));
-            });
+        return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.div)(Pux_DOM_HTML_Attributes.style(CSS_Geometry.width(CSS_Size.pct(80.0))))(Data_Foldable.for_(Control_Monad_Free.freeApplicative)(Data_Foldable.foldableArray)(v.value0)(function (color) {
+            return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.span)(Text_Smolder_HTML_Attributes.style("display: inline-block; background-color: " + color))(Text_Smolder_Markup.text(color));
         }));
     };
-    throw new Error("Failed pattern match at Main line 36, column 1 - line 36, column 48: " + [ v.constructor.name ]);
+    throw new Error("Failed pattern match at Main line 37, column 1 - line 37, column 48: " + [ v.constructor.name ]);
 };
 var matchInput = function (input) {
     var v = Data_String_Regex.regex("#[0-9a-fA-F]{6}")(Data_String_Regex_Flags.global);
@@ -49647,7 +49643,7 @@ var matchInput = function (input) {
     if (v instanceof Data_Either.Left) {
         return Data_Maybe.Nothing.value;
     };
-    throw new Error("Failed pattern match at Main line 32, column 20 - line 34, column 20: " + [ v.constructor.name ]);
+    throw new Error("Failed pattern match at Main line 33, column 20 - line 35, column 20: " + [ v.constructor.name ]);
 };
 var view = function (state) {
     return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.div)(Text_Smolder_HTML_Attributes.className("layout"))(Control_Bind.discard(Control_Bind.discardUnit)(Control_Monad_Free.freeBind)(Text_Smolder_HTML.h2(Text_Smolder_Markup.text("paste text and code here")))(function () {
@@ -49698,7 +49694,7 @@ module.exports = {
     main: main
 };
 
-},{"../CSS":191,"../CSS.Geometry":177,"../CSS.Selector":182,"../CSS.Size":183,"../CSS.String":184,"../CSS.Stylesheet":185,"../Control.Applicative":196,"../Control.Bind":202,"../Control.Monad.Eff":225,"../Control.Monad.Eff.Console":215,"../Control.Monad.Free":229,"../DOM":252,"../Data.Either":275,"../Data.Foldable":282,"../Data.Function":288,"../Data.Maybe":310,"../Data.Semigroup":335,"../Data.String.Regex":346,"../Data.String.Regex.Flags":344,"../Data.Traversable":356,"../Mock":370,"../Prelude":375,"../Pux":384,"../Pux.DOM.Events":377,"../Pux.DOM.HTML":380,"../Pux.Renderer.React":382,"../Text.Smolder.HTML":392,"../Text.Smolder.HTML.Attributes":391,"../Text.Smolder.Markup":393}],368:[function(require,module,exports){
+},{"../CSS":191,"../CSS.Geometry":177,"../CSS.Size":183,"../Control.Applicative":196,"../Control.Bind":202,"../Control.Monad.Eff":225,"../Control.Monad.Eff.Console":215,"../Control.Monad.Free":229,"../DOM":252,"../Data.Either":275,"../Data.Foldable":282,"../Data.Function":288,"../Data.Maybe":310,"../Data.Semigroup":335,"../Data.String.Regex":346,"../Data.String.Regex.Flags":344,"../Data.Traversable":356,"../Mock":370,"../Prelude":375,"../Pux":384,"../Pux.DOM.Events":377,"../Pux.DOM.HTML":380,"../Pux.DOM.HTML.Attributes":378,"../Pux.Renderer.React":382,"../Text.Smolder.HTML":392,"../Text.Smolder.HTML.Attributes":391,"../Text.Smolder.Markup":393}],368:[function(require,module,exports){
 "use strict";
 
 // module Math
@@ -49817,7 +49813,6 @@ module.exports = {
 };
 
 },{"./foreign":368}],370:[function(require,module,exports){
-// Generated by purs version 0.11.7
 "use strict";
 var demoText = "# Theme colors (navy-and-ivory - terminal.sexy) # class                 border  backgr. text    indic.    child_border # client.focused          #9ED9D8 #44B5B1 #FFFFFF #FF5879   #9ED9D8 # client.focused_inactive #2E3340 #61778D #E8DFD6 #2E3340   #61778D # client.unfocused        #2E3340 #2E3340 #E8DFD6 #2E3340   #61778D # client.urgent           #C2454E #C2454E #E8DFD6 #C2454E   #C2454E # client.placeholder      #000000 #0C0C0C #E8DFD6 #000000   #0C0C0C";
 module.exports = {

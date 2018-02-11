@@ -31,39 +31,37 @@ type State =
 
 matchInput :: String -> Maybe (Array (Maybe String))
 matchInput input = case regex "#[0-9a-fA-F]{6}" global of
-  Right rx -> match rx input
-  Left _ -> Nothing
+    Right rx -> match rx input
+    Left _ -> Nothing
 
 showColors :: Array String -> HTML Event
 showColors colors =
-  div ! style do
-           width (80.0 # pct)
-      $ for_ colors \c-> do
-         case fromHexString c of
-              Nothing -> text "error"
-              Just col -> do
-                 span ! style do
-                           display inlineBlock
-                           margin  (4.0 # px) (4.0 # px) (4.0 # px) (4.0 # px)
-                           textAlign center
-                           width (7.0 # em)
-                           backgroundColor col
-                           color (if luminance col > 0.179 then black else white)
-                      $ text c
+    div ! style do width (80.0 # pct)
+        $ for_ colors \c-> do
+           case fromHexString c of
+                Nothing -> text "error"
+                Just col -> do
+                  span ! style do display inlineBlock
+                                  margin  (4.0 # px) (4.0 # px) (4.0 # px) (4.0 # px)
+                                  textAlign center
+                                  width (7.0 # em)
+                                  backgroundColor col
+                                  color (if luminance col > 0.179 then black else white)
+                       $ text c
 
 init :: State
 init = { input: "", colors: [] }
 
 foldp :: Event -> State -> EffModel State Event (console :: CONSOLE, dom :: DOM)
 foldp (InputChange ev) s =
-  { state: s { input = targetValue ev }
-  , effects: []
-  }
+    { state: s { input = targetValue ev }
+    , effects: []
+    }
 
 view :: State -> HTML Event
-view state = div ! style do
-                        marginLeft (5.0 # pct)
-                 $ do
+view state =
+    div ! style do marginLeft (5.0 # pct)
+        $ do
   h2 $ text "paste text and code here"
   div $ textarea ! style do
                         width (80.0 # pct)
@@ -77,10 +75,9 @@ view state = div ! style do
 
 main ::  Eff (CoreEffects (console :: CONSOLE, dom :: DOM)) Unit
 main = do
-  app <- start
-    { initialState: init
-    , view
-    , foldp
-    , inputs: []
-    }
-  renderToDOM "#app" app.markup app.input
+    app <- start { initialState: init
+                 , view
+                 , foldp
+                 , inputs: []
+                 }
+    renderToDOM "#app" app.markup app.input

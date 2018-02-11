@@ -13,7 +13,6 @@ import Data.Maybe (Maybe(..))
 import Data.String.Regex (match, regex)
 import Data.String.Regex.Flags (global)
 import Data.Traversable (for_, sequence, traverse)
-import Mock (demoText)
 import Pux (EffModel, CoreEffects, start)
 import Pux.DOM.Events (DOMEvent, onChange, targetValue)
 import Pux.DOM.HTML (HTML)
@@ -67,11 +66,10 @@ view state =
                         width (80.0 # pct)
                         height (6.0 # em)
                  #! onChange InputChange
-    $ text demoText -- TODO remove
-  case (traverse join $ sequence (matchInput state.input)) of
-    Nothing -> div $ span $ text "no colors found"
-    Just colors -> do
-      showColors colors
+    $ case (traverse join $ sequence (matchInput state.input)) of
+           Nothing -> div $ span $ text "no colors found"
+           Just colors -> do
+              showColors colors
 
 main ::  Eff (CoreEffects (console :: CONSOLE, dom :: DOM)) Unit
 main = do

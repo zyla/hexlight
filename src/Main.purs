@@ -2,7 +2,9 @@ module Main where
 
 import Prelude hiding (div)
 
-import CSS (pct, width)
+import CSS (backgroundColor, color, display, em, height, inlineBlock, margin, marginLeft, pct, px, width)
+import CSS.Color (Color, black, fromHexString, luminance, white)
+import CSS.TextAlign (center, textAlign)
 import Control.Monad.Eff (Eff)
 import Control.Monad.Eff.Console (CONSOLE)
 import DOM (DOM)
@@ -18,30 +20,36 @@ import Pux.DOM.HTML (HTML)
 import Pux.DOM.HTML.Attributes (style)
 import Pux.Renderer.React (renderToDOM)
 import Text.Smolder.HTML (div, h2, textarea, span)
-import Text.Smolder.HTML.Attributes (className, style) as Attr
 import Text.Smolder.Markup (text, (!), (#!))
 
 data Event = InputChange DOMEvent
 
-type Color = String
 type State =
   { input :: String
   , colors :: Array Color
   }
 
-matchInput :: String -> Maybe (Array (Maybe Color))
+matchInput :: String -> Maybe (Array (Maybe String))
 matchInput input = case regex "#[0-9a-fA-F]{6}" global of
   Right rx -> match rx input
   Left _ -> Nothing
 
-showColors :: Maybe (Array Color) -> HTML Event
-showColors Nothing = div $ span $ text "none"
-showColors (Just colors) =
+showColors :: Array String -> HTML Event
+showColors colors =
   div ! style do
-          width (80.0 # pct)
-      $ for_ colors \color -> do
-         span ! Attr.style ("display: inline-block; background-color: " <> color)
-              $ text color
+           width (80.0 # pct)
+      $ for_ colors \c-> do
+         case fromHexString c of
+              Nothing -> text "error"
+              Just col -> do
+                 span ! style do
+                           display inlineBlock
+                           margin  (4.0 # px) (4.0 # px) (4.0 # px) (4.0 # px)
+                           textAlign center
+                           width (7.0 # em)
+                           backgroundColor col
+                           color (if luminance col > 0.179 then black else white)
+                      $ text c
 
 init :: State
 init = { input: "", colors: [] }
@@ -53,17 +61,19 @@ foldp (InputChange ev) s =
   }
 
 view :: State -> HTML Event
-view state = div ! Attr.className "layout" $ do
+view state = div ! style do
+                        marginLeft (5.0 # pct)
+                 $ do
   h2 $ text "paste text and code here"
-  div $ textarea #! onChange InputChange
-    $ text demoText
-  h2 $ text "colors found:"
-
-  -- TODO: fg color white or black depending on bg
-  --   sa https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color#3943023
-
-  div $ do
-    showColors $ traverse join $ sequence (matchInput state.input)
+  div $ textarea ! style do
+                        width (80.0 # pct)
+                        height (6.0 # em)
+                 #! onChange InputChange
+    $ text demoText -- TODO remove
+  case (traverse join $ sequence (matchInput state.input)) of
+    Nothing -> div $ span $ text "no colors found"
+    Just colors -> do
+      showColors colors
 
 main ::  Eff (CoreEffects (console :: CONSOLE, dom :: DOM)) Unit
 main = do

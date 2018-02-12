@@ -3,7 +3,7 @@ module Main where
 import Prelude hiding (div)
 
 import CSS (backgroundColor, color, display, em, height, inlineBlock, margin, marginLeft, pct, px, width)
-import CSS.Color (Color, black, fromHexString, luminance, white)
+import CSS.Color (black, fromHexString, luminance, white)
 import CSS.TextAlign (center, textAlign)
 import Control.Monad.Eff (Eff)
 import Control.Monad.Eff.Console (CONSOLE)
@@ -23,10 +23,7 @@ import Text.Smolder.Markup (text, (!), (#!))
 
 data Event = InputChange DOMEvent
 
-type State =
-  { input :: String
-  , colors :: Array Color
-  }
+type State = { input :: String }
 
 matchInput :: String -> Maybe (Array (Maybe String))
 matchInput input = case regex "#[0-9a-fA-F]{6}" global of
@@ -36,20 +33,20 @@ matchInput input = case regex "#[0-9a-fA-F]{6}" global of
 showColors :: Array String -> HTML Event
 showColors colors =
     div ! style do width (80.0 # pct)
-        $ for_ colors \c-> do
-           case fromHexString c of
+        $ for_ colors \c -> do
+            case fromHexString c of
                 Nothing -> text "error"
                 Just col -> do
-                  span ! style do display inlineBlock
-                                  margin  (4.0 # px) (4.0 # px) (4.0 # px) (4.0 # px)
-                                  textAlign center
-                                  width (7.0 # em)
-                                  backgroundColor col
-                                  color (if luminance col > 0.179 then black else white)
-                       $ text c
+                    span ! style do display inlineBlock
+                                    margin  (4.0 # px) (4.0 # px) (4.0 # px) (4.0 # px)
+                                    textAlign center
+                                    width (7.0 # em)
+                                    backgroundColor col
+                                    color (if luminance col > 0.179 then black else white)
+                         $ text c
 
 init :: State
-init = { input: "", colors: [] }
+init = { input: "" }
 
 foldp :: Event -> State -> EffModel State Event (console :: CONSOLE, dom :: DOM)
 foldp (InputChange ev) s =

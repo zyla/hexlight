@@ -49743,9 +49743,9 @@ var matchInput = function (input) {
 };
 var view = function (state) {
     return Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.div)(Pux_DOM_HTML_Attributes.style(CSS_Geometry.marginLeft(CSS_Size.pct(5.0))))(Control_Bind.discard(Control_Bind.discardUnit)(Control_Monad_Free.freeBind)(Text_Smolder_HTML.h2(Text_Smolder_Markup.text("paste text and code here")))(function () {
-        return Text_Smolder_HTML.div(Text_Smolder_Markup.withEvent(Text_Smolder_Markup.eventableMarkupMF)(Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.textarea)(Pux_DOM_HTML_Attributes.style(Control_Bind.discard(Control_Bind.discardUnit)(CSS_Stylesheet.bindStyleM)(CSS_Geometry.width(CSS_Size.pct(80.0)))(function () {
+        return Text_Smolder_HTML.div(Control_Bind.discard(Control_Bind.discardUnit)(Control_Monad_Free.freeBind)(Text_Smolder_Markup.withEvent(Text_Smolder_Markup.eventableMarkupMF)(Text_Smolder_Markup["with"](Text_Smolder_Markup.attributableMarkupF)(Text_Smolder_HTML.textarea)(Pux_DOM_HTML_Attributes.style(Control_Bind.discard(Control_Bind.discardUnit)(CSS_Stylesheet.bindStyleM)(CSS_Geometry.width(CSS_Size.pct(80.0)))(function () {
             return CSS_Geometry.height(CSS_Size.em(6.0));
-        }))))(Pux_DOM_Events.onChange(InputChange.create))((function () {
+        }))))(Pux_DOM_Events.onChange(InputChange.create))(Text_Smolder_Markup.text("")))(function () {
             var v = Data_Traversable.traverse(Data_Traversable.traversableArray)(Data_Maybe.applicativeMaybe)(Control_Bind.join(Data_Maybe.bindMaybe))(Data_Traversable.sequence(Data_Traversable.traversableMaybe)(Control_Applicative.applicativeArray)(matchInput(state.input)));
             if (v instanceof Data_Maybe.Nothing) {
                 return Text_Smolder_HTML.div(Text_Smolder_HTML.span(Text_Smolder_Markup.text("no colors found")));
@@ -49753,8 +49753,8 @@ var view = function (state) {
             if (v instanceof Data_Maybe.Just) {
                 return showColors(v.value0);
             };
-            throw new Error("Failed pattern match at Main line 69, column 7 - line 72, column 32: " + [ v.constructor.name ]);
-        })()));
+            throw new Error("Failed pattern match at Main line 71, column 13 - line 74, column 38: " + [ v.constructor.name ]);
+        }));
     }));
 };
 var init = {

@@ -61,15 +61,17 @@ view :: State -> HTML Event
 view state =
     div ! style do marginLeft (5.0 # pct)
         $ do
-  h2 $ text "paste text and code here"
-  div $ textarea ! style do
-                        width (80.0 # pct)
-                        height (6.0 # em)
-                 #! onChange InputChange
-    $ case (traverse join $ sequence (matchInput state.input)) of
-           Nothing -> div $ span $ text "no colors found"
-           Just colors -> do
-              showColors colors
+        h2 $ text "paste text and code here"
+        div do
+            textarea ! style do
+                               width (80.0 # pct)
+                               height (6.0 # em)
+                     #! onChange InputChange
+                     $ text ""
+            case (traverse join $ sequence (matchInput state.input)) of
+                Nothing -> div $ span $ text "no colors found"
+                Just colors -> do
+                    showColors colors
 
 main ::  Eff (CoreEffects (console :: CONSOLE, dom :: DOM)) Unit
 main = do

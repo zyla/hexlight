@@ -6,7 +6,6 @@ import CSS (backgroundColor, color, display, em, height, inlineBlock, margin, ma
 import CSS.Color (black, fromHexString, luminance, white)
 import CSS.TextAlign (center, textAlign)
 import Control.Monad.Eff (Eff)
-import Control.Monad.Eff.Console (CONSOLE)
 import DOM (DOM)
 import Data.Either (Either(..))
 import Data.Maybe (Maybe(..))
@@ -48,7 +47,7 @@ showColors colors =
 init :: State
 init = { input: "" }
 
-foldp :: Event -> State -> EffModel State Event (console :: CONSOLE, dom :: DOM)
+foldp :: Event -> State -> EffModel State Event (dom :: DOM)
 foldp (InputChange ev) s =
     { state: s { input = targetValue ev }
     , effects: []
@@ -70,7 +69,7 @@ view state =
                 Just colors -> do
                     showColors colors
 
-main ::  Eff (CoreEffects (console :: CONSOLE, dom :: DOM)) Unit
+main :: Eff (CoreEffects (dom :: DOM)) Unit
 main = do
     app <- start { initialState: init
                  , view

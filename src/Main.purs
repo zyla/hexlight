@@ -2,7 +2,7 @@ module Main where
 
 import Prelude hiding (div)
 
-import CSS (backgroundColor, color, display, em, height, inlineBlock, margin, marginLeft, pct, px, width)
+import CSS (backgroundColor, color, display, em, height, inlineBlock, margin, marginBottom, marginLeft, marginTop, pct, px, width)
 import CSS.Color (black, fromHexString, luminance, white)
 import CSS.TextAlign (center, textAlign)
 import Control.Monad.Eff (Eff)
@@ -13,14 +13,16 @@ import Data.String.Regex (match, regex)
 import Data.String.Regex.Flags (global)
 import Data.Traversable (for_, sequence, traverse)
 import Pux (EffModel, CoreEffects, start)
-import Pux.DOM.Events (DOMEvent, onChange, targetValue)
+import Pux.DOM.Events (DOMEvent, onChange, onClick, targetValue)
 import Pux.DOM.HTML (HTML)
 import Pux.DOM.HTML.Attributes (style)
 import Pux.Renderer.React (renderToDOM)
-import Text.Smolder.HTML (div, h2, textarea, span)
-import Text.Smolder.Markup (text, (!), (#!))
+import Text.Smolder.HTML (button, div, span, textarea)
+import Text.Smolder.Markup (attribute, empty, text, (!), (#!))
 
-data Event = InputChange DOMEvent
+import Mock as Mock
+
+data Event = InputChange DOMEvent | InsertExample
 
 type State = { input :: String }
 
@@ -52,18 +54,28 @@ foldp (InputChange ev) s =
     { state: s { input = targetValue ev }
     , effects: []
     }
+foldp (InsertExample) s =
+    { state: s { input = Mock.demoText }
+    , effects: []
+    }
 
 view :: State -> HTML Event
 view state =
     div ! style do marginLeft (5.0 # pct)
         $ do
-        h2 $ text "paste text and code here"
+        div do
+            span $ text "insert some color codes or "
+            button #! onClick (const InsertExample)
+                   $ text "get an example"
         div do
             textarea ! style do
+                               marginTop (12.0 # px)
+                               marginBottom (12.0 # px)
                                width (80.0 # pct)
                                height (6.0 # em)
                      #! onChange InputChange
-                     $ text ""
+                     ! attribute "value" state.input
+                     $ empty
             case (traverse join $ sequence (matchInput state.input)) of
                 Nothing -> div $ span $ text "no colors found"
                 Just colors -> do
